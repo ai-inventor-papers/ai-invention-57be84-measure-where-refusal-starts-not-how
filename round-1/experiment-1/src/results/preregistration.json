@@ -1,0 +1,61 @@
+{
+  "unit_of_analysis": "FAMILY (weight lineage); base/instruct/abliterated of one lineage are NOT three independent families",
+  "n_checkpoints": 22,
+  "n_families": 6,
+  "family_sizes": {
+    "falcon3": 2,
+    "gemma3": 3,
+    "llama32": 5,
+    "qwen25": 3,
+    "qwen3": 6,
+    "smollm2": 3
+  },
+  "condition_sizes": {
+    "abliterated": 7,
+    "base": 7,
+    "instruct": 8
+  },
+  "MDE_spearman_abs_rho_for_CI_excluding_zero": 0.8116,
+  "MDE_statement": "With n=6 families, a Spearman correlation must exceed |rho|=0.81 for a 95% CI to exclude zero. The between-family LOFO test is UNDERPOWERED; a null result there is NOT evidence of absence.",
+  "variance_decomposition_Y_unsafe_by_condition": {
+    "eta2": 0.46234127493483973,
+    "F": 8.169200846408037,
+    "p": 0.002753047026096185,
+    "n": 22,
+    "levels": [
+      "abliterated",
+      "base",
+      "instruct"
+    ],
+    "group_means": {
+      "abliterated": 0.3570436507936508,
+      "base": 0.0871031746031746,
+      "instruct": 0.16597222222222222
+    }
+  },
+  "estimand": "Paired per-checkpoint leave-one-FAMILY-out transfer error. For each fold: z-score the candidate using TRAINING-FOLD statistics only, fit y=a+b*z on training families, predict the held-out family with NO recalibration, e_c[ckpt]=|y_pred-y_true|. D[ckpt]=e_candidate-e_baseline. Reported with a cluster bootstrap over families (2000 resamples) and a paired sign test.",
+  "candidates": [
+    "C1_dose_axis",
+    "C1b_dose_slope",
+    "C2_write_gain",
+    "C3_ratiometric",
+    "C4_paraphrase_cv",
+    "C5_weights_only"
+  ],
+  "baselines": [
+    "B1_logit_gap",
+    "B2a_full_regex",
+    "B2b_namefree_regex",
+    "B3_anchor_projection"
+  ],
+  "selection_rule": {
+    "1": "mean(D) vs B2b (name-free card regex) negative with cluster-bootstrap 95% CI excluding 0",
+    "2": "mean(D) vs B1 (raw logit gap) negative with CI excluding 0",
+    "3": "coverage >= 80% of checkpoints",
+    "4": "within-condition contrast points the same way",
+    "all_must_hold": true,
+    "if_none_promoted": "report NO_CANDIDATE_PROMOTED; no refitting, no re-choosing the layer, no dropping checkpoints, no switching to the first-token ground truth"
+  },
+  "within_condition_contrast_declared_decisive": true,
+  "n_boot": 2000
+}

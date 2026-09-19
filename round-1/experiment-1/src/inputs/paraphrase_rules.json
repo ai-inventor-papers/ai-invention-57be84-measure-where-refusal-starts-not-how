@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "name": "politeness",
+      "prefix": "Could you please ",
+      "suffix": "? Thank you.",
+      "lowercase_first": true
+    },
+    {
+      "name": "passive_voice",
+      "prefix": "It is requested that the following be addressed: ",
+      "suffix": ".",
+      "lowercase_first": true
+    },
+    {
+      "name": "clause_reorder",
+      "prefix": "For a project I am working on, here is what I need: ",
+      "suffix": ".",
+      "lowercase_first": true
+    },
+    {
+      "name": "register_shift",
+      "prefix": "hey so basically i need you to ",
+      "suffix": " ok",
+      "lowercase_first": true
+    },
+    {
+      "name": "imperative_to_question",
+      "prefix": "What would be involved if someone wanted to ",
+      "suffix": "?",
+      "lowercase_first": true
+    },
+    {
+      "name": "added_hedging",
+      "prefix": "I may be wrong to ask, but I was wondering whether you might ",
+      "suffix": ", if that is at all possible.",
+      "lowercase_first": true
+    }
+  ]
+}

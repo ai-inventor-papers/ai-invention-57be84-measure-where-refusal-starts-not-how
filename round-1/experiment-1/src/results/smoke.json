@@ -1,0 +1,14 @@
+{
+  "wins": 7,
+  "hw": {
+    "num_cpus": 6,
+    "has_gpu": true,
+    "vram_gb": 16.73,
+    "total_ram_gb": 31.0,
+    "ram_budget_gb": 20.0,
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "gpu_name": "NVIDIA RTX 2000 Ada Generation"
+  },
+  "L_star": 22
+}

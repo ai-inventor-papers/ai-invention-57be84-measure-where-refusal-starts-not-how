@@ -1,0 +1,538 @@
+{
+  "queries": [
+    "Qwen3-0.6B abliterated",
+    "Qwen3-0.6B uncensored",
+    "Qwen3 0.6B abliterated",
+    "Qwen3-0.6B heretic",
+    "Qwen3-0.6B no-refusal",
+    "Qwen3-0.6B-Instruct abliterated"
+  ],
+  "keywords": [
+    "ablitera",
+    "uncensor",
+    "heretic",
+    "norefusal",
+    "no-refusal"
+  ],
+  "unique_keyword_matches": 120,
+  "survivors_after_info_filter": 43,
+  "probed_top_n": 5,
+  "candidates": [
+    {
+      "repo_id": "saidutta69/Qwen3-0.6B-heretic",
+      "downloads": 2392,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": true,
+      "downloadable": true,
+      "probe_error": null
+    },
+    {
+      "repo_id": "DavidAU/Qwen3-0.6B-heretic-abliterated-uncensored",
+      "downloads": 769,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": true,
+      "downloadable": true,
+      "probe_error": null
+    },
+    {
+      "repo_id": "mlabonne/Qwen3-0.6B-abliterated",
+      "downloads": 602,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": true,
+      "downloadable": true,
+      "probe_error": null
+    },
+    {
+      "repo_id": "Null-Guard/Qwen3-0.6B-Uncensored",
+      "downloads": 443,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": true,
+      "downloadable": true,
+      "probe_error": null
+    },
+    {
+      "repo_id": "vrhvnsky/Qwen3-0.6B-heretic-decensored",
+      "downloads": 244,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": true,
+      "downloadable": true,
+      "probe_error": null
+    },
+    {
+      "repo_id": "p-e-w/Qwen3-0.6B-heretic",
+      "downloads": 236,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "huihui-ai/Huihui-Qwen3-0.6B-abliterated-v2",
+      "downloads": 198,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "Roman0/Qwen3-0.6B-heretic",
+      "downloads": 176,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "s3nh/Qwen3-0.6B-Uncensored",
+      "downloads": 155,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "Iwaku-Real/Qwen3-0.6B-Base-heretic-test",
+      "downloads": 130,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "darkc0de/Qwen3-0.6B-heretic",
+      "downloads": 98,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "megabytes/Qwen3-0.6b-heretic",
+      "downloads": 52,
+      "param_total": 751632384,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "huihui-ai/Qwen3-0.6B-abliterated",
+      "downloads": 45,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen3-0.6B-abliterated-v1",
+      "downloads": 41,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen3-0.6B-abliterated-v1-bf16",
+      "downloads": 33,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "ops-malware/qwen3-0.6b-abliterated",
+      "downloads": 28,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen3-0.6B-abliterated-v2",
+      "downloads": 26,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "davidterrell1919/Qwen3-0.6B-heretic",
+      "downloads": 24,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen3-0.6B-abliterated-v2-bfloat16",
+      "downloads": 23,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "blackbook-lm/Qwen3-0.6B-heretic",
+      "downloads": 23,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "wfen/Qwen3-0.6B-Heretic",
+      "downloads": 22,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen3-0.6B-abliterated-v1-float32",
+      "downloads": 21,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "bruhmoment4242/Qwen3-0.6B-Heretic",
+      "downloads": 21,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "nbeerbower/Qwen3-0.6B-abliterated-TIES",
+      "downloads": 20,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "lunahr/Qwen3-0.6B-Math-Expert-abliterated",
+      "downloads": 18,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "cmhacks/Qwen3-0.6B-hereticed",
+      "downloads": 18,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "hereticness/Heretic-Qwen3-0.6B-Diagnose",
+      "downloads": 17,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "freakynit/Qwen3-0.6B-abliterated",
+      "downloads": 16,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "psychopenguin/Qwen3-0.6B-heretic",
+      "downloads": 15,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "lunahr/Qwen3-0.6B-Code-Expert-abliterated",
+      "downloads": 14,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "lunahr/Qwen3-0.6B-abliterated",
+      "downloads": 14,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "hereticness/Heretic-Qwen3-0.6B-Psychological-Support",
+      "downloads": 14,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "rainmana/Qwen3Guard-Gen-0.6B-heretic",
+      "downloads": 14,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "spyrostheboss/Qwen3-0.6B-abliterated",
+      "downloads": 13,
+      "param_total": 751632384,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "ibrahimkettaneh/Qwen3-0.6B-abliterated",
+      "downloads": 12,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "hereticness/Heretic-Qwen3-0.6B-Treatment",
+      "downloads": 12,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "dakini/Qwen3-0.6B-heretic",
+      "downloads": 11,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "yoyoma666/Qwen3-0.6B-heretic-abliterated-uncensored",
+      "downloads": 11,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "w8o/Qwen3-0.6B-heretic",
+      "downloads": 10,
+      "param_total": 751632384,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "arnomatic/Qwen3-0.6B-heretic",
+      "downloads": 8,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "evildevlive/Qwen3-0.6B-heretic-abliterated-uncensored",
+      "downloads": 8,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "dalatexcoder/qwen3-0.6b-heretic",
+      "downloads": 8,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    },
+    {
+      "repo_id": "bruhmoment4242/Qwen3-0.6B-Heretic-Heresy-Edition",
+      "downloads": 6,
+      "param_total": 596049920,
+      "safetensor_file": "model.safetensors",
+      "config_architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "probed": false,
+      "downloadable": null,
+      "probe_error": null
+    }
+  ]
+}

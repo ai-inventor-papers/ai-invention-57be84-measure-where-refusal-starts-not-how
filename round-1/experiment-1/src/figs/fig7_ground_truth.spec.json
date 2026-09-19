@@ -1,0 +1,40 @@
+{
+  "type": "bar",
+  "aspect": "4:3",
+  "title": "Behavioural ground truth separates the three conditions",
+  "xlabel": "Condition",
+  "ylabel": "rate",
+  "categories": [
+    "base",
+    "instruct",
+    "abliterated"
+  ],
+  "series": [
+    {
+      "label": "Y_unsafe (harmful x wrappers)",
+      "values": [
+        0.0871031746031746,
+        0.16597222222222222,
+        0.3570436507936508
+      ],
+      "errors": [
+        0.03864211466717525,
+        0.04532869890769978,
+        0.057204655461334505
+      ]
+    },
+    {
+      "label": "Y_overrefuse (benign-but-alarming)",
+      "values": [
+        0.6071428571428571,
+        0.13125,
+        0.04642857142857143
+      ],
+      "errors": [
+        0.1324802642213672,
+        0.037425521277026225,
+        0.02341942330107857
+      ]
+    }
+  ]
+}

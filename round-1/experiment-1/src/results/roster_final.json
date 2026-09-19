@@ -1,0 +1,184 @@
+{
+  "roster": [
+    {
+      "repo_id": "Qwen/Qwen3-1.7B",
+      "family": "qwen3",
+      "lineage": "qwen3_17",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "Qwen/Qwen3-1.7B-Base",
+      "family": "qwen3",
+      "lineage": "qwen3_17",
+      "condition": "base",
+      "substitution": null
+    },
+    {
+      "repo_id": "huihui-ai/Huihui-Qwen3-1.7B-abliterated-v2",
+      "family": "qwen3",
+      "lineage": "qwen3_17",
+      "condition": "abliterated",
+      "substitution": null
+    },
+    {
+      "repo_id": "Qwen/Qwen3-0.6B",
+      "family": "qwen3",
+      "lineage": "qwen3_06",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "Qwen/Qwen3-0.6B-Base",
+      "family": "qwen3",
+      "lineage": "qwen3_06",
+      "condition": "base",
+      "substitution": null
+    },
+    {
+      "repo_id": "huihui-ai/Qwen3-0.6B-abliterated",
+      "family": "qwen3",
+      "lineage": "qwen3_06",
+      "condition": "abliterated",
+      "substitution": null
+    },
+    {
+      "repo_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "family": "llama32",
+      "lineage": "llama32_1b",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "meta-llama/Llama-3.2-1B",
+      "family": "llama32",
+      "lineage": "llama32_1b",
+      "condition": "base",
+      "substitution": null
+    },
+    {
+      "repo_id": "carsenk/llama3.2_1b_2025_uncensored_v2",
+      "family": "llama32",
+      "lineage": "llama32_1b",
+      "condition": "abliterated",
+      "substitution": "huihui-ai/Llama-3.2-1B-Instruct-abliterated is 404; substituted an arch- and param-matched community uncensored fine-tune of the same parent"
+    },
+    {
+      "repo_id": "google/gemma-3-1b-it",
+      "family": "gemma3",
+      "lineage": "gemma3_1b",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "google/gemma-3-1b-pt",
+      "family": "gemma3",
+      "lineage": "gemma3_1b",
+      "condition": "base",
+      "substitution": null
+    },
+    {
+      "repo_id": "DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+      "family": "gemma3",
+      "lineage": "gemma3_1b",
+      "condition": "abliterated",
+      "substitution": "huihui-ai/gemma-3-1b-it-abliterated is 404; substituted a heretic-method abliteration of the same parent"
+    },
+    {
+      "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "family": "qwen25",
+      "lineage": "qwen25_15",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "Qwen/Qwen2.5-1.5B",
+      "family": "qwen25",
+      "lineage": "qwen25_15",
+      "condition": "base",
+      "substitution": null
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v3",
+      "family": "qwen25",
+      "lineage": "qwen25_15",
+      "condition": "abliterated",
+      "substitution": "huihui-ai variant is 404; substituted Josiefied v3"
+    },
+    {
+      "repo_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "family": "smollm2",
+      "lineage": "smollm2_17",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "HuggingFaceTB/SmolLM2-1.7B",
+      "family": "smollm2",
+      "lineage": "smollm2_17",
+      "condition": "base",
+      "substitution": null
+    },
+    {
+      "repo_id": "ops-malware/smollm2-1.7b-abliterated",
+      "family": "smollm2",
+      "lineage": "smollm2_17",
+      "condition": "abliterated",
+      "substitution": "huihui-ai variant is 404; substituted the only arch/param-matched abliteration found"
+    },
+    {
+      "repo_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "family": "llama32",
+      "lineage": "llama32_3b",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+      "family": "llama32",
+      "lineage": "llama32_3b",
+      "condition": "abliterated",
+      "substitution": null
+    },
+    {
+      "repo_id": "tiiuae/Falcon3-1B-Instruct",
+      "family": "falcon3",
+      "lineage": "falcon3_1b",
+      "condition": "instruct",
+      "substitution": null
+    },
+    {
+      "repo_id": "tiiuae/Falcon3-1B-Base",
+      "family": "falcon3",
+      "lineage": "falcon3_1b",
+      "condition": "base",
+      "substitution": null
+    },
+    {
+      "repo_id": "mlabonne/Qwen3-0.6B-abliterated",
+      "family": "qwen3",
+      "lineage": "qwen3_06",
+      "condition": "abliterated",
+      "substitution": "huihui-ai/Qwen3-0.6B-abliterated resolves via model_info() but its weight download returns 403 GATED; replaced with an arch- and param-matched abliteration of the same parent by the author of the abliteration technique. Repo resolution alone is NOT sufficient to establish availability -- the original cell is retained in the coverage table as GATED_REPO."
+    }
+  ],
+  "missing_cells": [
+    {
+      "family": "falcon3",
+      "lineage": "falcon3_1b",
+      "condition": "abliterated",
+      "reason": "CONDITION_UNAVAILABLE",
+      "detail": "no arch- and param-matched abliterated/uncensored fine-tune of Falcon3-1B-Instruct exists on the hub; the family therefore enters with two conditions and is excluded from the within-condition abliterated analysis"
+    }
+  ],
+  "n_checkpoints": 23,
+  "n_families": 6,
+  "families": [
+    "falcon3",
+    "gemma3",
+    "llama32",
+    "qwen25",
+    "qwen3",
+    "smollm2"
+  ]
+}

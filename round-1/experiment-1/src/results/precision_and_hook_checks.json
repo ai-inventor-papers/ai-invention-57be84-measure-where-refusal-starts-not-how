@@ -1,0 +1,7 @@
+{
+  "R_bf16_batch_shape_precision_floor_nats": 0.2741352527715364,
+  "gather_vs_logsoftmax_same_forward_max_abs_diff": 5.722e-06,
+  "hooks_before": 28,
+  "hooks_after": 28,
+  "stale_hook_raises": true
+}

@@ -1,0 +1,46 @@
+{
+  "type": "bar",
+  "aspect": "16:9",
+  "title": "Gate G2: the thinking block moves the refusal readout",
+  "xlabel": "Checkpoint",
+  "ylabel": "readout spread (nats)",
+  "categories": [
+    "Qwen3-1.7B",
+    "Qwen3-1.7B-Base",
+    "Huihui-Qwen3-1.7B-abliterated-v2",
+    "Qwen3-0.6B",
+    "Qwen3-0.6B-Base"
+  ],
+  "series": [
+    {
+      "label": "pos1_raw",
+      "values": [
+        0.6161989358290896,
+        2.209186126878068,
+        -4.088833544802563,
+        -2.2874083392354243,
+        1.369172898645725
+      ]
+    },
+    {
+      "label": "after_think_close",
+      "values": [
+        6.534706647404851,
+        2.0811851466059568,
+        2.5025993172605654,
+        0.7350111880185011,
+        1.6606000405442232
+      ]
+    },
+    {
+      "label": "enable_thinking_False",
+      "values": [
+        6.534706647404851,
+        2.0811851466059568,
+        2.5025993172605654,
+        0.7350111880185011,
+        1.6606000405442232
+      ]
+    }
+  ]
+}

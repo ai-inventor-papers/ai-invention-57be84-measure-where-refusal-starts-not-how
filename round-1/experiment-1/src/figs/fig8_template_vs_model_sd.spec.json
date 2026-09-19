@@ -1,0 +1,23 @@
+{
+  "type": "bar",
+  "aspect": "4:3",
+  "title": "Does the instrument measure the model or the template?",
+  "xlabel": "",
+  "ylabel": "SD of ED50",
+  "categories": [
+    "SD across TEMPLATES\n(within a model)",
+    "SD across MODELS\n(within a template)"
+  ],
+  "series": [
+    {
+      "values": [
+        0.2182690999252763,
+        0.2897025398328614
+      ],
+      "errors": [
+        0.08633697813144214,
+        0.07463787761280691
+      ]
+    }
+  ]
+}

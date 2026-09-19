@@ -1,0 +1,122 @@
+[
+  {
+    "figure": "fig1_layer_condition_heatmap",
+    "spec": "figs/fig1_layer_condition_heatmap.spec.json",
+    "pdf": "figs/fig1_layer_condition_heatmap.pdf",
+    "png": "figs/fig1_layer_condition_heatmap.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig2_depth_profile",
+    "spec": "figs/fig2_depth_profile.spec.json",
+    "pdf": "figs/fig2_depth_profile.pdf",
+    "png": "figs/fig2_depth_profile.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig3_dose_shift",
+    "spec": "figs/fig3_dose_shift.spec.json",
+    "pdf": "figs/fig3_dose_shift.pdf",
+    "png": "figs/fig3_dose_shift.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig9_gate_G2_thinking_mode",
+    "spec": "figs/fig9_gate_G2_thinking_mode.spec.json",
+    "pdf": "figs/fig9_gate_G2_thinking_mode.pdf",
+    "png": "figs/fig9_gate_G2_thinking_mode.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig10_gate_G1_ed50",
+    "spec": "figs/fig10_gate_G1_ed50.spec.json",
+    "pdf": "figs/fig10_gate_G1_ed50.pdf",
+    "png": "figs/fig10_gate_G1_ed50.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig4_screen_forest",
+    "spec": "figs/fig4_screen_forest.spec.json",
+    "pdf": "figs/fig4_screen_forest.pdf",
+    "png": "figs/fig4_screen_forest.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig5_write_gain",
+    "spec": "figs/fig5_write_gain.spec.json",
+    "pdf": "figs/fig5_write_gain.pdf",
+    "png": "figs/fig5_write_gain.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig7_ground_truth",
+    "spec": "figs/fig7_ground_truth.spec.json",
+    "pdf": "figs/fig7_ground_truth.pdf",
+    "png": "figs/fig7_ground_truth.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig8_template_vs_model_sd",
+    "spec": "figs/fig8_template_vs_model_sd.spec.json",
+    "pdf": "figs/fig8_template_vs_model_sd.pdf",
+    "png": "figs/fig8_template_vs_model_sd.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig6a_C1_vs_Y",
+    "spec": "figs/fig6a_C1_vs_Y.spec.json",
+    "pdf": "figs/fig6a_C1_vs_Y.pdf",
+    "png": "figs/fig6a_C1_vs_Y.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig6b_C2_vs_Y",
+    "spec": "figs/fig6b_C2_vs_Y.spec.json",
+    "pdf": "figs/fig6b_C2_vs_Y.pdf",
+    "png": "figs/fig6b_C2_vs_Y.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig6c_C3_vs_Y",
+    "spec": "figs/fig6c_C3_vs_Y.spec.json",
+    "pdf": "figs/fig6c_C3_vs_Y.pdf",
+    "png": "figs/fig6c_C3_vs_Y.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig6d_C4_vs_Y",
+    "spec": "figs/fig6d_C4_vs_Y.spec.json",
+    "pdf": "figs/fig6d_C4_vs_Y.pdf",
+    "png": "figs/fig6d_C4_vs_Y.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig6e_C5_vs_Y",
+    "spec": "figs/fig6e_C5_vs_Y.spec.json",
+    "pdf": "figs/fig6e_C5_vs_Y.pdf",
+    "png": "figs/fig6e_C5_vs_Y.png",
+    "ok": true,
+    "stderr": null
+  },
+  {
+    "figure": "fig6f_B1_vs_Y",
+    "spec": "figs/fig6f_B1_vs_Y.spec.json",
+    "pdf": "figs/fig6f_B1_vs_Y.pdf",
+    "png": "figs/fig6f_B1_vs_Y.png",
+    "ok": true,
+    "stderr": null
+  }
+]

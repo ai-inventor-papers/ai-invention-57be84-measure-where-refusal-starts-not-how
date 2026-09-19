@@ -1,0 +1,34 @@
+{
+  "qwen3_17": {
+    "repo": "Qwen/Qwen3-1.7B",
+    "L_star": 20
+  },
+  "qwen3_06": {
+    "repo": "Qwen/Qwen3-0.6B",
+    "L_star": 22
+  },
+  "llama32_1b": {
+    "repo": "meta-llama/Llama-3.2-1B-Instruct",
+    "L_star": 13
+  },
+  "gemma3_1b": {
+    "repo": "google/gemma-3-1b-it",
+    "L_star": 25
+  },
+  "qwen25_15": {
+    "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+    "L_star": 23
+  },
+  "smollm2_17": {
+    "repo": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "L_star": 19
+  },
+  "llama32_3b": {
+    "repo": "meta-llama/Llama-3.2-3B-Instruct",
+    "L_star": 20
+  },
+  "falcon3_1b": {
+    "repo": "tiiuae/Falcon3-1B-Instruct",
+    "L_star": 15
+  }
+}

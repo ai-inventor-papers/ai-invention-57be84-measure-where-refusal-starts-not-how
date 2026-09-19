@@ -1,0 +1,16 @@
+{
+  "ckpt": "huihui-ai/Qwen3-0.6B-abliterated",
+  "family": "qwen3",
+  "condition": "abliterated",
+  "lineage": "qwen3_06",
+  "failed": [
+    {
+      "stage": "load",
+      "reason": "GATED_REPO",
+      "detail": "OSError: You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/huihui-ai/Qwen3-0.6B-abliterated.\n403 Client Error. (Request ID: Root=1-6aadf4a7-56742bb6654ecdd36115e8c",
+      "note": "model_info() resolved this repo, but the weight download returns 403 gated. Repo resolution alone is NOT sufficient to establish availability."
+    }
+  ],
+  "substitution": null,
+  "complete": false
+}

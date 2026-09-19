@@ -1,0 +1,6228 @@
+{
+  "parents": {
+    "llama32": {
+      "repo_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "num_params": 1235814400
+    },
+    "gemma3": {
+      "repo_id": "google/gemma-3-1b-it",
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "num_params": 999885952
+    },
+    "qwen25": {
+      "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "num_params": 1543714304
+    },
+    "smollm2": {
+      "repo_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "num_params": 1711376384
+    },
+    "falcon3": {
+      "repo_id": "tiiuae/Falcon3-1B-Instruct",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "num_params": 1669408768
+    }
+  },
+  "candidates": [
+    {
+      "repo_id": "carsenk/llama3.2_1b_2025_uncensored_v2",
+      "downloads": 913,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "llama",
+        "text-generation",
+        "unsloth",
+        "uncensored",
+        "llama-3.2",
+        "llama.cpp",
+        "inference",
+        "conversational",
+        "en",
+        "dataset:mlabonne/FineTome-100k",
+        "dataset:microsoft/orca-math-word-problems-200k",
+        "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+        "dataset:cognitivecomputations/dolphin-coder",
+        "dataset:PawanKrd/math-gpt-4o-200k",
+        "dataset:V3N0M/Jenna-50K-Alpaca-Uncensored",
+        "dataset:FreedomIntelligence/medical-o1-reasoning-SFT",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "nztinversive/llama3.2-1b-Uncensored",
+      "downloads": 377,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "uncensored",
+        "abliteration",
+        "en",
+        "license:mit",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct-abliterated",
+      "downloads": 173,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645464,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "not-for-all-audiences",
+        "conversational",
+        "ru",
+        "en",
+        "arxiv:2405.13929",
+        "base_model:Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct",
+        "base_model:finetune:Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mylesgoose/Llama-3.2-1B-Instruct-abliterated",
+      "downloads": 81,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "carsenk/llama3.2_1b_2025_uncensored",
+      "downloads": 71,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "unsloth",
+        "uncensored",
+        "llama-3.2",
+        "llama.cpp",
+        "gguf",
+        "inference",
+        "conversational",
+        "en",
+        "dataset:mlabonne/FineTome-100k",
+        "dataset:microsoft/orca-math-word-problems-200k",
+        "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+        "dataset:cognitivecomputations/dolphin-coder",
+        "dataset:PawanKrd/math-gpt-4o-200k",
+        "dataset:V3N0M/Jenna-50K-Alpaca-Uncensored",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mylesgoose/Llama-3.2-1B-Instruct-abliterated3",
+      "downloads": 24,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mylesgoose/Llama-3.2-1B-Instruct-abliterated2",
+      "downloads": 22,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ops-malware/llama-3.2-1b-abliterated",
+      "downloads": 22,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "refusal-removal",
+        "interpretability",
+        "senbonzakura",
+        "conversational",
+        "en",
+        "base_model:meta-llama/Llama-3.2-1B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "vs4vijay/Llama-3.2-1B-uncensored",
+      "downloads": 21,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "arxiv:2405.16406",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "jtatman/llama3.2_1b_uncensored_pentest_grpo-merged",
+      "downloads": 19,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "brianmatzelle/llama3.2-1b-instruct-hasanpiker-abliterated",
+      "downloads": 16,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "trl",
+        "sft",
+        "conversational",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Grogros/Llama-3.2-1B-Instruct-abliterated-DPO",
+      "downloads": 13,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 4943274328,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ShantanuT01/Llama-3.2-1B-Instruct-abliterated-yelp-finetuned",
+      "downloads": 11,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 4943274328,
+      "tags": [
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "joelewing/Llama-3.2-1B-Instruct-Capybara-abliterated",
+      "downloads": 11,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "trl",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "conversational",
+        "en",
+        "dataset:Undi95/Capybara-ShareGPT",
+        "license:llama3.2",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "marx161-cmd/Llama-3.2-1B-Double-Abliterated-d2p0-r1p0-RowRestore",
+      "downloads": 7,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "llama-3.2",
+        "disinhibition",
+        "model-editing",
+        "row-restoration",
+        "research",
+        "conversational",
+        "base_model:meta-llama/Llama-3.2-1B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ShantanuT01/Llama-3.2-1B-Instruct-abliterated-sci_gen-finetuned",
+      "downloads": 5,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 4943274328,
+      "tags": [
+        "safetensors",
+        "llama",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "cazzz307/Abliterated-Llama-3.2-1B-Instruct",
+      "downloads": 5,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645464,
+      "tags": [
+        "safetensors",
+        "llama",
+        "abliterated",
+        "llama-3",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:meta-llama/Llama-3.2-1B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ShantanuT01/Llama-3.2-1B-Instruct-abliterated-wp-finetuned",
+      "downloads": 4,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 4943274328,
+      "tags": [
+        "safetensors",
+        "llama",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "nicoboss/Llama-3.2-1B-Instruct-Uncensored",
+      "downloads": 0,
+      "num_params": 1235814400,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2471645608,
+      "tags": [
+        "peft",
+        "safetensors",
+        "llama",
+        "generated_from_trainer",
+        "dataset:Guilherme34/uncensor",
+        "base_model:meta-llama/Llama-3.2-1B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+      "downloads": 1315,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "guccigidda/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+      "downloads": 456,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "DavidAU/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking",
+      "downloads": 351,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "uncensored",
+        "heretic",
+        "abliterated",
+        "unsloth",
+        "finetune",
+        "All use cases",
+        "bfloat16",
+        "creative",
+        "creative writing",
+        "fiction writing",
+        "plot generation",
+        "sub-plot generation",
+        "story generation",
+        "scene continue",
+        "storytelling",
+        "fiction story",
+        "science fiction",
+        "romance",
+        "all genres",
+        "story",
+        "writing",
+        "vivid prosing",
+        "vivid writing",
+        "fiction",
+        "conversational",
+        "en",
+        "dataset:TeichAI/glm-4.7-2000x",
+        "base_model:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "base_model:finetune:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "DavidAU/gemma-3-1b-it-heretic-abliterated-uncensored",
+      "downloads": 308,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Kfjjdjdjdhdhd/gemma-3-1b-pt-abliterated",
+      "downloads": 193,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Justbackup/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+      "downloads": 101,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlabonne/gemma-3-1b-it-abliterated-v2",
+      "downloads": 80,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 3999582960,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "image-text-to-text",
+        "conversational",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "license:gemma",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlabonne/gemma-3-1b-it-abliterated",
+      "downloads": 66,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "image-text-to-text",
+        "conversational",
+        "base_model:google/gemma-3-12b-it",
+        "base_model:finetune:google/gemma-3-12b-it",
+        "license:gemma",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "klinevanya/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking",
+      "downloads": 46,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "uncensored",
+        "heretic",
+        "abliterated",
+        "unsloth",
+        "finetune",
+        "All use cases",
+        "bfloat16",
+        "creative",
+        "creative writing",
+        "fiction writing",
+        "plot generation",
+        "sub-plot generation",
+        "story generation",
+        "scene continue",
+        "storytelling",
+        "fiction story",
+        "science fiction",
+        "romance",
+        "all genres",
+        "story",
+        "writing",
+        "vivid prosing",
+        "vivid writing",
+        "fiction",
+        "conversational",
+        "en",
+        "dataset:TeichAI/glm-4.7-2000x",
+        "base_model:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "base_model:finetune:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "GreekIceDragon/gemma-3-1b-abliterated",
+      "downloads": 41,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "safetensors",
+        "gguf",
+        "gemma3_text",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Gemma3-UNCENSORED-1B",
+      "downloads": 25,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810720,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "base_model:Novaciano/Heretic_Amoral_Abl-Gemma3-1B",
+        "base_model:merge:Novaciano/Heretic_Amoral_Abl-Gemma3-1B",
+        "base_model:Novaciano/Heretic_Fusion-Gemma3-1B",
+        "base_model:merge:Novaciano/Heretic_Fusion-Gemma3-1B",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "lunahr/gemma-3-1b-it-abliterated",
+      "downloads": 19,
+      "num_params": 999887104,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999813512,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "abliterated",
+        "baukit-abliterated",
+        "conversational",
+        "arxiv:1905.07830",
+        "arxiv:1905.10044",
+        "arxiv:1911.11641",
+        "arxiv:1904.09728",
+        "arxiv:1705.03551",
+        "arxiv:1911.01547",
+        "arxiv:1907.10641",
+        "arxiv:1903.00161",
+        "arxiv:2009.03300",
+        "arxiv:2304.06364",
+        "arxiv:2103.03874",
+        "arxiv:2110.14168",
+        "arxiv:2311.12022",
+        "arxiv:2108.07732",
+        "arxiv:2107.03374",
+        "arxiv:2210.03057",
+        "arxiv:2106.03193",
+        "arxiv:1910.11856",
+        "arxiv:2502.12404",
+        "arxiv:2502.21228",
+        "arxiv:2404.16816",
+        "arxiv:2104.12756",
+        "arxiv:2311.16502",
+        "arxiv:2203.10244",
+        "arxiv:2404.12390",
+        "arxiv:1810.12440",
+        "arxiv:1908.02660",
+        "arxiv:2312.11805",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "license:gemma",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Gemma3-UNCENSORED-V2-1B",
+      "downloads": 16,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810720,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "not-for-all-audiences",
+        "en",
+        "es",
+        "base_model:Novaciano/Gemma3-UNCENSORED-1B",
+        "base_model:merge:Novaciano/Gemma3-UNCENSORED-1B",
+        "base_model:coder3101/gemma-3-1b-it-heretic",
+        "base_model:merge:coder3101/gemma-3-1b-it-heretic",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "PJMixers-Dev/gemma-3-1b-it-heretic-abliterated-uncensored-fixed",
+      "downloads": 15,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:DavidAU/gemma-3-1b-it-heretic-abliterated-uncensored",
+        "base_model:finetune:DavidAU/gemma-3-1b-it-heretic-abliterated-uncensored",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "prithivMLmods/gemma-3-1b-it-abliterated",
+      "downloads": 15,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810864,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "en",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "license:gemma",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Gemma3-Emotional_Uncensored-V2-1B",
+      "downloads": 13,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810720,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "base_model:Novaciano/Gemma3-Emotional_Uncensored-1B",
+        "base_model:merge:Novaciano/Gemma3-Emotional_Uncensored-1B",
+        "base_model:Novaciano/Gemma3-Uncensored-V3-1B",
+        "base_model:merge:Novaciano/Gemma3-Uncensored-V3-1B",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlabonne/gemma-3-1b-it-qat-abliterated",
+      "downloads": 11,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 3999582960,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "image-text-to-text",
+        "conversational",
+        "base_model:google/gemma-3-1b-it-qat-q4_0-unquantized",
+        "base_model:finetune:google/gemma-3-1b-it-qat-q4_0-unquantized",
+        "license:gemma",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "BIGJUTT/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+      "downloads": 8,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Amoral_Abliterated-Gemma3-1B",
+      "downloads": 8,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810720,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "not-for-all-audiences",
+        "conversational",
+        "arxiv:2403.19522",
+        "base_model:mlabonne/gemma-3-1b-it-abliterated",
+        "base_model:merge:mlabonne/gemma-3-1b-it-abliterated",
+        "base_model:mlabonne/gemma-3-1b-it-abliterated-v2",
+        "base_model:merge:mlabonne/gemma-3-1b-it-abliterated-v2",
+        "base_model:soob3123/amoral-gemma3-1B-v2",
+        "base_model:merge:soob3123/amoral-gemma3-1B-v2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "gringo1904/gemma-3-1b-it-heretic-abliterated-uncensored",
+      "downloads": 8,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Gemma3-Emotional_Uncensored-1B",
+      "downloads": 7,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810720,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "base_model:Movidlona/gemma_1b_full_emotion_finetuned",
+        "base_model:merge:Movidlona/gemma_1b_full_emotion_finetuned",
+        "base_model:Novaciano/Gemma3-UNCENSORED-V2-1B",
+        "base_model:merge:Novaciano/Gemma3-UNCENSORED-V2-1B",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Nietzsche_Abliterated-Gemma3-1B",
+      "downloads": 7,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810720,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "conversational",
+        "arxiv:2403.19522",
+        "base_model:mlabonne/gemma-3-1b-it-abliterated",
+        "base_model:merge:mlabonne/gemma-3-1b-it-abliterated",
+        "base_model:mlabonne/gemma-3-1b-it-abliterated-v2",
+        "base_model:merge:mlabonne/gemma-3-1b-it-abliterated-v2",
+        "base_model:phase-shake/nietzsche-gemma-3-1b-it",
+        "base_model:merge:phase-shake/nietzsche-gemma-3-1b-it",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Gemma3-Uncensored-V3-1B",
+      "downloads": 6,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999810720,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "base_model:Novaciano/Gemma3-UNCENSORED-V2-1B",
+        "base_model:merge:Novaciano/Gemma3-UNCENSORED-V2-1B",
+        "base_model:PJMixers-Dev/gemma-3-1b-it-heretic-abliterated-uncensored-fixed",
+        "base_model:merge:PJMixers-Dev/gemma-3-1b-it-heretic-abliterated-uncensored-fixed",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "jwest33/gemma-3-1b-it-null-space-abliterated",
+      "downloads": 6,
+      "num_params": 999885952,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 1999811208,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "gemma",
+        "gemma-3",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "arxiv:2410.02355",
+        "arxiv:2406.11717",
+        "arxiv:2310.01405",
+        "base_model:google/gemma-3-1b-it",
+        "base_model:finetune:google/gemma-3-1b-it",
+        "license:gemma",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v3",
+      "downloads": 171,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v2",
+        "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v2",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "FethiAzer12/Qwen2.5-1.5B-Aggressive-Abliterated",
+      "downloads": 145,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087466808,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-4bit",
+      "downloads": 118,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 868628547,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "raithdemis/Qwen2.5-1.5B-VibeThinker-heretic-uncensored-abliterated",
+      "downloads": 114,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:WeiboAI/VibeThinker-1.5B",
+        "base_model:finetune:WeiboAI/VibeThinker-1.5B",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "DavidAU/Qwen2.5-1.5B-VibeThinker-heretic-uncensored-abliterated",
+      "downloads": 97,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "finetune",
+        "conversational",
+        "base_model:WeiboAI/VibeThinker-1.5B",
+        "base_model:finetune:WeiboAI/VibeThinker-1.5B",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "DeKodez/Qwen2.5-1.5B-Instruct-abliterated",
+      "downloads": 81,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "abliteration",
+        "uncensored",
+        "en",
+        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-f16",
+      "downloads": 74,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087466667,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v2",
+      "downloads": 72,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+        "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-2bit",
+      "downloads": 70,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 482735826,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ai-anytime/qwen-1.5b-abliterated",
+      "downloads": 41,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "abliteration",
+        "directional-ablation",
+        "uncensored",
+        "mechanistic-interpretability",
+        "safety-research",
+        "ablate",
+        "conversational",
+        "arxiv:2406.11717",
+        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-8bit",
+      "downloads": 39,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1640413826,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "trollek/Qwen2-1.5B-Instruct-Abliterated",
+      "downloads": 36,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "not-for-all-audiences",
+        "conversational",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "HaseebAsif/Qwen2.5-1.5B-Abliterated",
+      "downloads": 28,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087466808,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "abliteration",
+        "refusal-direction",
+        "qwen2.5",
+        "uncensored",
+        "arxiv:2406.11717",
+        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Sirreajohn/Qwen2.5-1.5B-abliterated",
+      "downloads": 22,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "en",
+        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+        "license:mit",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ops-malware/qwen2.5-1.5b-abliterated",
+      "downloads": 15,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "refusal-removal",
+        "interpretability",
+        "senbonzakura",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "karaselerm/qwen2.5-1.5b-instruct-ru-abliterated-hw6",
+      "downloads": 13,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087466592,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ItBeMeAgain/qwen2.5-abliterated_1.5B_Instruct",
+      "downloads": 12,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "agapeeva/qwen2.5-1.5b-instruct-abliterated-ru",
+      "downloads": 12,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087466808,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "shellsys/qwen2.5-1.5b-abliterated-ru",
+      "downloads": 12,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087467144,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Vali/Qwen2.5-1.5B-Instruct-abliterated",
+      "downloads": 10,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 6174895424,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "amirdianov/Qwen2.5-1.5B-Instruct-abliterated-ru",
+      "downloads": 10,
+      "num_params": 1543714304,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3087466808,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ops-malware/smollm2-1.7b-abliterated",
+      "downloads": 24,
+      "num_params": 1711376384,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 3422777952,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "refusal-removal",
+        "interpretability",
+        "senbonzakura",
+        "conversational",
+        "en",
+        "base_model:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "base_model:finetune:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "venkycs/SmolLM2-1.7B-Instruct-Abliterated",
+      "downloads": 18,
+      "num_params": 1712015360,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 1814978304,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "alperiox/SmolLM2-1.7B-Instruct-arithmetic-abliterated",
+      "downloads": 6,
+      "num_params": 1711376384,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 3422777952,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "venkycs/SmolLM2-1.7B-instruct-abliterated-fp8",
+      "downloads": 6,
+      "num_params": 1712015360,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 1814978304,
+      "tags": [
+        "safetensors",
+        "llama",
+        "model_hub_mixin",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+      "downloads": 4338,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "thirdeyeai/Qwen2.5-1.5B-Instruct-uncensored",
+      "downloads": 3211,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "huihui-ai/Qwen2.5-0.5B-Instruct-abliterated-v3",
+      "downloads": 1272,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097824,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "chat",
+        "abliterated",
+        "uncensored",
+        "text-generation",
+        "conversational",
+        "zho",
+        "eng",
+        "fra",
+        "spa",
+        "por",
+        "deu",
+        "ita",
+        "rus",
+        "jpn",
+        "kor",
+        "vie",
+        "tha",
+        "ara",
+        "base_model:Qwen/Qwen2.5-0.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+      "downloads": 829,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "zho",
+        "eng",
+        "fra",
+        "spa",
+        "por",
+        "deu",
+        "ita",
+        "rus",
+        "jpn",
+        "kor",
+        "vie",
+        "tha",
+        "ara",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "kepom/Qwen2.5-Coder-1.5B-Instruct-abliterated",
+      "downloads": 700,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "huihui-ai/DeepSeek-R1-Distill-Qwen-1.5B-abliterated",
+      "downloads": 355,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "huihui-ai/Huihui-MiniCPM5-1B-abliterated",
+      "downloads": 304,
+      "num_params": 1080632832,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2161290912,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5",
+        "long-context",
+        "tool-calling",
+        "on-device",
+        "edge-ai",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "en",
+        "zh",
+        "base_model:openbmb/MiniCPM5-1B",
+        "base_model:finetune:openbmb/MiniCPM5-1B",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "goblinModeMan/Qwen2.5-0.5B-Instruct-abliterated-v3",
+      "downloads": 189,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097824,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "chat",
+        "abliterated",
+        "uncensored",
+        "text-generation",
+        "conversational",
+        "zho",
+        "eng",
+        "fra",
+        "spa",
+        "por",
+        "deu",
+        "ita",
+        "rus",
+        "jpn",
+        "kor",
+        "vie",
+        "tha",
+        "ara",
+        "base_model:Qwen/Qwen2.5-0.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "OehmJoa/Llama-3.2-3B-Instruct-abliterated",
+      "downloads": 177,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Daga2001/Llama-3.2-3B-Instruct-abliterated",
+      "downloads": 151,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534016,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "llama",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ]
+    },
+    {
+      "repo_id": "lunahr/Hermes-3-Llama-3.2-3B-abliterated",
+      "downloads": 140,
+      "num_params": 3212749824,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 6425529048,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "Llama-3",
+        "instruct",
+        "finetune",
+        "chatml",
+        "gpt4",
+        "synthetic data",
+        "distillation",
+        "function calling",
+        "json mode",
+        "axolotl",
+        "roleplaying",
+        "chat",
+        "abliterated",
+        "conversational",
+        "en",
+        "arxiv:2408.11857",
+        "base_model:NousResearch/Hermes-3-Llama-3.2-3B",
+        "base_model:finetune:NousResearch/Hermes-3-Llama-3.2-3B",
+        "license:llama3",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+      "downloads": 106,
+      "num_params": 630167424,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1260367448,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "zho",
+        "eng",
+        "fra",
+        "spa",
+        "por",
+        "deu",
+        "ita",
+        "rus",
+        "jpn",
+        "kor",
+        "vie",
+        "tha",
+        "ara",
+        "base_model:Qwen/Qwen2.5-0.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1-float32",
+      "downloads": 90,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1976163203,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "de",
+        "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Benholl94/Llama-3.2-3B-Instruct-abliterated",
+      "downloads": 65,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "rbinrs/Qwen2.5-Coder-1.5B-Instruct-abliterated",
+      "downloads": 60,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "chat",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+      "downloads": 55,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097440,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "de",
+        "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2-1.5B-Instruct-abliterated",
+      "downloads": 50,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "en",
+        "de",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "huihui-ai/Qwen2.5-0.5B-Instruct-abliterated-SFT",
+      "downloads": 46,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097824,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "en",
+        "dataset:huihui-ai/Guilherme34_uncensor",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1-float16",
+      "downloads": 40,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097440,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen2",
+        "chat",
+        "text-generation",
+        "conversational",
+        "en",
+        "de",
+        "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "license:apache-2.0",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Elstuhn/Qwen2.5-1.5B-Instruct-abliterated",
+      "downloads": 37,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "decensored",
+        "instruct",
+        "conversational",
+        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mylesgoose/Llama-3.2-3B-instruct-abliterated",
+      "downloads": 35,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "safetensors",
+        "llama",
+        "license:other",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "nbeerbower/EVA-abliterated-TIES-Qwen2.5-1.5B",
+      "downloads": 33,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "conversational",
+        "zho",
+        "eng",
+        "fra",
+        "spa",
+        "por",
+        "deu",
+        "ita",
+        "rus",
+        "jpn",
+        "kor",
+        "vie",
+        "tha",
+        "ara",
+        "arxiv:2306.01708",
+        "base_model:EVA-UNIT-01/EVA-Qwen2.5-1.5B-v0.0",
+        "base_model:merge:EVA-UNIT-01/EVA-Qwen2.5-1.5B-v0.0",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "base_model:merge:Qwen/Qwen2.5-1.5B",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "thirdeyeai/SmolLM2-1.7B-Instruct-Uncensored",
+      "downloads": 33,
+      "num_params": 1812039680,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 3624104664,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "base_model:finetune:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Devarui379/VersatiLlama-Llama-3.2-3B-Instruct-Abliterated",
+      "downloads": 27,
+      "num_params": 3212749824,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 6425528792,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:cc-by-4.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Elstuhn/llama-3.2-1B-Instruct-abliterated",
+      "downloads": 26,
+      "num_params": 1498482688,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2996982344,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "KidIkaros/Llama-3.2-1B-Instruct-abliterated",
+      "downloads": 24,
+      "num_params": 1498482688,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2996982344,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "en",
+        "arxiv:1910.09700",
+        "base_model:meta-llama/Llama-3.2-1B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mlx-community/gemma-3-1b-it-abliterated-bf16",
+      "downloads": 24,
+      "num_params": 1301875840,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 2603790756,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "conversational",
+        "base_model:mlabonne/gemma-3-1b-it-abliterated",
+        "base_model:finetune:mlabonne/gemma-3-1b-it-abliterated",
+        "license:gemma",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mrcuddle/Dark-Hermes3-Llama3.2-3B-abliterated",
+      "downloads": 24,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Qwen2.5-1.5B-Uncensored_Neurotic_Spanish",
+      "downloads": 23,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554213784,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "1.5b",
+        "qwen2.5",
+        "espa\u00f1ol",
+        "uncensored",
+        "conversational",
+        "es",
+        "en",
+        "dataset:Kukedlc/Big-Spanish-1.2M",
+        "dataset:multilingual/orca_dpo_pairs",
+        "base_model:Kukedlc/NeuralQwen-2.5-1.5B-Spanish",
+        "base_model:merge:Kukedlc/NeuralQwen-2.5-1.5B-Spanish",
+        "base_model:thirdeyeai/Qwen2.5-1.5B-Instruct-uncensored",
+        "base_model:merge:thirdeyeai/Qwen2.5-1.5B-Instruct-uncensored",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "mylesgoose/Llama-3.2-3B-abliterated",
+      "downloads": 22,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "ShuoGZ/llama-3.2-1B-Instruct-abliterated",
+      "downloads": 20,
+      "num_params": 1498482688,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2996982344,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "bruhwalkk/Qwen2.5-0.5B-Instruct-abliterated-ru",
+      "downloads": 20,
+      "num_params": 630167424,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1780362824,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "venkycs/llama-3.2-3b-instruct-abliterated",
+      "downloads": 19,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "dataset:ZySec-AI/harmful_behaviors",
+        "arxiv:2204.05149",
+        "arxiv:2405.16406",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "rbc33/Qwen2.5-1.5B-Abliterated",
+      "downloads": 18,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "123yaroslav/Qwen2.5-0.5B-Instruct-abliterated-ru",
+      "downloads": 17,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1976163472,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Daniil-Domino/Vikhr-Llama-3.2-1B-Instruct-abliterated",
+      "downloads": 17,
+      "num_params": 1498482688,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2996982200,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "oskarraszkiewicz/gemma-3-1b-it-abliterated-mlx",
+      "downloads": 16,
+      "num_params": 1301875840,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 2603790719,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "gemma3_text",
+        "chat",
+        "abliterated",
+        "uncensored",
+        "text-generation",
+        "conversational",
+        "license:gemma",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "stepenZEN/Qwen2.5-0.5B-abliterated",
+      "downloads": 16,
+      "num_params": 630167424,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1260367448,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "en",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "brianmatzelle/llama3.2-3b-instruct-hasanpiker-abliterated",
+      "downloads": 15,
+      "num_params": 3212749824,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 6425529048,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "trl",
+        "sft",
+        "conversational",
+        "en",
+        "base_model:huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+        "base_model:finetune:huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "aizerocoderai/qwen2.5-0.5b-abliterated-v2-ru",
+      "downloads": 14,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097536,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "nktpv/Qwen2.5-1.5B-abliterated",
+      "downloads": 14,
+      "num_params": 630167424,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1260367152,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Syidone1/Qwen2.5-0.5B-Instruct-abliterated",
+      "downloads": 12,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097536,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "masterkristall/Qwen2.5-0.5B-Instruct-abliterated",
+      "downloads": 12,
+      "num_params": 630167424,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1260367152,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "KidIkaros/Llama-3.2-3B-Instruct-abliterated",
+      "downloads": 11,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "en",
+        "arxiv:1910.09700",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Bradarr/Qwen2.5-0.5B-Instruct-abliterated",
+      "downloads": 10,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097536,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "STARSPIKE/Llama-3.2-1B-Instruct-abliterated",
+      "downloads": 10,
+      "num_params": 1498482688,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2996982344,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "base_model:meta-llama/Llama-3.2-1B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "caveiro/qwen2.5-0.5b-abliterated-ru",
+      "downloads": 10,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097824,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "rbc33/Llama-3.2-1B-Instruct-Abliterated",
+      "downloads": 10,
+      "num_params": 1498482688,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 2996982344,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "sludgefest/Llama-3.2-3B-Instruct-Abliterated",
+      "downloads": 10,
+      "num_params": 3212749824,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 11510364808,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "BlackHillsInformationSecurity/Llama-3.2-3B-Instruct-abliterated",
+      "downloads": 9,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Giks/Qwen2.5-1.5B-Instruct-Abliterated",
+      "downloads": 9,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214752,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Novaciano/Gemma3-ToxiCity_Uncensored-1B",
+      "downloads": 9,
+      "num_params": 1301875840,
+      "architectures": [
+        "Gemma3ForCausalLM"
+      ],
+      "total_size_bytes": 2603790624,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "base_model:Novaciano/Gemma3-UNCENSORED-1B",
+        "base_model:merge:Novaciano/Gemma3-UNCENSORED-1B",
+        "base_model:uiyunkim-hub/gemma-3-1b-it-toxicity",
+        "base_model:merge:uiyunkim-hub/gemma-3-1b-it-toxicity",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "jtatman/llama3.2-1b-5x-MoE-uncensored-code-reason-tool-agent",
+      "downloads": 9,
+      "num_params": 3651864576,
+      "architectures": [
+        "MixtralForCausalLM"
+      ],
+      "total_size_bytes": 7303767104,
+      "tags": [
+        "safetensors",
+        "mixtral",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "vladsn/qwen2.5-1.5B-abliterated",
+      "downloads": 9,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214416,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Marsel71/Qwen2.5-1.5B-Instruct-abliterated",
+      "downloads": 8,
+      "num_params": 1777088000,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 3554214416,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Syidone1/Qwen2.5-0.5B-Instruct-abliterated-ru",
+      "downloads": 8,
+      "num_params": 630167424,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1780362824,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "alperiox/Qwen2.5-0.5B-Instruct-arithmetic-abliterated",
+      "downloads": 8,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097824,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "C-Nocturnum/Qwen2.5-Coder-0.5B-abliterated",
+      "downloads": 7,
+      "num_params": 630167424,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 1260367448,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "coder",
+        "abliterated",
+        "code",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "Xd-107221098/Llama-3.2-3B-Instruct-abliterated",
+      "downloads": 7,
+      "num_params": 3606752256,
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "total_size_bytes": 7213534088,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "abliterated",
+        "uncensored",
+        "conversational",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ]
+    },
+    {
+      "repo_id": "TheProphet92/Qwen2.5-0.5B-Instruct-abliterated",
+      "downloads": 4,
+      "num_params": 494032768,
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "total_size_bytes": 988097536,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "region:us"
+      ]
+    }
+  ],
+  "families": {
+    "llama32": [
+      {
+        "repo_id": "carsenk/llama3.2_1b_2025_uncensored_v2",
+        "downloads": 913,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gguf",
+          "llama",
+          "text-generation",
+          "unsloth",
+          "uncensored",
+          "llama-3.2",
+          "llama.cpp",
+          "inference",
+          "conversational",
+          "en",
+          "dataset:mlabonne/FineTome-100k",
+          "dataset:microsoft/orca-math-word-problems-200k",
+          "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+          "dataset:cognitivecomputations/dolphin-coder",
+          "dataset:PawanKrd/math-gpt-4o-200k",
+          "dataset:V3N0M/Jenna-50K-Alpaca-Uncensored",
+          "dataset:FreedomIntelligence/medical-o1-reasoning-SFT",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "nztinversive/llama3.2-1b-Uncensored",
+        "downloads": 377,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "uncensored",
+          "abliteration",
+          "en",
+          "license:mit",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct-abliterated",
+        "downloads": 173,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645464,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "not-for-all-audiences",
+          "conversational",
+          "ru",
+          "en",
+          "arxiv:2405.13929",
+          "base_model:Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct",
+          "base_model:finetune:Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mylesgoose/Llama-3.2-1B-Instruct-abliterated",
+        "downloads": 81,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama-3",
+          "conversational",
+          "en",
+          "de",
+          "fr",
+          "it",
+          "pt",
+          "hi",
+          "es",
+          "th",
+          "arxiv:2204.05149",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "carsenk/llama3.2_1b_2025_uncensored",
+        "downloads": 71,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "unsloth",
+          "uncensored",
+          "llama-3.2",
+          "llama.cpp",
+          "gguf",
+          "inference",
+          "conversational",
+          "en",
+          "dataset:mlabonne/FineTome-100k",
+          "dataset:microsoft/orca-math-word-problems-200k",
+          "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+          "dataset:cognitivecomputations/dolphin-coder",
+          "dataset:PawanKrd/math-gpt-4o-200k",
+          "dataset:V3N0M/Jenna-50K-Alpaca-Uncensored",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mylesgoose/Llama-3.2-1B-Instruct-abliterated3",
+        "downloads": 24,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama-3",
+          "conversational",
+          "en",
+          "de",
+          "fr",
+          "it",
+          "pt",
+          "hi",
+          "es",
+          "th",
+          "arxiv:2204.05149",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mylesgoose/Llama-3.2-1B-Instruct-abliterated2",
+        "downloads": 22,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ops-malware/llama-3.2-1b-abliterated",
+        "downloads": 22,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "refusal-removal",
+          "interpretability",
+          "senbonzakura",
+          "conversational",
+          "en",
+          "base_model:meta-llama/Llama-3.2-1B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "vs4vijay/Llama-3.2-1B-uncensored",
+        "downloads": 21,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama-3",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "conversational",
+          "en",
+          "de",
+          "fr",
+          "it",
+          "pt",
+          "hi",
+          "es",
+          "th",
+          "arxiv:2204.05149",
+          "arxiv:2405.16406",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "jtatman/llama3.2_1b_uncensored_pentest_grpo-merged",
+        "downloads": 19,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "brianmatzelle/llama3.2-1b-instruct-hasanpiker-abliterated",
+        "downloads": 16,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "trl",
+          "sft",
+          "conversational",
+          "en",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Grogros/Llama-3.2-1B-Instruct-abliterated-DPO",
+        "downloads": 13,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 4943274328,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ShantanuT01/Llama-3.2-1B-Instruct-abliterated-yelp-finetuned",
+        "downloads": 11,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 4943274328,
+        "tags": [
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "license:mit",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "joelewing/Llama-3.2-1B-Instruct-Capybara-abliterated",
+        "downloads": 11,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "trl",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "conversational",
+          "en",
+          "dataset:Undi95/Capybara-ShareGPT",
+          "license:llama3.2",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "marx161-cmd/Llama-3.2-1B-Double-Abliterated-d2p0-r1p0-RowRestore",
+        "downloads": 7,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "llama-3.2",
+          "disinhibition",
+          "model-editing",
+          "row-restoration",
+          "research",
+          "conversational",
+          "base_model:meta-llama/Llama-3.2-1B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ShantanuT01/Llama-3.2-1B-Instruct-abliterated-sci_gen-finetuned",
+        "downloads": 5,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 4943274328,
+        "tags": [
+          "safetensors",
+          "llama",
+          "license:mit",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "cazzz307/Abliterated-Llama-3.2-1B-Instruct",
+        "downloads": 5,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645464,
+        "tags": [
+          "safetensors",
+          "llama",
+          "abliterated",
+          "llama-3",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:meta-llama/Llama-3.2-1B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+          "license:llama3.2",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ShantanuT01/Llama-3.2-1B-Instruct-abliterated-wp-finetuned",
+        "downloads": 4,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 4943274328,
+        "tags": [
+          "safetensors",
+          "llama",
+          "license:mit",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "nicoboss/Llama-3.2-1B-Instruct-Uncensored",
+        "downloads": 0,
+        "num_params": 1235814400,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2471645608,
+        "tags": [
+          "peft",
+          "safetensors",
+          "llama",
+          "generated_from_trainer",
+          "dataset:Guilherme34/uncensor",
+          "base_model:meta-llama/Llama-3.2-1B-Instruct",
+          "base_model:adapter:meta-llama/Llama-3.2-1B-Instruct",
+          "license:llama3.2",
+          "region:us"
+        ]
+      }
+    ],
+    "gemma3": [
+      {
+        "repo_id": "DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "downloads": 1315,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "guccigidda/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "downloads": 456,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "DavidAU/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking",
+        "downloads": 351,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "uncensored",
+          "heretic",
+          "abliterated",
+          "unsloth",
+          "finetune",
+          "All use cases",
+          "bfloat16",
+          "creative",
+          "creative writing",
+          "fiction writing",
+          "plot generation",
+          "sub-plot generation",
+          "story generation",
+          "scene continue",
+          "storytelling",
+          "fiction story",
+          "science fiction",
+          "romance",
+          "all genres",
+          "story",
+          "writing",
+          "vivid prosing",
+          "vivid writing",
+          "fiction",
+          "conversational",
+          "en",
+          "dataset:TeichAI/glm-4.7-2000x",
+          "base_model:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+          "base_model:finetune:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "DavidAU/gemma-3-1b-it-heretic-abliterated-uncensored",
+        "downloads": 308,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Kfjjdjdjdhdhd/gemma-3-1b-pt-abliterated",
+        "downloads": 193,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Justbackup/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "downloads": 101,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlabonne/gemma-3-1b-it-abliterated-v2",
+        "downloads": 80,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 3999582960,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "image-text-to-text",
+          "conversational",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "license:gemma",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlabonne/gemma-3-1b-it-abliterated",
+        "downloads": 66,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "image-text-to-text",
+          "conversational",
+          "base_model:google/gemma-3-12b-it",
+          "base_model:finetune:google/gemma-3-12b-it",
+          "license:gemma",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "klinevanya/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking",
+        "downloads": 46,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "uncensored",
+          "heretic",
+          "abliterated",
+          "unsloth",
+          "finetune",
+          "All use cases",
+          "bfloat16",
+          "creative",
+          "creative writing",
+          "fiction writing",
+          "plot generation",
+          "sub-plot generation",
+          "story generation",
+          "scene continue",
+          "storytelling",
+          "fiction story",
+          "science fiction",
+          "romance",
+          "all genres",
+          "story",
+          "writing",
+          "vivid prosing",
+          "vivid writing",
+          "fiction",
+          "conversational",
+          "en",
+          "dataset:TeichAI/glm-4.7-2000x",
+          "base_model:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+          "base_model:finetune:DavidAU/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "GreekIceDragon/gemma-3-1b-abliterated",
+        "downloads": 41,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "safetensors",
+          "gguf",
+          "gemma3_text",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Gemma3-UNCENSORED-1B",
+        "downloads": 25,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810720,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "base_model:Novaciano/Heretic_Amoral_Abl-Gemma3-1B",
+          "base_model:merge:Novaciano/Heretic_Amoral_Abl-Gemma3-1B",
+          "base_model:Novaciano/Heretic_Fusion-Gemma3-1B",
+          "base_model:merge:Novaciano/Heretic_Fusion-Gemma3-1B",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "lunahr/gemma-3-1b-it-abliterated",
+        "downloads": 19,
+        "num_params": 999887104,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999813512,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "abliterated",
+          "baukit-abliterated",
+          "conversational",
+          "arxiv:1905.07830",
+          "arxiv:1905.10044",
+          "arxiv:1911.11641",
+          "arxiv:1904.09728",
+          "arxiv:1705.03551",
+          "arxiv:1911.01547",
+          "arxiv:1907.10641",
+          "arxiv:1903.00161",
+          "arxiv:2009.03300",
+          "arxiv:2304.06364",
+          "arxiv:2103.03874",
+          "arxiv:2110.14168",
+          "arxiv:2311.12022",
+          "arxiv:2108.07732",
+          "arxiv:2107.03374",
+          "arxiv:2210.03057",
+          "arxiv:2106.03193",
+          "arxiv:1910.11856",
+          "arxiv:2502.12404",
+          "arxiv:2502.21228",
+          "arxiv:2404.16816",
+          "arxiv:2104.12756",
+          "arxiv:2311.16502",
+          "arxiv:2203.10244",
+          "arxiv:2404.12390",
+          "arxiv:1810.12440",
+          "arxiv:1908.02660",
+          "arxiv:2312.11805",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "license:gemma",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Gemma3-UNCENSORED-V2-1B",
+        "downloads": 16,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810720,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "not-for-all-audiences",
+          "en",
+          "es",
+          "base_model:Novaciano/Gemma3-UNCENSORED-1B",
+          "base_model:merge:Novaciano/Gemma3-UNCENSORED-1B",
+          "base_model:coder3101/gemma-3-1b-it-heretic",
+          "base_model:merge:coder3101/gemma-3-1b-it-heretic",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "PJMixers-Dev/gemma-3-1b-it-heretic-abliterated-uncensored-fixed",
+        "downloads": 15,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:DavidAU/gemma-3-1b-it-heretic-abliterated-uncensored",
+          "base_model:finetune:DavidAU/gemma-3-1b-it-heretic-abliterated-uncensored",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "prithivMLmods/gemma-3-1b-it-abliterated",
+        "downloads": 15,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810864,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "en",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "license:gemma",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Gemma3-Emotional_Uncensored-V2-1B",
+        "downloads": 13,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810720,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "base_model:Novaciano/Gemma3-Emotional_Uncensored-1B",
+          "base_model:merge:Novaciano/Gemma3-Emotional_Uncensored-1B",
+          "base_model:Novaciano/Gemma3-Uncensored-V3-1B",
+          "base_model:merge:Novaciano/Gemma3-Uncensored-V3-1B",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlabonne/gemma-3-1b-it-qat-abliterated",
+        "downloads": 11,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 3999582960,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "image-text-to-text",
+          "conversational",
+          "base_model:google/gemma-3-1b-it-qat-q4_0-unquantized",
+          "base_model:finetune:google/gemma-3-1b-it-qat-q4_0-unquantized",
+          "license:gemma",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "BIGJUTT/gemma-3-1b-it-heretic-extreme-uncensored-abliterated",
+        "downloads": 8,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Amoral_Abliterated-Gemma3-1B",
+        "downloads": 8,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810720,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "not-for-all-audiences",
+          "conversational",
+          "arxiv:2403.19522",
+          "base_model:mlabonne/gemma-3-1b-it-abliterated",
+          "base_model:merge:mlabonne/gemma-3-1b-it-abliterated",
+          "base_model:mlabonne/gemma-3-1b-it-abliterated-v2",
+          "base_model:merge:mlabonne/gemma-3-1b-it-abliterated-v2",
+          "base_model:soob3123/amoral-gemma3-1B-v2",
+          "base_model:merge:soob3123/amoral-gemma3-1B-v2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "gringo1904/gemma-3-1b-it-heretic-abliterated-uncensored",
+        "downloads": 8,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Gemma3-Emotional_Uncensored-1B",
+        "downloads": 7,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810720,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "base_model:Movidlona/gemma_1b_full_emotion_finetuned",
+          "base_model:merge:Movidlona/gemma_1b_full_emotion_finetuned",
+          "base_model:Novaciano/Gemma3-UNCENSORED-V2-1B",
+          "base_model:merge:Novaciano/Gemma3-UNCENSORED-V2-1B",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Nietzsche_Abliterated-Gemma3-1B",
+        "downloads": 7,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810720,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "conversational",
+          "arxiv:2403.19522",
+          "base_model:mlabonne/gemma-3-1b-it-abliterated",
+          "base_model:merge:mlabonne/gemma-3-1b-it-abliterated",
+          "base_model:mlabonne/gemma-3-1b-it-abliterated-v2",
+          "base_model:merge:mlabonne/gemma-3-1b-it-abliterated-v2",
+          "base_model:phase-shake/nietzsche-gemma-3-1b-it",
+          "base_model:merge:phase-shake/nietzsche-gemma-3-1b-it",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Gemma3-Uncensored-V3-1B",
+        "downloads": 6,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999810720,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "base_model:Novaciano/Gemma3-UNCENSORED-V2-1B",
+          "base_model:merge:Novaciano/Gemma3-UNCENSORED-V2-1B",
+          "base_model:PJMixers-Dev/gemma-3-1b-it-heretic-abliterated-uncensored-fixed",
+          "base_model:merge:PJMixers-Dev/gemma-3-1b-it-heretic-abliterated-uncensored-fixed",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "jwest33/gemma-3-1b-it-null-space-abliterated",
+        "downloads": 6,
+        "num_params": 999885952,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 1999811208,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "gemma",
+          "gemma-3",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "arxiv:2410.02355",
+          "arxiv:2406.11717",
+          "arxiv:2310.01405",
+          "base_model:google/gemma-3-1b-it",
+          "base_model:finetune:google/gemma-3-1b-it",
+          "license:gemma",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      }
+    ],
+    "qwen25": [
+      {
+        "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v3",
+        "downloads": 171,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v2",
+          "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v2",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "FethiAzer12/Qwen2.5-1.5B-Aggressive-Abliterated",
+        "downloads": 145,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087466808,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-4bit",
+        "downloads": 118,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 868628547,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen2.5-1.5B",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "raithdemis/Qwen2.5-1.5B-VibeThinker-heretic-uncensored-abliterated",
+        "downloads": 114,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:WeiboAI/VibeThinker-1.5B",
+          "base_model:finetune:WeiboAI/VibeThinker-1.5B",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "DavidAU/Qwen2.5-1.5B-VibeThinker-heretic-uncensored-abliterated",
+        "downloads": 97,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "heretic",
+          "uncensored",
+          "decensored",
+          "abliterated",
+          "finetune",
+          "conversational",
+          "base_model:WeiboAI/VibeThinker-1.5B",
+          "base_model:finetune:WeiboAI/VibeThinker-1.5B",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "DeKodez/Qwen2.5-1.5B-Instruct-abliterated",
+        "downloads": 81,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "abliteration",
+          "uncensored",
+          "en",
+          "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-f16",
+        "downloads": 74,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087466667,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen2.5-1.5B",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v2",
+        "downloads": 72,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+          "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-2bit",
+        "downloads": 70,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 482735826,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen2.5-1.5B",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ai-anytime/qwen-1.5b-abliterated",
+        "downloads": 41,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "abliteration",
+          "directional-ablation",
+          "uncensored",
+          "mechanistic-interpretability",
+          "safety-research",
+          "ablate",
+          "conversational",
+          "arxiv:2406.11717",
+          "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1-8bit",
+        "downloads": 39,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1640413826,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen2.5-1.5B",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "trollek/Qwen2-1.5B-Instruct-Abliterated",
+        "downloads": 36,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "not-for-all-audiences",
+          "conversational",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "HaseebAsif/Qwen2.5-1.5B-Abliterated",
+        "downloads": 28,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087466808,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "abliteration",
+          "refusal-direction",
+          "qwen2.5",
+          "uncensored",
+          "arxiv:2406.11717",
+          "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Sirreajohn/Qwen2.5-1.5B-abliterated",
+        "downloads": 22,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "en",
+          "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+          "license:mit",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ops-malware/qwen2.5-1.5b-abliterated",
+        "downloads": 15,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "refusal-removal",
+          "interpretability",
+          "senbonzakura",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "karaselerm/qwen2.5-1.5b-instruct-ru-abliterated-hw6",
+        "downloads": 13,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087466592,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ItBeMeAgain/qwen2.5-abliterated_1.5B_Instruct",
+        "downloads": 12,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "agapeeva/qwen2.5-1.5b-instruct-abliterated-ru",
+        "downloads": 12,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087466808,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "shellsys/qwen2.5-1.5b-abliterated-ru",
+        "downloads": 12,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087467144,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Vali/Qwen2.5-1.5B-Instruct-abliterated",
+        "downloads": 10,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 6174895424,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "amirdianov/Qwen2.5-1.5B-Instruct-abliterated-ru",
+        "downloads": 10,
+        "num_params": 1543714304,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3087466808,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      }
+    ],
+    "smollm2": [
+      {
+        "repo_id": "ops-malware/smollm2-1.7b-abliterated",
+        "downloads": 24,
+        "num_params": 1711376384,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 3422777952,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "refusal-removal",
+          "interpretability",
+          "senbonzakura",
+          "conversational",
+          "en",
+          "base_model:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "base_model:finetune:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "venkycs/SmolLM2-1.7B-Instruct-Abliterated",
+        "downloads": 18,
+        "num_params": 1712015360,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 1814978304,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "alperiox/SmolLM2-1.7B-Instruct-arithmetic-abliterated",
+        "downloads": 6,
+        "num_params": 1711376384,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 3422777952,
+        "tags": [
+          "safetensors",
+          "llama",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "venkycs/SmolLM2-1.7B-instruct-abliterated-fp8",
+        "downloads": 6,
+        "num_params": 1712015360,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 1814978304,
+        "tags": [
+          "safetensors",
+          "llama",
+          "model_hub_mixin",
+          "region:us"
+        ]
+      }
+    ],
+    "falcon3": [],
+    "unmatched": [
+      {
+        "repo_id": "huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+        "downloads": 4338,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:meta-llama/Llama-3.2-3B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "thirdeyeai/Qwen2.5-1.5B-Instruct-uncensored",
+        "downloads": 3211,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "huihui-ai/Qwen2.5-0.5B-Instruct-abliterated-v3",
+        "downloads": 1272,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097824,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "chat",
+          "abliterated",
+          "uncensored",
+          "text-generation",
+          "conversational",
+          "zho",
+          "eng",
+          "fra",
+          "spa",
+          "por",
+          "deu",
+          "ita",
+          "rus",
+          "jpn",
+          "kor",
+          "vie",
+          "tha",
+          "ara",
+          "base_model:Qwen/Qwen2.5-0.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-1.5B-Instruct-abliterated-v1",
+        "downloads": 829,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "zho",
+          "eng",
+          "fra",
+          "spa",
+          "por",
+          "deu",
+          "ita",
+          "rus",
+          "jpn",
+          "kor",
+          "vie",
+          "tha",
+          "ara",
+          "base_model:Qwen/Qwen2.5-1.5B",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "kepom/Qwen2.5-Coder-1.5B-Instruct-abliterated",
+        "downloads": 700,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "chat",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "huihui-ai/DeepSeek-R1-Distill-Qwen-1.5B-abliterated",
+        "downloads": 355,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "huihui-ai/Huihui-MiniCPM5-1B-abliterated",
+        "downloads": 304,
+        "num_params": 1080632832,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2161290912,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "minicpm",
+          "minicpm5",
+          "long-context",
+          "tool-calling",
+          "on-device",
+          "edge-ai",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "en",
+          "zh",
+          "base_model:openbmb/MiniCPM5-1B",
+          "base_model:finetune:openbmb/MiniCPM5-1B",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "goblinModeMan/Qwen2.5-0.5B-Instruct-abliterated-v3",
+        "downloads": 189,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097824,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "chat",
+          "abliterated",
+          "uncensored",
+          "text-generation",
+          "conversational",
+          "zho",
+          "eng",
+          "fra",
+          "spa",
+          "por",
+          "deu",
+          "ita",
+          "rus",
+          "jpn",
+          "kor",
+          "vie",
+          "tha",
+          "ara",
+          "base_model:Qwen/Qwen2.5-0.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "OehmJoa/Llama-3.2-3B-Instruct-abliterated",
+        "downloads": 177,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:meta-llama/Llama-3.2-3B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Daga2001/Llama-3.2-3B-Instruct-abliterated",
+        "downloads": 151,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534016,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gguf",
+          "llama",
+          "text-generation",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us",
+          "conversational"
+        ]
+      },
+      {
+        "repo_id": "lunahr/Hermes-3-Llama-3.2-3B-abliterated",
+        "downloads": 140,
+        "num_params": 3212749824,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 6425529048,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "Llama-3",
+          "instruct",
+          "finetune",
+          "chatml",
+          "gpt4",
+          "synthetic data",
+          "distillation",
+          "function calling",
+          "json mode",
+          "axolotl",
+          "roleplaying",
+          "chat",
+          "abliterated",
+          "conversational",
+          "en",
+          "arxiv:2408.11857",
+          "base_model:NousResearch/Hermes-3-Llama-3.2-3B",
+          "base_model:finetune:NousResearch/Hermes-3-Llama-3.2-3B",
+          "license:llama3",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "downloads": 106,
+        "num_params": 630167424,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1260367448,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "zho",
+          "eng",
+          "fra",
+          "spa",
+          "por",
+          "deu",
+          "ita",
+          "rus",
+          "jpn",
+          "kor",
+          "vie",
+          "tha",
+          "ara",
+          "base_model:Qwen/Qwen2.5-0.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1-float32",
+        "downloads": 90,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1976163203,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "de",
+          "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+          "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Benholl94/Llama-3.2-3B-Instruct-abliterated",
+        "downloads": 65,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:meta-llama/Llama-3.2-3B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "rbinrs/Qwen2.5-Coder-1.5B-Instruct-abliterated",
+        "downloads": 60,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "chat",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "en",
+          "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+        "downloads": 55,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097440,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "de",
+          "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+          "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Goekdeniz-Guelmez/Josiefied-Qwen2-1.5B-Instruct-abliterated",
+        "downloads": 50,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "en",
+          "de",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "huihui-ai/Qwen2.5-0.5B-Instruct-abliterated-SFT",
+        "downloads": 46,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097824,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "en",
+          "dataset:huihui-ai/Guilherme34_uncensor",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1-float16",
+        "downloads": 40,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097440,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen2",
+          "chat",
+          "text-generation",
+          "conversational",
+          "en",
+          "de",
+          "base_model:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+          "base_model:finetune:Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Elstuhn/Qwen2.5-1.5B-Instruct-abliterated",
+        "downloads": 37,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "decensored",
+          "instruct",
+          "conversational",
+          "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+          "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mylesgoose/Llama-3.2-3B-instruct-abliterated",
+        "downloads": 35,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "safetensors",
+          "llama",
+          "license:other",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "nbeerbower/EVA-abliterated-TIES-Qwen2.5-1.5B",
+        "downloads": 33,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "conversational",
+          "zho",
+          "eng",
+          "fra",
+          "spa",
+          "por",
+          "deu",
+          "ita",
+          "rus",
+          "jpn",
+          "kor",
+          "vie",
+          "tha",
+          "ara",
+          "arxiv:2306.01708",
+          "base_model:EVA-UNIT-01/EVA-Qwen2.5-1.5B-v0.0",
+          "base_model:merge:EVA-UNIT-01/EVA-Qwen2.5-1.5B-v0.0",
+          "base_model:Qwen/Qwen2.5-1.5B",
+          "base_model:merge:Qwen/Qwen2.5-1.5B",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "thirdeyeai/SmolLM2-1.7B-Instruct-Uncensored",
+        "downloads": 33,
+        "num_params": 1812039680,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 3624104664,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "base_model:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "base_model:finetune:HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Devarui379/VersatiLlama-Llama-3.2-3B-Instruct-Abliterated",
+        "downloads": 27,
+        "num_params": 3212749824,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 6425528792,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "en",
+          "base_model:meta-llama/Llama-3.2-3B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+          "license:cc-by-4.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Elstuhn/llama-3.2-1B-Instruct-abliterated",
+        "downloads": 26,
+        "num_params": 1498482688,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2996982344,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "KidIkaros/Llama-3.2-1B-Instruct-abliterated",
+        "downloads": 24,
+        "num_params": 1498482688,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2996982344,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "en",
+          "arxiv:1910.09700",
+          "base_model:meta-llama/Llama-3.2-1B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mlx-community/gemma-3-1b-it-abliterated-bf16",
+        "downloads": 24,
+        "num_params": 1301875840,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 2603790756,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "conversational",
+          "base_model:mlabonne/gemma-3-1b-it-abliterated",
+          "base_model:finetune:mlabonne/gemma-3-1b-it-abliterated",
+          "license:gemma",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mrcuddle/Dark-Hermes3-Llama3.2-3B-abliterated",
+        "downloads": 24,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Qwen2.5-1.5B-Uncensored_Neurotic_Spanish",
+        "downloads": 23,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554213784,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "1.5b",
+          "qwen2.5",
+          "espa\u00f1ol",
+          "uncensored",
+          "conversational",
+          "es",
+          "en",
+          "dataset:Kukedlc/Big-Spanish-1.2M",
+          "dataset:multilingual/orca_dpo_pairs",
+          "base_model:Kukedlc/NeuralQwen-2.5-1.5B-Spanish",
+          "base_model:merge:Kukedlc/NeuralQwen-2.5-1.5B-Spanish",
+          "base_model:thirdeyeai/Qwen2.5-1.5B-Instruct-uncensored",
+          "base_model:merge:thirdeyeai/Qwen2.5-1.5B-Instruct-uncensored",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "mylesgoose/Llama-3.2-3B-abliterated",
+        "downloads": 22,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama-3",
+          "conversational",
+          "en",
+          "de",
+          "fr",
+          "it",
+          "pt",
+          "hi",
+          "es",
+          "th",
+          "arxiv:2204.05149",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "ShuoGZ/llama-3.2-1B-Instruct-abliterated",
+        "downloads": 20,
+        "num_params": 1498482688,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2996982344,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "bruhwalkk/Qwen2.5-0.5B-Instruct-abliterated-ru",
+        "downloads": 20,
+        "num_params": 630167424,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1780362824,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "venkycs/llama-3.2-3b-instruct-abliterated",
+        "downloads": 19,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama-3",
+          "conversational",
+          "en",
+          "de",
+          "fr",
+          "it",
+          "pt",
+          "hi",
+          "es",
+          "th",
+          "dataset:ZySec-AI/harmful_behaviors",
+          "arxiv:2204.05149",
+          "arxiv:2405.16406",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "rbc33/Qwen2.5-1.5B-Abliterated",
+        "downloads": 18,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "123yaroslav/Qwen2.5-0.5B-Instruct-abliterated-ru",
+        "downloads": 17,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1976163472,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Daniil-Domino/Vikhr-Llama-3.2-1B-Instruct-abliterated",
+        "downloads": 17,
+        "num_params": 1498482688,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2996982200,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "oskarraszkiewicz/gemma-3-1b-it-abliterated-mlx",
+        "downloads": 16,
+        "num_params": 1301875840,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 2603790719,
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma3_text",
+          "chat",
+          "abliterated",
+          "uncensored",
+          "text-generation",
+          "conversational",
+          "license:gemma",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "stepenZEN/Qwen2.5-0.5B-abliterated",
+        "downloads": 16,
+        "num_params": 630167424,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1260367448,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "en",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "brianmatzelle/llama3.2-3b-instruct-hasanpiker-abliterated",
+        "downloads": 15,
+        "num_params": 3212749824,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 6425529048,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "text-generation-inference",
+          "unsloth",
+          "trl",
+          "sft",
+          "conversational",
+          "en",
+          "base_model:huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+          "base_model:finetune:huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "aizerocoderai/qwen2.5-0.5b-abliterated-v2-ru",
+        "downloads": 14,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097536,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "nktpv/Qwen2.5-1.5B-abliterated",
+        "downloads": 14,
+        "num_params": 630167424,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1260367152,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Syidone1/Qwen2.5-0.5B-Instruct-abliterated",
+        "downloads": 12,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097536,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "masterkristall/Qwen2.5-0.5B-Instruct-abliterated",
+        "downloads": 12,
+        "num_params": 630167424,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1260367152,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "KidIkaros/Llama-3.2-3B-Instruct-abliterated",
+        "downloads": 11,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "en",
+          "arxiv:1910.09700",
+          "base_model:meta-llama/Llama-3.2-3B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Bradarr/Qwen2.5-0.5B-Instruct-abliterated",
+        "downloads": 10,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097536,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "STARSPIKE/Llama-3.2-1B-Instruct-abliterated",
+        "downloads": 10,
+        "num_params": 1498482688,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2996982344,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:meta-llama/Llama-3.2-1B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "caveiro/qwen2.5-0.5b-abliterated-ru",
+        "downloads": 10,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097824,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "rbc33/Llama-3.2-1B-Instruct-Abliterated",
+        "downloads": 10,
+        "num_params": 1498482688,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 2996982344,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "sludgefest/Llama-3.2-3B-Instruct-Abliterated",
+        "downloads": 10,
+        "num_params": 3212749824,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 11510364808,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "BlackHillsInformationSecurity/Llama-3.2-3B-Instruct-abliterated",
+        "downloads": 9,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:meta-llama/Llama-3.2-3B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Giks/Qwen2.5-1.5B-Instruct-Abliterated",
+        "downloads": 9,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214752,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Novaciano/Gemma3-ToxiCity_Uncensored-1B",
+        "downloads": 9,
+        "num_params": 1301875840,
+        "architectures": [
+          "Gemma3ForCausalLM"
+        ],
+        "total_size_bytes": 2603790624,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma3_text",
+          "text-generation",
+          "mergekit",
+          "merge",
+          "base_model:Novaciano/Gemma3-UNCENSORED-1B",
+          "base_model:merge:Novaciano/Gemma3-UNCENSORED-1B",
+          "base_model:uiyunkim-hub/gemma-3-1b-it-toxicity",
+          "base_model:merge:uiyunkim-hub/gemma-3-1b-it-toxicity",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "jtatman/llama3.2-1b-5x-MoE-uncensored-code-reason-tool-agent",
+        "downloads": 9,
+        "num_params": 3651864576,
+        "architectures": [
+          "MixtralForCausalLM"
+        ],
+        "total_size_bytes": 7303767104,
+        "tags": [
+          "safetensors",
+          "mixtral",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "vladsn/qwen2.5-1.5B-abliterated",
+        "downloads": 9,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214416,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Marsel71/Qwen2.5-1.5B-Instruct-abliterated",
+        "downloads": 8,
+        "num_params": 1777088000,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 3554214416,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Syidone1/Qwen2.5-0.5B-Instruct-abliterated-ru",
+        "downloads": 8,
+        "num_params": 630167424,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1780362824,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "conversational",
+          "arxiv:1910.09700",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "alperiox/Qwen2.5-0.5B-Instruct-arithmetic-abliterated",
+        "downloads": 8,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097824,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "C-Nocturnum/Qwen2.5-Coder-0.5B-abliterated",
+        "downloads": 7,
+        "num_params": 630167424,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 1260367448,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2",
+          "text-generation",
+          "coder",
+          "abliterated",
+          "code",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "Xd-107221098/Llama-3.2-3B-Instruct-abliterated",
+        "downloads": 7,
+        "num_params": 3606752256,
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "total_size_bytes": 7213534088,
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama",
+          "text-generation",
+          "abliterated",
+          "uncensored",
+          "conversational",
+          "base_model:meta-llama/Llama-3.2-3B-Instruct",
+          "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+          "license:llama3.2",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      {
+        "repo_id": "TheProphet92/Qwen2.5-0.5B-Instruct-abliterated",
+        "downloads": 4,
+        "num_params": 494032768,
+        "architectures": [
+          "Qwen2ForCausalLM"
+        ],
+        "total_size_bytes": 988097536,
+        "tags": [
+          "safetensors",
+          "qwen2",
+          "region:us"
+        ]
+      }
+    ]
+  }
+}

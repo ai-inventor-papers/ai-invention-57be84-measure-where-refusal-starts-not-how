@@ -1,0 +1,40 @@
+{
+  "type": "bar",
+  "aspect": "4:3",
+  "title": "Write gain W = dR/d(alpha) by condition, with random-direction control",
+  "xlabel": "Condition",
+  "ylabel": "W (nats per unit of Delta)",
+  "categories": [
+    "base",
+    "instruct",
+    "abliterated"
+  ],
+  "series": [
+    {
+      "label": "refusal direction (self-derived)",
+      "values": [
+        -0.8198032045221469,
+        3.441834745037026,
+        1.25609586409573
+      ],
+      "errors": [
+        0.29722695987409414,
+        1.1921213345486679,
+        0.9599037320428319
+      ]
+    },
+    {
+      "label": "random-direction control",
+      "values": [
+        -0.12358863407071123,
+        1.3679973726997479,
+        2.069529241609726
+      ],
+      "errors": [
+        0.41641311692400307,
+        0.7739456649955243,
+        1.119521839649685
+      ]
+    }
+  ]
+}
