@@ -1,0 +1,217 @@
+{
+  "A_first_token_threat": {
+    "verdict": "STRONG THREAT, not resolved. The exact quantity the proposal reads (first-assistant-token logits) is independently, mechanistically identified across four 2026-era papers as (a) the specific locus of 'shallow safety alignment' that current alignment methods exploit as a shortcut, (b) a weak causal handle even within that shallow regime (the single onset token carries far less causal weight than the first half of the response), (c) unable to distinguish qualitatively different failure trajectories that produce the same final behavioral label, and (d) specifically unreliable for reasoning/CoT models. None of this is fatal to the proposal by itself (a threshold+slope fit to a known-shallow signal can still be informative), but it means a first-token dose-response curve should be validated against, not substituted for, full-generation behavior, and the proposal's own framing ('anchored levels transfer, unanchored don't') does not address this threat at all -- anchoring calibrates the SCALE, not the DEPTH, of the readout.",
+    "papers": [
+      {
+        "id": "2406.05946",
+        "title": "Safety Alignment Should Be Made More Than Just a Few Tokens Deep",
+        "first_author": "Xiangyu Qi",
+        "quote": "safety alignment can take shortcuts, wherein the alignment adapts a model's generative distribution primarily over only its very first few output tokens. We refer to this issue as shallow safety alignment.",
+        "url": "https://arxiv.org/abs/2406.05946",
+        "severity_to_proposal": "MAJOR"
+      },
+      {
+        "id": "2406.05946",
+        "title": "Safety Alignment Should Be Made More Than Just a Few Tokens Deep",
+        "first_author": "Xiangyu Qi",
+        "quote": "we show that deepening the safety alignment beyond just the first few tokens can often meaningfully improve robustness against some common exploits [...] We encourage future safety alignment research to explore various techniques to ensure that safety alignment is more than just a few tokens deep.",
+        "url": "https://arxiv.org/html/2406.05946v1",
+        "severity_to_proposal": "MAJOR"
+      },
+      {
+        "id": "2607.14147",
+        "title": "Breaking Refusal in the First Half: A Mechanistic Study of the Prefill Jailbreak",
+        "first_author": "Alex Kwon",
+        "quote": "restoring the harm signal over the first half of the response recovers refusal as much as the whole response, while the second half recovers almost nothing and the onset token alone only 9%.",
+        "url": "https://arxiv.org/pdf/2607.14147",
+        "severity_to_proposal": "FATAL"
+      },
+      {
+        "id": "2607.14147",
+        "title": "Breaking Refusal in the First Half: A Mechanistic Study of the Prefill Jailbreak",
+        "first_author": "Alex Kwon",
+        "quote": "the model builds a full-strength harm representation on the flipped prompts (probe 0.91-0.98, as high as on the ones it refuses) while behavioral refusal drops to chance ... Refusal is therefore a shallow, response-site computation.",
+        "url": "https://arxiv.org/pdf/2607.14147",
+        "severity_to_proposal": "MAJOR"
+      },
+      {
+        "id": "2605.29629",
+        "title": "Beyond Attack Success Rate: Temporal Logit Observability for LLM Safety Failures",
+        "first_author": "Junyoung Park",
+        "quote": "The same ASR-success label can hide three fundamentally different processes: refusal evidence may have appeared briefly and been suppressed; refusal may have emerged but too late to matter; or refusal may never have been triggered at all.",
+        "url": "https://arxiv.org/html/2605.29629",
+        "severity_to_proposal": "MAJOR"
+      },
+      {
+        "id": "2609.18471",
+        "title": "First Token Matters: Understanding Safety Collapse in Large Reasoning Models",
+        "first_author": "Yizheng Yang",
+        "quote": "while the refusal projection strength of LRMs remains aligned with that of IT models during the prompt encoding phase, it drops sharply at the first generated token ... we term Onset Refusal Collapse (ORC).",
+        "url": "https://arxiv.org/pdf/2609.18471v1",
+        "severity_to_proposal": "MAJOR"
+      }
+    ],
+    "queries_run": [
+      "Safety Alignment Should Be Made More Than Just a Few Tokens Deep",
+      "first token logit does not predict generation compliance refusal LLM",
+      "prefilling attack refusal first token unreliable jailbreak",
+      "model reverses course self-correct after compliant prefix refusal mid-generation",
+      "deep alignment recovers refusal after harmful prefix later tokens",
+      "graded harm severity dose axis first token logit safety score no generation LLM",
+      "logit lens refusal probability harmfulness continuum benign to harmful scale calibration"
+    ]
+  },
+  "B_censoring": {
+    "expected_censoring": "Searched directly for any LLM paper that fits a dose-response/Hill/logistic curve to graded harmful prompts and reports the fraction of models/conditions that censor (all-refuse or all-comply, no 50% crossing); found no such report. This appears to be an open gap in the LLM-safety literature specifically -- the censoring problem is well-documented in psychometrics/pharmacology (see below) but nobody has yet quantified it for LLM dose-response safety curves.",
+    "remedies": [
+      {
+        "name": "Turnbull (1976) NPMLE / self-consistency algorithm for interval- and right-censored data",
+        "source_url": "https://ms.uky.edu/~mai/splus/IcensEM.pdf",
+        "quote": "In this work we describe and illustrate the iterative procedure proposed by Turnbull (1976) to estimate such [survival] function ... it is known for the individuals that are right censored that the event of interest did not occur until the last visit but it can happen at any time from that moment on."
+      },
+      {
+        "name": "Firth (1993) penalized likelihood / bias-reduced logistic regression",
+        "source_url": "https://statisticalhorizons.com/logistic-regression-for-rare-events/",
+        "quote": "penalized likelihood also has the attraction of producing finite, consistent estimates of regression parameters when the maximum likelihood estimates do not even exist because of complete or quasi-complete separation."
+      },
+      {
+        "name": "Hierarchical Bayesian partial pooling across items/models",
+        "source_url": "https://cran.r-project.org/web/packages/rstanarm/vignettes/pooling.html",
+        "quote": "partial pooling, where the similarity among the units is estimated ... [shrinks] each group's estimate ... by an amount that depends on how much data that group actually has and how much groups genuinely differ."
+      }
+    ],
+    "min_dose_levels": {
+      "answer": "No single 'minimum' number is agreed; two different, both citable, benchmarks exist and neither maps cleanly onto a 15-forward-pass, 2-anchor design: (1) the classical LOCALLY D-OPTIMAL design for a 2-parameter logistic model concentrates all weight at exactly 2 dose points (at standardized logit +/-1.5434) -- a theoretical minimum, but it is a LOCAL optimum that requires already knowing the true threshold/slope to place the 2 points correctly, so it is fragile precisely when threshold+slope are unknown a priori. (2) Practical/robust dose-response design guidance recommends many more, non-degenerate levels with replication -- one worked design used 8 central dose levels plus 2 boundary levels (28 total observations with duplicates) specifically to be robust to NOT knowing the true parameters in advance.",
+      "source": "PMC13221392 (Kappenberg et al., 'Simple, robust and near optimal designs for the estimation of log-logistic dose response functions') for the practical-design number; theoretical 2-point D-optimal result via Abdelbasit & Plackett-style logistic D-optimality (surveyed at https://pmc.ncbi.nlm.nih.gov/articles/PMC11147135/ and https://webpages.math.luc.edu/~tobrien/research/modapaper2007.pdf).",
+      "quote": "requiring duplicates would, after rounding, work out to 28 total observations needed, 2 each for the 8 central doses, plus 6 each for the minimum and maximum doses. [...] The resulting design places observations on the two shoulders of the curve, where a small movement in dose changes the response probability, rather than where the curve is flat."
+    },
+    "queries_run": [
+      "ED50 censored dose response logistic estimation no crossing",
+      "right-censored dose response ED50 estimation when all responses at ceiling logistic model",
+      "item response theory ceiling floor effects ability estimation problems",
+      "minimum number of dose levels to identify two-parameter logistic dose-response curve",
+      "D-optimal design two-parameter logistic regression two design points quantiles 17.6% 82.4%",
+      "IRT 2PL model item response theory ceiling effect subject always correct ability unidentifiable",
+      "Turnbull nonparametric maximum likelihood estimator interval censored survival data self-consistency algorithm",
+      "Firth penalized logistic regression separation complete separation small sample bias reduction",
+      "hierarchical Bayesian partial pooling multilevel logistic model across items ceiling floor LLM evaluation"
+    ]
+  },
+  "C_transfer_negatives": {
+    "papers": [
+      {
+        "id": "2607.13346",
+        "title": "The Refusal Residue: When Probes Catch Alignment Faking and When They Don't",
+        "url": "https://arxiv.org/html/2607.13346v1",
+        "quote": "Under leakage-free leave-one-query-out probing, detection survives on Llama (AUROC 0.87) but collapses to chance on Qwen (0.43), and cross-model transfer is null.",
+        "note": "Concrete numbers for a hidden-state safety-relevant probe: 0.87 within-model vs 0.43 (chance) on a different model family; the paper separately reports that cross-model Procrustes alignment 'is null under a random-Procrustes baseline.'"
+      },
+      {
+        "id": "2608.02464",
+        "title": "Real-Time Detection and Repair of LLM Agent Failures",
+        "url": "https://arxiv.org/html/2608.02464v1",
+        "quote": "monitors do not transfer across deployments without recalibration: calibrated on qwen2.5:7b and deployed on llama3.1:8b over a matched task, tool and injector plan, the primary monitor sits at chance (AUROC 0.527, healthy FA 0.75), while the same target recalibrated on itself reaches 0.885.",
+        "note": "Direct, numeric cross-family calibration-transfer failure for a safety-adjacent monitor: 0.885 same-model vs 0.527 (chance) cross-family with no recalibration -- this is the exact failure mode the proposal's anchored metric claims to avoid, and sets the size of the effect any 'transfers without recalibration' claim must beat."
+      },
+      {
+        "id": "2606.03280",
+        "title": "A Negative Result on Cross-Model Activation Transfer in a Pythia Multi-Hop Setting",
+        "url": "https://arxiv.org/pdf/2606.03280",
+        "quote": "Replacement-style injection is consistently destructive, and rescaling translated vectors to the receiver hidden-state norm does not rescue performance ... offline representational alignment is not sufficient for useful causal communication inside the receiver.",
+        "note": "Not a safety-calibration paper per se, but a clean general-purpose negative result: high cross-model representational similarity (normalized cosine ~0.97) does NOT imply the representation is causally usable after transfer -- a structural caution for any 'this axis transfers across families' claim."
+      }
+    ],
+    "queries_run": [
+      "calibration does not transfer across model families probe generalization negative result LLM safety",
+      "refusal direction does not transfer across model architectures negative result activation probe",
+      "safety threshold calibrated one model family fails without recalibration different family LLM"
+    ]
+  },
+  "D_existing_competitors": {
+    "hits": [
+      {
+        "id/url": "https://escapements.org/",
+        "title": "escapement -- behavioral safety evaluation for open-weight AI models",
+        "what_it_outputs": "an injection-compliance rate with 95% CI (e.g. '18.46% [10.9, 29.6]') and a letter grade per checkpoint, framed as a PAIRED DELTA against the checkpoint's own base/parent model",
+        "prompts_generations_needed": "40-173 generation trials per model (detector- or judge-scored), per the public register",
+        "needs_parent_model": true,
+        "headline_number": "Qwen3.6-35B-A3B-Uncensored complies with an injected instruction 36.7% of the time vs 18.5% for its own base model"
+      },
+      {
+        "id/url": "arXiv:2502.10487 'Fast Proxies for LLM Robustness Evaluation'",
+        "title": "Fast Proxies for LLM Robustness Evaluation",
+        "what_it_outputs": "a cheap 'direct ASR' (single greedy generation + judge per harmful prompt) shown to predict full red-team-ensemble attack success rate",
+        "prompts_generations_needed": "explicitly studies scaling from small to ~300 prompts, 1 generation per prompt, 'three orders of magnitude' cheaper than the ensemble it predicts",
+        "needs_parent_model": false,
+        "headline_number": "direct prompting achieves rs=0.94 (Spearman), rp=0.87 (Pearson) correlation with the full attack ensemble; explicitly validated ACROSS model families (Gemma2, Mistral, Qwen, Phi3, Llama3, Llama2), not just within one"
+      },
+      {
+        "id/url": "arXiv:2604.01473 'SelfGrader: LLM Jailbreak Detection via Anchored Token-Level Logits'",
+        "title": "SelfGrader: LLM Jailbreak Detection via Anchored Token-Level Logits",
+        "what_it_outputs": "a numeric harmfulness/benignness score per query, read directly off the logits of a small set of numerical tokens (0-9), calibrated to a safety rubric via PAC-guided in-context 'anchor' examples",
+        "prompts_generations_needed": "no generation decoding required -- reads logits from a single forward pass per query, but needs an ICL anchor-example prompt constructed per rubric",
+        "needs_parent_model": false,
+        "headline_number": "not a cross-family threshold/slope metric -- it is a per-query score; framing ('anchored ... logits', 'stable and interpretable score') is very close in spirit to the proposal's anchoring idea, applied to jailbreak detection rather than a benign->harmful dose axis"
+      },
+      {
+        "id/url": "arXiv:2608.10621 'ProbGuard: Calibrated Safety Risk Estimation from LLM Output Distributions'",
+        "title": "ProbGuard: Calibrated Safety Risk Estimation from LLM Output Distributions",
+        "what_it_outputs": "a calibrated probability that the continued generation will be unsafe, estimated from the LLM's own early (first ~10 decoding steps) output-distribution signals, without accessing hidden states",
+        "prompts_generations_needed": "training requires Monte Carlo-sampled completions to build calibration targets; at deployment it reads only the first 10 decoding steps' distributions, no full generation needed",
+        "needs_parent_model": false,
+        "headline_number": "'the first completely probabilistic architecture-agnostic guardrail' -- reduces average Brier score and ECE by 79.6% and 71.9% over the best baseline across three LLM families and three safety datasets; limits attack success rate to at most 1% across six jailbreak attacks"
+      },
+      {
+        "id/url": "arXiv:2609.18471 'First Token Matters: Understanding Safety Collapse in Large Reasoning Models'",
+        "title": "First Token Matters: Understanding Safety Collapse in Large Reasoning Models",
+        "what_it_outputs": "not a safety-scoring deliverable -- a diagnosis (Onset Refusal Collapse) plus SafeToken, a single-token-embedding inference-time fix",
+        "prompts_generations_needed": "n/a",
+        "needs_parent_model": "uses the model's own instruction-tuned counterpart as a reference for refusal-vector projection",
+        "headline_number": "n/a -- included because it independently confirms first-generated-token logits are already a heavily studied quantity in exactly this space"
+      }
+    ],
+    "verdict": "The proposal's EXACT recipe (two fixed benign/harmful anchor sentences -> single first-token logit read -> Hill-curve ED50/slope fit, no parent, no labels, no generations, ~15 forward passes) was not found verbatim anywhere searched. But the surrounding design space is NOT empty: (1) SelfGrader already does 'anchored...logit' safety scoring per query via ICL anchors, just for per-query jailbreak detection rather than a model-level dose axis; (2) ProbGuard already claims and empirically demonstrates architecture-agnostic, cross-family calibrated safety-risk estimation from early output distributions, with large (79.6%/71.9%) reported calibration gains -- a stronger validated cross-family generalization result than the proposal has yet produced; (3) Fast Proxies for LLM Robustness Evaluation already validates a cheap (single-generation) safety proxy's rank correlation with expensive red-teaming ACROSS model families (rs=0.94) with no parent model; (4) escapement is a live, deployed 'cheap-ish safety score for arbitrary open-weight HF checkpoints' product, though it needs a parent/base model and real generations. SAY PLAINLY: nothing found does the proposal's precise anchored-dose-axis-plus-Hill-slope construction, but each of its three central selling points -- (a) anchoring logits against fixed references, (b) cheap/no-generation safety signal, (c) cross-family generalization -- already has a separate, published, numerically-validated existence proof, which raises the bar for what the combination needs to demonstrate over any one of them alone.",
+    "queries_run": [
+      "lightweight safety evaluation open weight models few prompts no generations rapid triage checkpoint",
+      "predict full safety benchmark score from few items cheap proxy correlation LLM",
+      "HarmBench OR SafetyBench cheap correlation proxy few generations predict jailbreak robustness",
+      "graded harm severity dose axis first token logit safety score no generation LLM",
+      "logit lens refusal probability harmfulness continuum benign to harmful scale calibration"
+    ]
+  },
+  "design_changes_implied": [
+    "Add an explicit per-condition censoring detector (all-refuse / all-comply at every rung) and report the censored fraction by family/model rather than force-fitting an ED50 in those cases; use a Turnbull-style interval-censored NPMLE or report a one-sided bound instead of a point ED50 when censored.",
+    "Fit the Hill curve with Firth-penalized (bias-reduced) logistic likelihood, or a hierarchical/partially-pooled Bayesian model across families, rather than plain MLE, given the small number of dose rungs (~15 forward passes) and the near-certainty of quasi-separation at some rungs.",
+    "Justify the number and spacing of dose levels explicitly: the 2-point locally D-optimal design assumes the threshold/slope are already known (they are not, here), so use a wider, more robust set of rungs (the dose-response literature's practical designs use ~8-10 central levels plus boundary levels) rather than relying on the theoretical 2-point minimum.",
+    "Do not treat the first-assistant-token logit as a ground-truth safety readout on its own: validate it against full-generation judged outcomes and, per the prefill-jailbreak mechanistic literature, against a first-half-of-response window (the onset token alone was shown to carry only ~9% of the causal effect that the first half of the response carries) -- report the attenuation explicitly.",
+    "Explicitly exclude or separately stress-test reasoning/chain-of-thought models (e.g. Qwen3-style thinking blocks): the first-generated-token refusal signal is independently reported to collapse specifically at the reasoning-onset token for LRMs, which is exactly the token this method reads.",
+    "Pre-register a check for the specific failure the field already worries about (self-correction / late refusal / suppressed-then-recovered refusal) so a favorable (ED50, slope) reading is not mistaken for robustness to prefill or adversarial-suffix attacks, which are documented to defeat first-few-token safety signals specifically.",
+    "Set the cross-family 'transfers without recalibration' bar against the documented size of calibration-transfer failure elsewhere (AUROC 0.87->0.43 in one probe study, 0.885->0.527 in one monitor study) and report per-family calibration curves, not only a pooled correlation, so a reviewer can see whether anchoring genuinely closes a gap of that size.",
+    "Add SelfGrader (anchored-logit query scoring), ProbGuard (architecture-agnostic distributional-logit calibration, cross-family Brier/ECE gains), and Fast Proxies for LLM Robustness Evaluation (cross-family rank-correlated single-generation ASR proxy) to related work and state precisely what differs from each, since each already has a numerically validated claim on one of the proposal's three selling points (anchoring, cheapness, cross-family transfer)."
+  ],
+  "sources": [
+    {"url": "https://arxiv.org/abs/2406.05946", "note": "Qi et al., Safety Alignment Should Be Made More Than Just a Few Tokens Deep -- verified title/authors/abstract"},
+    {"url": "https://arxiv.org/html/2406.05946v1", "note": "full text used for shallow-alignment and data-augmentation-recovery quotes"},
+    {"url": "https://arxiv.org/pdf/2607.14147", "note": "Kwon, Breaking Refusal in the First Half -- onset-token vs first-half causal weight numbers"},
+    {"url": "https://arxiv.org/html/2605.29629", "note": "Park et al., Beyond Attack Success Rate: Temporal Logit Observability -- same-label-different-trajectory quote"},
+    {"url": "https://arxiv.org/pdf/2609.18471v1", "note": "Yang et al., First Token Matters: Onset Refusal Collapse in reasoning models"},
+    {"url": "https://arxiv.org/html/2607.13346v1", "note": "The Refusal Residue -- 0.87 (Llama) vs 0.43 (Qwen) cross-model probe AUROC, null transfer"},
+    {"url": "https://arxiv.org/html/2608.02464v1", "note": "Real-Time Detection and Repair of LLM Agent Failures -- 0.885 same-model vs 0.527 chance cross-family monitor calibration"},
+    {"url": "https://arxiv.org/pdf/2606.03280", "note": "Negative Result on Cross-Model Activation Transfer in a Pythia Multi-Hop Setting"},
+    {"url": "https://ms.uky.edu/~mai/splus/IcensEM.pdf", "note": "Turnbull NPMLE explainer for interval/right-censored data"},
+    {"url": "https://statisticalhorizons.com/logistic-regression-for-rare-events/", "note": "Firth penalized-likelihood quote re complete/quasi-complete separation"},
+    {"url": "https://cran.r-project.org/web/packages/rstanarm/vignettes/pooling.html", "note": "Hierarchical partial pooling vignette (Carpenter, Gabry, Goodrich)"},
+    {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13221392/", "note": "Kappenberg et al., robust equally-spaced dose-response designs -- 28-observation, 8-central-dose worked example"},
+    {"url": "https://webpages.math.luc.edu/~tobrien/research/modapaper2007.pdf", "note": "2-point D-optimal design for logistic regression, eta = +/-1.5434"},
+    {"url": "https://escapements.org/", "note": "escapement -- live open-weight-model injection-compliance register, paired-delta-to-parent framing"},
+    {"url": "https://arxiv.org/pdf/2502.10487", "note": "Fast Proxies for LLM Robustness Evaluation -- direct ASR cross-family rank correlation rs=0.94"},
+    {"url": "https://arxiv.org/html/2604.01473v3", "note": "SelfGrader -- anchored token-level logit safety scoring via ICL anchors"},
+    {"url": "https://arxiv.org/html/2608.10621v1", "note": "ProbGuard -- architecture-agnostic calibrated safety risk from early output distributions"}
+  ],
+  "unresolved": [
+    "No LLM-specific paper was found reporting the actual fraction of models/conditions that censor when a dose-response/Hill curve is fit to graded harmful prompts -- searched 'ED50 censored dose response', 'ceiling floor effects LLM safety', 'logistic threshold estimation ceiling ability' and found only psychometrics/pharmacology sources, none LLM-safety-specific.",
+    "Could not access PMC10826871 (Firth's penalized logistic regression, National Mental Health Survey) directly -- redirected behind a bot check; substituted statisticalhorizons.com as the citable Firth source instead.",
+    "Could not fully verify whether the classical 2-point D-optimal logistic design result is formally attributable to Abdelbasit & Plackett (1983) by name from a primary source in the time available; the eta=+/-1.5434 result and its interpretation were found via secondary/tertiary sources (PMC11147135, webpages.math.luc.edu) rather than the original paper itself.",
+    "Did not find a single paper that runs the EXACT proposed pipeline (2 fixed anchor sentences, first-token logit, cross-family transfer without recalibration) -- absence reported as 'not found' per the hard rule, not as proof of novelty."
+  ]
+}

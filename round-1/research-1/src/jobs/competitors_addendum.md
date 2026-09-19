@@ -1,0 +1,17 @@
+
+### Competing deliverables, second pass — four more, found by the adversarial sweep
+
+The first table above covers the *parent-dependent audit* competitors. An explicit adversarial search for "a cheap few-prompt safety score for an arbitrary HuggingFace model" surfaced four more, three of them **parent-free**. The exact proposed recipe was **not found** anywhere searched — reported as not-found, not as novelty — but the surrounding space is occupied.
+
+| deliverable | what it outputs | parent? | labels? | generations? | cost | headline number | cross-family? |
+|---|---|---|---|---|---|---|---|
+| **ProbGuard** 2608.10621 [36] | calibrated P(continuation is unsafe) from the first ~10 decoding steps' output distributions, **no hidden states** | **no** | yes — Monte-Carlo-sampled completions to build calibration targets | only the first ~10 steps at deploy | ~10 decoding steps | *"the first completely probabilistic architecture-agnostic guardrail"*; **Brier −79.6%, ECE −71.9%** vs the best baseline; ASR ≤1% across six jailbreaks | **YES — three LLM families, three safety datasets** |
+| **SelfGrader** 2604.01473 [37] | per-query harmfulness score read off the logits of numeric tokens 0–9, calibrated via PAC-guided in-context **anchor** examples | **no** | rubric + ICL anchors | **no** | one forward pass per query | a *"stable and interpretable score"* per query | per-query, not a model-level statistic |
+| **Fast Proxies for LLM Robustness Evaluation** 2502.10487 [38] | a cheap "direct ASR" that predicts full red-team-ensemble ASR | **no** | judge | **yes** — one greedy generation per prompt | ~300 prompts, *"three orders of magnitude"* cheaper than the ensemble | **rs = 0.94 Spearman, rp = 0.87 Pearson** vs the full attack ensemble | **YES — Gemma2, Mistral, Qwen, Phi3, Llama3, Llama2** |
+| **escapement** (escapements.org) [39] | injection-compliance rate + 95% CI + a letter grade per checkpoint, as a **paired delta against the checkpoint's own base** | **YES** | detector/judge | **yes** | 40–173 generation trials per model | e.g. Qwen3.6-35B-A3B-Uncensored 36.7% vs 18.5% for its base | paired within lineage |
+
+**What this changes about the framing.** Three of these four need **no parent model**, so *parent-freeness alone is no longer a sufficient differentiator* — Hurtado's parent dependency remains a real differentiator against *him*, but not against the field. The surviving differentiators, stated precisely:
+- **against ProbGuard:** it already owns cross-family *calibration*. Our claim must be **model-level (ED50, slope) with zero generations and no calibration set fitted on any model** — ProbGuard fits calibration targets from Monte-Carlo completions.
+- **against SelfGrader:** it already owns *anchored token-level logits* almost by that name. Our claim must be **model-level, not per-query**, and **input-space anchors held fixed across all models** rather than rubric-specific ICL anchors.
+- **against Fast Proxies:** it already demonstrates a cheap cross-family safety proxy at **rs = 0.94**. Our claim can only be **no generations and no judge** — an access-and-cost claim, not an ability claim. **This is the honest bar for "few prompts, good safety estimate", and it is already met by a published method.** The paper must say so.
+- **against escapement:** it is parent- and generation-dependent, so it sits on the far side of the requirement profile — but it is what a platform runs *today*, and a paper proposing a platform screen should cite it.
