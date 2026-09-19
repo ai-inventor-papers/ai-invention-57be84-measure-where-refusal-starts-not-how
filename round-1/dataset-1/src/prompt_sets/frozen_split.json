@@ -1,0 +1,63 @@
+{
+ "metadata_fold": {
+  "seed": 20260919,
+  "n_families": 13,
+  "n_held_out": 3,
+  "draw": "single seeded random.Random(SEED).shuffle over families, Qwen3 pinned to SCREEN",
+  "pinned_to_screen": "Qwen3",
+  "pinned_reason": "the 3-checkpoint feasibility gate and the layer-wise mechanism figure both run on the Qwen3 triad, so it cannot be held out",
+  "rule": "HELD_OUT families are not loaded in iteration 1 under any circumstance",
+  "shuffled_order_recorded": [
+   "Llama-3.2",
+   "Gemma-3",
+   "Qwen2.5",
+   "LFM2",
+   "Gemma-2",
+   "SmolLM2"
+  ],
+  "eligibility_rule": "only families whose base/instruct/abliterated rows are all usable_for_forward_pass are eligible for HELD_OUT",
+  "complete_triad_families": [
+   "Gemma-2",
+   "Gemma-3",
+   "LFM2",
+   "Llama-3.2",
+   "Qwen2.5",
+   "Qwen3",
+   "SmolLM2"
+  ]
+ },
+ "assignment": {
+  "SCREEN": [
+   "EXAONE-3.5",
+   "Falcon3",
+   "Gemma-2",
+   "Granite-3.x",
+   "LFM2",
+   "OLMo-2",
+   "Qwen3",
+   "SmolLM2",
+   "StableLM-2",
+   "TinyLlama"
+  ],
+  "HELD_OUT": [
+   "Gemma-3",
+   "Llama-3.2",
+   "Qwen2.5"
+  ]
+ },
+ "per_family": {
+  "EXAONE-3.5": "SCREEN",
+  "Falcon3": "SCREEN",
+  "Gemma-2": "SCREEN",
+  "Gemma-3": "HELD_OUT",
+  "Granite-3.x": "SCREEN",
+  "LFM2": "SCREEN",
+  "Llama-3.2": "HELD_OUT",
+  "OLMo-2": "SCREEN",
+  "Qwen2.5": "HELD_OUT",
+  "Qwen3": "SCREEN",
+  "SmolLM2": "SCREEN",
+  "StableLM-2": "SCREEN",
+  "TinyLlama": "SCREEN"
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "metadata": {
+  "built_utc": "2026-09-19T01:57:11.027839+00:00",
+  "hf_api_version": "1.32.0",
+  "n_families": 13,
+  "n_checkpoints": 39,
+  "n_available": 36,
+  "n_availability_ok": 36,
+  "seed_note": "Registry rows are a hand-curated, HF-Hub-search-verified list of small instruction-tuned model families x {base, instruct, abliterated} conditions; every field on an available row is a live HfApi().mo... [+156 chars]",
+  "n_usable_for_forward_pass": 32,
+  "n_gated_blocking": 0,
+  "enrichment_note": "gated_blocking / min_load_bytes / usable_for_forward_pass added by enrich_registry.py; gated_blocking is a real config.json fetch, not the `gated` metadata flag"
+ },
+ "checkpoints": [
+  {
+   "repo_id": "Qwen/Qwen3-1.7B-Base",
+   "family": "Qwen3",
+   "condition": "base",
+   "org": "Qwen",
+   "available": true,
+   "missing_reason": null,
+   "availability_ok": true,
+   "parameter_count": 1720574976,
+   "parameter_count_source": "safetensors_metadata",
+   "architectures": [
+    "Qwen3ForCausalLM"
+   ],
+   "num_hidden_layers": 28,
+   "hidden_size": 2048,
+   "file_formats": [
+    ".json",
+    ".md",
+    ".safetensors",
+    ".txt"
+   ],
+   "total_download_size_bytes": 3452692285,
+   "quantisation": "none (full precision)",
+   "license": "apache-2.0",
+   "downloads": 1557776,
+   "likes": 79,
+   "last_modified": "2025-07-26 03:50:48+00:00",
+   "sha": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+   "gated": false,
+   "card_text": "---\nlicense: apache-2.0\nlibrary_name: transformers\n---\n# Qwen3-1.7B-Base\n\n## Qwen3 Highlights\n\nQwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of... [+2730 chars]",
+   "card_sha256": "579b9d7052fa567f439114f01feceed2b06f47d830d06c8ac829f389fd2e39a4",
+   "card_fetched_utc": "2026-09-19T01:57:09.194373+00:00",
+   "parent_repo_declared": null,
+   "parent_evidence_quote": null,
+   "parent_declared_null_reason": "not applicable: condition != abliterated",
+   "fetch_error": null,
+   "gated_blocking": false,
+   "gated_probe_error": null,
+   "min_load_bytes": 3452676482,
+   "usable_for_forward_pass": true,
+   "primary_weight_files": [
+    "model.safetensors"
+   ],
+   "quantisation_verified": "none (full precision primary weights)",
+   "parent_repo_inferred_instruct": null,
+   "parent_declared_matches_inferred": null
+  },
+  {
+   "repo_id": "Qwen/Qwen3-1.7B",
+   "family": "Qwen3",
+   "condition": "instruct",
+   "org": "Qwen",
+   "available": true,
+   "missing_reason": null,
+   "availability_ok": true,
+   "parameter_count": 2031739904,
+   "parameter_count_source": "safetensors_metadata",
+   "architectures": [
+    "Qwen3ForCausalLM"
+   ],
+   "num_hidden_layers": 28,
+   "hidden_size": 2048,
+   "file_formats": [
+    ".json",
+    ".md",
+    ".safetensors",
+    ".txt"
+   ],
+   "total_download_size_bytes": 4079450110,
+   "quantisation": "none (full precision)",
+   "license": "apache-2.0",
+   "downloads": 3756550,
+   "likes": 548,
+   "last_modified": "2025-07-26 03:46:32+00:00",
+   "sha": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+   "gated": false,
+   "card_text": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3-1.7B/blob/main/LICENSE\npipeline_tag: text-generation\nbase_model:\n- Qwen/Qwen3-1.7B-Base\n---\n\n# Qwen3-... [+13763 chars]",
+   "card_sha256": "257e52c419dac2258852643f18af6c974f21f8c6c1b6f371b6cca6201cf29091",
+   "card_fetched_utc": "2026-09-19T01:57:09.196088+00:00",
+   "parent_repo_declared": null,
+   "parent_evidence_quote": null,
+   "parent_declared_null_reason": "not applicable: condition != abliterated",
+   "fetch_error": null,
+   "gated_blocking": false,
+   "gated_probe_error": null,
+   "min_load_bytes": 4079397629,
+   "usable_for_forward_pass": true,
+   "primary_weight_files": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors"
+   ],
+   "quantisation_verified": "none (full precision primary weights)",
+   "parent_repo_inferred_instruct": null,
+   "parent_declared_matches_inferred": null
+  },
+  {
+   "repo_id": "mlabonne/Qwen3-1.7B-abliterated",
+   "family": "Qwen3",
+   "condition": "abliterated",
+   "org": "mlabonne",
+   "available": true,
+   "missing_reason": null,
+   "availability_ok": true,
+   "parameter_count": 1720574976,
+   "parameter_count_source": "safetensors_metadata",
+   "architectures": [
+    "Qwen3ForCausalLM"
+   ],
+   "num_hidden_layers": 28,
+   "hidden_size": 2048,
+   "file_formats": [
+    ".json",
+    ".md",
+    ".safetensors",
+    ".txt"
+   ],
+   "total_download_size_bytes": 10339433785,
+   "quantisation": "none (full precision)",
+   "license": "apache-2.0",
+   "downloads": 626,
+   "likes": 15,
+   "last_modified": "2025-05-18 17:25:47+00:00",
+   "sha": "62f9c246cf426703a08183aa883a0d8149984bb0",
+   "gated": false,
+   "card_text": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3-1.7B/blob/main/LICENSE\npipeline_tag: text-generation\nbase_model:\n- Qwen/Qwen3-1.7B\ntags:\n- abliterati... [+2289 chars]",
+   "card_sha256": "84192e1fd187d7598a534187e6008f4b859c65c31d830de939db809db52e557d",
+   "card_fetched_utc": "2026-09-19T01:57:09.181467+00:00",
+   "parent_repo_declared": "Qwen/Qwen3-1.7B",
+   "parent_evidence_quote": "Qwen/Qwen3-1.7B",
+   "parent_declared_null_reason": null,
+   "fetch_error": null,
+   "gated_blocking": false,
+   "gated_probe_error": null,
+   "min_load_bytes": 10339403455,
+   "usable_for_forward_pass": true,
+   "primary_weight_files": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors",
+    "model.safetensors"
+   ],
+   "quantisation_verified": "none (full precision primary weights)",
+   "parent_repo_inferred_instruct": "Qwen/Qwen3-1.7B",
+   "parent_declared_matches_inferred": true
+  }
+ ]
+}

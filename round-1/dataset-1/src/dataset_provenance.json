@@ -1,0 +1,351 @@
+{
+  "verified_on": "2026-09-19",
+  "gated_hf_repos_confirmed_unusable": {
+    "walledai/AdvBench": "gated=auto, 13019 downloads (verified via HF API https://huggingface.co/api/datasets/walledai/AdvBench)",
+    "walledai/StrongREJECT": "gated=auto, 3577 downloads",
+    "walledai/HarmBench": "gated=auto, 6601 downloads",
+    "walledai/XSTest": "gated=auto, 6775 downloads",
+    "sorry-bench/sorry-bench-202503": "gated=auto, 1387 downloads, 23 likes",
+    "sorry-bench/sorry-bench-202406": "gated=auto, 755 downloads, 22 likes",
+    "allenai/wildguardmix": "gated=auto, 11619 downloads",
+    "allenai/wildjailbreak": "gated=auto, 7058 downloads",
+    "allenai/xstest-response": "gated=auto, 515 downloads",
+    "walledai/SGXSTest": "gated=auto, 81 downloads, 3 likes",
+    "walledai/HiXSTest": "gated=auto, 118 downloads, 1 like"
+  },
+  "datasets": [
+    {
+      "name": "AdvBench",
+      "paper": {"title": "Universal and Transferable Adversarial Attacks on Aligned Language Models", "authors": "Zou, Wang, Kolter, Fredrikson", "venue": "arXiv preprint (GCG paper)", "arxiv": "2307.15043"},
+      "contents": {
+        "harmful_behaviors.csv": {"n_verified": 520, "fields": ["goal", "target"], "note": "goal = harmful instruction, target = expected affirmative model prefix"},
+        "harmful_strings.csv": {"n_verified": 574, "fields": ["target"], "note": "single-column harmful strings the model should not reproduce verbatim"}
+      },
+      "license": "MIT (verified at https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/LICENSE, Copyright 2023 Andy Zou)",
+      "ungated_route": {
+        "type": "raw GitHub URL (fetched and confirmed)",
+        "urls": [
+          "https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/data/advbench/harmful_behaviors.csv",
+          "https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/data/advbench/harmful_strings.csv"
+        ]
+      },
+      "hf_mirror": "not available (Zou et al. never published an official HF dataset; only the gated walledai/AdvBench mirror and various unofficial community reuploads exist)",
+      "citing_paper_example": "A Hitchhiker's Guide to Jailbreaking ChatGPT via Prompt Engineering, doi:10.1145/3663530.3665021, 2024, cited by 101 (via OpenAlex citation search)",
+      "red_flags": "No official HF card/downloads exist for the canonical release; verify any HF mirror's fidelity against the GitHub raw file."
+    },
+    {
+      "name": "StrongREJECT",
+      "paper": {"title": "A StrongREJECT for Empty Jailbreaks", "authors": "Souly, Lu, Bowen, Trinh, Hsieh, Pandey, Abbeel, Svegliato, Emmons, Watkins, Toyer", "venue": "arXiv preprint / NeurIPS 2024 D&B", "arxiv": "2402.10260"},
+      "contents": {
+        "strongreject_dataset.csv": {"n_verified": 313, "fields": ["category", "source", "forbidden_prompt"], "categories_verified": {"Non-violent crimes": 59, "Violence": 54, "Disinformation and deception": 50, "Hate, harassment and discrimination": 50, "Illegal goods and services": 50, "Sexual content": 50}, "sources": {"custom": 221, "DAN": 35, "AdvBench": 25, "MaliciousInstruct": 12, "HarmfulQ": 11, "Jailbreaking via Prompt Engineering": 3, "OpenAI System Card": 3, "MasterKey": 3}},
+        "strongreject_small_dataset.csv": {"n_verified": 60, "note": "stratified 60-item subset for cheap iteration"}
+      },
+      "license": "MIT (verified at https://raw.githubusercontent.com/alexandrasouly/strongreject/main/LICENSE)",
+      "ungated_route": {
+        "type": "raw GitHub URL (fetched and confirmed)",
+        "urls": [
+          "https://raw.githubusercontent.com/alexandrasouly/strongreject/main/strongreject_dataset/strongreject_dataset.csv",
+          "https://raw.githubusercontent.com/alexandrasouly/strongreject/main/strongreject_dataset/strongreject_small_dataset.csv"
+        ],
+        "note": "original repo alexandrasouly/strongreject is DEPRECATED in favour of dsbowen/strong_reject (pip-installable 'strong_reject' package), which re-hosts the same CSVs plus a Python API"
+      },
+      "judge_rubric_prompt_verbatim": "See dataset_provenance.md section 'StrongREJECT judge rubric (verbatim)' -- fetched from https://raw.githubusercontent.com/alexandrasouly/strongreject/main/strongreject/strongreject_evaluator_prompt.txt",
+      "hf_mirror": "not available (per SafetyPrompts.com catalogue row: access_hf_url = 'not available')",
+      "citing_paper_example": "OpenAI o1 System Card, arXiv:2412.16720, 2024, cited by 44",
+      "red_flags": "none beyond no HF mirror; small n (313) means per-category CIs will be wide"
+    },
+    {
+      "name": "HarmBench",
+      "paper": {"title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal", "authors": "Mazeika, Phan, Yin, Zou, Wang, Mu, Sakhaee, Li, Basart, Li, Forsyth, Hendrycks", "venue": "arXiv preprint / ICML 2024", "arxiv": "2402.04249"},
+      "contents": {
+        "harmbench_behaviors_text_all.csv": {"n_verified": 400, "fields": ["Behavior", "FunctionalCategory", "SemanticCategory", "Tags", "ContextString", "BehaviorID"],
+          "functional_category_breakdown_verified": {"standard": 200, "copyright": 100, "contextual": 100},
+          "semantic_category_breakdown_verified": {"copyright": 100, "cybercrime_intrusion": 67, "illegal": 65, "misinformation_disinformation": 65, "chemical_biological": 56, "harassment_bullying": 25, "harmful": 22},
+          "note": "there is also harmbench_behaviors_multimodal_all.csv (110 multimodal prompts) and _test/_val splits, not included in the 400 count above"
+        }
+      },
+      "license": "MIT (verified at https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/LICENSE)",
+      "ungated_route": {
+        "type": "raw GitHub URL (fetched and confirmed)",
+        "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/data/behavior_datasets/harmbench_behaviors_text_all.csv"
+      },
+      "hf_mirror": "not available officially (only gated walledai/HarmBench)",
+      "citing_paper_example": "A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models, ACL Findings 2024, cited by 54",
+      "red_flags": "no official HF mirror"
+    },
+    {
+      "name": "XSTest",
+      "paper": {"title": "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models", "authors": "Röttger, Kirk, Vidgen, Attanasio, Bianchi, Hovy", "venue": "NAACL 2024", "url": "https://aclanthology.org/2024.naacl-long.301/"},
+      "contents": {
+        "xstest_prompts.csv": {"n_verified": 450, "fields": ["id", "prompt", "type", "label", "focus", "note"], "label_breakdown_verified": {"safe": 250, "unsafe": 200}, "types_verified_count": 18, "note": "v2 (the 'file is called xstest_prompts.csv on GitHub, not xstest_v2_prompts.csv -- that exact filename returns 404)"}
+      },
+      "license": "CC BY 4.0 (per SafetyPrompts.com catalogue entry, sourced from paper)",
+      "ungated_route": {
+        "type": "raw GitHub URL (fetched and confirmed)",
+        "url": "https://raw.githubusercontent.com/paul-rottger/xstest/main/xstest_prompts.csv",
+        "alt_hf_mirrors_ungated": ["natolambert/xstest-v2-copy (gated=False, 4748 downloads, 7 likes -- verified via HF API)", "Paul/XSTest (gated=False, 4487 downloads, 5 likes -- verified via HF API)"]
+      },
+      "citing_paper_example": "Steering Language Model Refusal with Sparse Autoencoders, arXiv:2411.11296, 2024 (via OpenAlex citation search)",
+      "red_flags": "none; Paul/XSTest has only 5 likes but 4487 downloads, plausible usage"
+    },
+    {
+      "name": "SORRY-Bench",
+      "paper": {"title": "SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal", "authors": "Xie, Qi, Zeng, Huang, Sehwag, Huang, He, Wei, Li, Sheng, Jia, Li, Chen, Henderson, Mittal", "venue": "ICLR 2025", "arxiv": "2406.14598"},
+      "contents": {
+        "base_dataset_202406": {"n_verified": 450, "fields": ["category", "prompt"], "n_categories_verified": 45, "note": "the SillyTilly reupload confirms 450 prompts across categories 1-45 (10 prompts/category); this is the ORIGINAL 202406 taxonomy"},
+        "linguistic_mutations": {"n_files_verified": 20, "files": ["question_ascii.jsonl","question_atbash.jsonl","question_authority_endorsement.jsonl","question_caesar.jsonl","question_evidence-based_persuasion.jsonl","question_expert_endorsement.jsonl","question_logical_appeal.jsonl","question_misrepresentation.jsonl","question_misspellings.jsonl","question_morse.jsonl","question_question.jsonl","question_role_play.jsonl","question_slang.jsonl","question_technical_terms.jsonl","question_translate-fr.jsonl","question_translate-ml.jsonl","question_translate-mr.jsonl","question_translate-ta.jsonl","question_translate-zh-cn.jsonl","question_uncommon_dialects.jsonl"]},
+        "note_on_202503_version": "the current official taxonomy (per GitHub README, verified) uses 44 categories (removed 'Impersonation' from the original 45), giving 440 base prompts; the gated sorry-bench/sorry-bench-202503 HF repo hosts this version; we could NOT find an ungated mirror of the exact 202503/440-prompt version"
+      },
+      "license": "original GitHub/HF card states 'other / sorry-bench custom license'; the SillyTilly reupload's HF card carries NO license tag at all (unspecified) -- treat as inherited from upstream custom license, do not assume permissive redistribution rights beyond research use",
+      "ungated_route": {
+        "type": "ungated HF repo id (verified via HF API, gated=False)",
+        "hf_id": "SillyTilly/SorryBench",
+        "hf_files": ["sorry_bench_202406.csv", "question.jsonl", "question_ascii.jsonl", "...19 more mutation jsonl files..."],
+        "note": "this is an UNOFFICIAL third-party reupload, downloads=430, likes=1, and its HF card tag list contains an inappropriate string ('safety is gay') -- low-quality/unmaintained mirror, use with caution and re-verify row-for-row against the gated original if provenance matters"
+      },
+      "citing_paper_example": "AdverIntent-Agent: Adversarial Reasoning for Repair Based on Inferred Program Intent, ACM TOSEM, 2025, cited by 7",
+      "red_flags": "ONLY ungated route found is an unofficial low-engagement reupload (430 downloads, 1 like, missing license tag, unprofessional tag). The official 440-prompt 202503 version has NO ungated route found."
+    },
+    {
+      "name": "OR-Bench",
+      "paper": {"title": "OR-Bench: An Over-Refusal Benchmark for Large Language Models", "authors": "Cui, Chern, Kot, Zhang, Liu", "venue": "arXiv preprint", "arxiv": "2405.20947"},
+      "contents": {"configs": ["or-bench-80k (~80,000 prompts)", "or-bench-hard-1k (1,000 prompts)", "or-bench-toxic (~600 prompts)"], "fields": ["prompt", "category"], "n_categories": 10},
+      "license": "CC BY 4.0 (verified via HF API dataset tags)",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False)", "hf_id": "bench-llm/or-bench", "downloads_verified": 8936, "likes_verified": 22},
+      "github_mirror": "https://github.com/justincui03/or-bench",
+      "citing_paper_example": "PIGuard: Prompt Injection Guardrail via Mitigating Overdefense for Free, ACL 2025, cited by 9",
+      "red_flags": "none"
+    },
+    {
+      "name": "JBB-Behaviors (JailbreakBench)",
+      "paper": {"title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models", "authors": "Chao, Debenedetti, Robey, Andriushchenko, Croce, Sehwag, Dobriban, Flammarion, Pappas, Tramer, Hassani, Wong", "venue": "NeurIPS 2024 Datasets and Benchmarks Track", "arxiv": "2404.01318"},
+      "contents": {"n": 100, "unit": "harmful behaviors (plus a matched 100 benign-behaviors.csv and 100 benign prompts sourced from XSTest)", "n_categories": 10, "files_confirmed_on_hf": ["data/harmful-behaviors.csv", "data/benign-behaviors.csv", "data/judge-comparison.csv"]},
+      "license": "MIT (verified via HF API dataset tags)",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False)", "hf_id": "JailbreakBench/JBB-Behaviors", "downloads_verified": 56598, "likes_verified": 127},
+      "github_mirror": "https://github.com/JailbreakBench/JailbreakBench",
+      "citing_paper_example": "Jailbreaking Black Box Large Language Models in Twenty Queries (PAIR), arXiv:2310.08419, cited by 47",
+      "red_flags": "none -- best-engaged dataset in this whole survey (56.6k downloads / 127 likes)"
+    },
+    {
+      "name": "Do-Not-Answer",
+      "paper": {"title": "Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs", "authors": "Wang, Li, Wu, Hovy, et al. (LibrAI/MBZUAI)", "venue": "EACL 2024 Findings", "url": "https://aclanthology.org/2024.findings-eacl.61.pdf", "arxiv": "2308.13387"},
+      "contents": {"n_verified_on_hf": 939, "unit": "prompts", "structure": "5 risk areas x 12 harm types (per SafetyPrompts.com catalogue), GPT-4-generated questions"},
+      "license": "Apache 2.0 (verified via HF API dataset tags)",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False)", "hf_id": "LibrAI/do-not-answer", "downloads_verified": 3956, "likes_verified": 57},
+      "github_mirror": "https://github.com/Libr-AI/do-not-answer",
+      "citing_paper_example": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism, arXiv:2401.02954, cited by 96",
+      "red_flags": "none"
+    },
+    {
+      "name": "CoCoNot",
+      "paper": {"title": "The Art of Saying No: Contextual Noncompliance in Language Models", "authors": "Brahman, Kumar, Balachandran, Dasigi, Pyatkin, Ravichander, Wiegreffe, Dziri, Chandu, Hessel, Tsvetkov, Smith, Choi, Hajishirzi", "venue": "arXiv preprint (AI2)", "arxiv": "2407.12043"},
+      "contents": {
+        "configs": {"original": {"train": 11477, "test": 1001}, "contrast": {"test": 379}, "pref": {"train": 927}},
+        "category_scheme_verified_from_test_split": {
+          "Requests with safety concerns": 395,
+          "Incomplete requests": 225,
+          "Unsupported requests": 157,
+          "Indeterminate requests": 142,
+          "Humanizing requests": 82
+        },
+        "subcategory_sample_verified": ["underspecified", "misinformation", "privacy violations", "false presuppositions", "dangerous or sensitive topics", "subjective questions", "wildchats", "universal unknowns", "personal inquiry", "incomprehensible", "style and length limitations", "input modality limitations", "output modality limitations", "temporal limitations", "copyright violations", "offer advice, opinion or recommendations", "triggers for offensive language"],
+        "epistemic_abstention_twin_confirmation": "CONFIRMED: 'Incomplete requests', 'Unsupported requests', and 'Indeterminate requests' are exactly 3 of the 5 top-level categories in the taxonomy, and together they account for 524/1001 (52%) of the human-verified test split -- these are the non-safety, epistemic-noncompliance categories requested. 'Requests with safety concerns' (395/1001) is the actual safety category; 'Humanizing requests' (82/1001) is a 5th, separate category (requests that anthropomorphize the model)."
+      },
+      "license": "ODC-BY (verified from HF README: 'CoCoNot is made available under the ODC-BY requiring the user to follow the licenses of the subsequent parts.') -- note the HF dataset-tags list has NO license: tag, so this claim rests on the README prose, not repo metadata",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False)", "hf_id": "allenai/coconot", "downloads_verified": 6006, "likes_verified": 25},
+      "github_mirror": "https://github.com/allenai/noncompliance",
+      "citing_paper_example": "Know Your Limits: A Survey of Abstention in Large Language Models, TACL 2025, cited by 29",
+      "red_flags": "none; NOT gated despite being an allenai dataset (unlike wildguardmix/wildjailbreak)"
+    },
+    {
+      "name": "AbstentionBench",
+      "paper": {"title": "AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions", "authors": "Kirichenko, Ibrahim, Chaudhuri, Bell (FAIR at Meta)", "venue": "NeurIPS 2025 Datasets and Benchmarks Track", "url": "https://doi.org/10.52202/085713-5729"},
+      "contents": {"n_datasets": 20, "n_new_underspecified_reasoning_challenges": 3, "n_abstention_scenarios": 6, "structure": "meta-benchmark composing 20 existing QA/reasoning datasets, NOT a flat prompt list"},
+      "license": "CC BY-NC 4.0 (verified via HF API dataset tags)",
+      "ungated_route": {
+        "type": "ungated HF repo id (verified via HF API, gated=False) PLUS GitHub loader code",
+        "hf_id": "facebook/AbstentionBench",
+        "downloads_verified": 1125,
+        "likes_verified": 7,
+        "github": "https://github.com/facebookresearch/AbstentionBench",
+        "caveat_confirmed": "The HF repo itself does NOT contain raw prompt files -- its siblings are AbstentionBench.py (a HF datasets loader script), data.py, README.md, and only 3 small auxiliary files (kuq_new_categories.csv, UMWP_indices_answerable.json, subsampling-indices.json). The GitHub README explicitly pins 'datasets==3.6.0' as a requirement and states 'All datasets required for AbstentionBench should automatically download when running a sweep' via configs/dataset/*.yaml, i.e. it re-downloads the 20 SOURCE datasets (SQuAD-style QA, FreshQA, etc.) at run time rather than shipping them. This confirms the task brief's note that a loader script pattern (incompatible with datasets>=4's script-execution restrictions) is the actual mechanism -- there is no single flat downloadable file."
+      },
+      "citing_paper_example": "self-citation via NeurIPS 2025 D&B proceedings listing (no independent citing paper found yet -- dataset is <2 months old as of this verification)",
+      "red_flags": "Loader-script architecture confirmed as stated in task brief; requires datasets==3.6.0 (older major version) and, for FreshQA specifically, a manual Google-Sheet CSV export step -- not a clean one-line download even when ungated."
+    },
+    {
+      "name": "PHTest",
+      "paper": {"title": "Automatic Pseudo-Harmful Prompt Generation for Evaluating False Refusals in Large Language Models", "authors": "An, Zhu, Zhang, Panaitescu-Liess, Xu, Huang (furonghuang-lab, UMD)", "venue": "arXiv preprint", "arxiv": "2409.00598"},
+      "contents": {"n_verified": 3269, "fields": ["ID", "Request", "Harmfulness"], "harmfulness_label_breakdown_verified": {"harmless": 2077, "controversial": 1192}, "note": "Harmfulness is a BINARY categorical label (harmless/controversial), NOT an ordinal severity scale"},
+      "license": "MIT (verified via HF API dataset tags)",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False), file fetched directly", "hf_id": "furonghuang-lab/PHTest", "downloads_verified": 396, "likes_verified": 3, "file_url": "https://huggingface.co/datasets/furonghuang-lab/PHTest/resolve/main/PHTest.csv"},
+      "github_mirror": "https://github.com/umd-huang-lab/FalseRefusal",
+      "citing_paper_example": "OR-Bench: An Over-Refusal Benchmark for Large Language Models, arXiv:2405.20947, cited by 9",
+      "red_flags": "low engagement (396 downloads, 3 likes) but has a proper card, paper, and MIT license -- not a red flag beyond low popularity"
+    },
+    {
+      "name": "BeaverTails",
+      "paper": {"title": "BeaverTails: Towards Improved Safety Alignment of LLM via a Human-Preference Dataset", "authors": "Ji, Liu, Dai, Pan, Zhang, Bian, Chen, Sun, Wang, Yang (PKU-Alignment)", "venue": "arXiv preprint / NeurIPS 2023 D&B", "arxiv": "2307.04657"},
+      "contents": {"n_verified": "330k_train (301k rows) + 330k_test (33.4k rows) + 30k_train/30k_test subsets, totaling ~364k rows per HF viewer", "structure": "16,851 unique prompts sampled from Anthropic Red Team data, each paired with an LLM response annotated safe/unsafe across 14 harm categories by 3.34 crowdworkers on average (per SafetyPrompts.com catalogue)"},
+      "beavertails_evaluation_variant": {"hf_id": "PKU-Alignment/BeaverTails-Evaluation", "gated": false, "downloads_verified": 582, "likes_verified": 15, "license_verified": "CC BY-NC 4.0", "files": ["v1/test.jsonl.xz"]},
+      "license": "CC BY-NC 4.0 (verified via HF API dataset tags on both PKU-Alignment/BeaverTails and PKU-Alignment/BeaverTails-Evaluation)",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False)", "hf_id": "PKU-Alignment/BeaverTails", "downloads_verified": 15800, "likes_verified": 114},
+      "github_mirror": "https://github.com/PKU-Alignment/beavertails",
+      "citing_paper_example": "Towards Safer Large Language Models through Machine Unlearning, ACL Findings 2024, cited by 21",
+      "red_flags": "NC (non-commercial) license clause -- must be respected if the safety-metric study has any commercial angle"
+    },
+    {
+      "name": "TrustAIRLab in-the-wild-jailbreak-prompts",
+      "paper": {"title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models", "authors": "Shen, Chen, Backes, Shen, Zhang", "venue": "ACM CCS 2024", "arxiv": "2308.03825"},
+      "contents": {"n_verified_per_hf_card": 15140, "unit": "prompts scraped from Reddit/Discord/websites/open-source datasets, of which 1405 are jailbreak prompts"},
+      "license": "MIT (verified via HF API dataset tags)",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False)", "hf_id": "TrustAIRLab/in-the-wild-jailbreak-prompts", "downloads_verified": 6138, "likes_verified": 40},
+      "github_mirror": "https://github.com/verazuo/jailbreak_llms (3790 stars per GitHub search result)",
+      "citing_paper_example": "A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool LLMs Easily, NAACL 2024, cited by 54",
+      "red_flags": "none"
+    },
+    {
+      "name": "TrustAIRLab forbidden_question_set",
+      "paper": {"title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models", "authors": "Shen, Chen, Backes, Shen, Zhang", "venue": "ACM CCS 2024", "arxiv": "2308.03825"},
+      "contents": {"n_verified": 390, "fields": ["content_policy_id", "content_policy_name", "q_id", "question"], "category_breakdown_verified": {"Illegal Activity": 30, "Hate Speech": 30, "Malware": 30, "Physical Harm": 30, "Economic Harm": 30, "Fraud": 30, "Pornography": 30, "Political Lobbying": 30, "Privacy Violence": 30, "Legal Opinion": 30, "Financial Advice": 30, "Health Consultation": 30, "Gov Decision": 30}, "note": "13 categories drawn from the OpenAI usage policy, 30 questions each, exactly 390 total"},
+      "license": "MIT (verified via HF API dataset tags)",
+      "ungated_route": {"type": "ungated HF repo id (verified via HF API, gated=False), file fetched directly", "hf_id": "TrustAIRLab/forbidden_question_set", "downloads_verified": 1883, "likes_verified": 6, "file_url": "https://huggingface.co/datasets/TrustAIRLab/forbidden_question_set/resolve/main/forbidden_question_set.csv"},
+      "citing_paper_example": "same paper family as above (CCS 2024)",
+      "red_flags": "none"
+    }
+  ],
+  "harmlevelbench_verdict": {
+    "exists": true,
+    "publicly_downloadable_as_a_file": false,
+    "title": "HarmLevelBench: Evaluating Harm-Level Compliance and the Impact of Quantization on Model Alignment",
+    "authors": "Yannis Belkhiter, Giulio Zizzo, Sergio Maffeis",
+    "venue": "NeurIPS 2024 Workshop on Safe Generative Artificial Intelligence (SafeGenAI) -- confirmed from arXiv 'Comments' field",
+    "arxiv": "2411.06835",
+    "license": "CC BY 4.0 (arXiv license badge, confirmed on the abstract page)",
+    "topic_count_verified": 7,
+    "topics_verified": ["Bomb", "Hack", "Drugs", "Kill", "Shot", "Steal", "Trigger"],
+    "level_count_verified": 8,
+    "total_items_verified": 56,
+    "question_template_verified": "\"How to ...?\"",
+    "severity_rubric_dimensions_verified": ["Impacts (Individual -> Small Group -> Medium Group -> Larger Group -> Large Group)", "Means/Methods (Very Simple -> Simple -> Moderate -> Complex -> Highly Complex)", "Real-World Consequences (Minimal -> Moderate -> Significant -> Serious -> Severe -> Critical -> Catastrophic)", "Legality/Morality (Legal & Ethical -> Potentially Illegal -> Illegal -> Illegal & Immoral)"],
+    "full_item_table_location": "Table 6 of the arXiv HTML rendering (https://arxiv.org/html/2411.06835), which prints all 56 (topic, level, question) rows verbatim in the paper text itself",
+    "downloadable_file_search_result": "NO GitHub repository, NO Hugging Face dataset, NO Zenodo record found for this dataset after searching GitHub code search, HF Hub, and general web search for 'HarmLevelBench github/huggingface/zenodo'. Not listed in the SafetyPrompts.com catalogue of 149 datasets (fetched and checked against its full data_name list). 0 citations recorded as of this verification (per OpenAlex/Crossref lookup) and not indexed on OpenReview's public listing with reviews.",
+    "final_verdict": "PARTIALLY AVAILABLE, NOT PRODUCTION-USABLE AS A FILE: the dataset genuinely exists and matches the plan's claim of 7 topics x 8 graded severity levels with a fixed 'How to ...?' template, but the ONLY public copy is the 56 rows typeset inside the paper's Table 6 -- there is no CSV/JSON/repo to download. If the study needs this dataset it must be manually transcribed from the arXiv HTML table (which we did retrieve and could re-fetch in full), or the study should substitute one of the ranked alternatives below. Given n=56 total items (~1 per topic-level cell) it is also extremely small for statistical purposes regardless of availability."
+  },
+  "severity_axis_substitutes_ranked": [
+    {
+      "rank": 1,
+      "name": "RealToxicityPrompts",
+      "paper": "RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models, Gehman et al., EMNLP Findings 2020",
+      "url_verified": "https://huggingface.co/datasets/allenai/real-toxicity-prompts, https://github.com/allenai/real-toxicity-prompts",
+      "n_verified_via_catalogue": 99442,
+      "grading_type": "TRUE RATIO-SCALED per-item severity: each prompt carries a continuous PerspectiveAPI toxicity probability in [0,1] (documented subset of 22k prompts has toxicity >=0.5)",
+      "per_topic_graded": "No explicit topic x level grid -- toxicity score is a single continuous covariate, not organized by matched topic",
+      "ungated": true,
+      "license": "Apache 2.0",
+      "caveat": "toxicity != harm-to-others severity in the AdvBench/HarmBench sense; measures offensive/toxic LANGUAGE, not request harmfulness, so it is a genuine ratio-scaled axis but on a different construct than 'how harmful is this ask'"
+    },
+    {
+      "rank": 2,
+      "name": "SALAD-Bench",
+      "paper": "SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models, ACL Findings 2024, arXiv:2402.05044",
+      "url_verified": "https://huggingface.co/datasets/OpenSafetyLab/Salad-Data, https://github.com/OpenSafetyLab/SALAD-BENCH",
+      "n_verified_via_catalogue": 21000,
+      "grading_type": "3-level HIERARCHICAL taxonomy (6 domains -> 16 tasks -> 66 categories), not a linear ordinal severity scale -- depth in the tree is a coarseness proxy, not a graded harm dose",
+      "per_topic_graded": "categories are matched across the taxonomy tree but there is no per-item numeric severity field",
+      "ungated": true,
+      "license": "Apache 2.0",
+      "hf_downloads_likes_verified": "1783 downloads / 34 likes",
+      "caveat": "best for TOPIC coverage/matching, not for an interior-spacing dose axis"
+    },
+    {
+      "rank": 3,
+      "name": "S-Eval",
+      "paper": "S-Eval: Towards Automated and Comprehensive Safety Evaluation for Large Language Models, arXiv:2405.14191",
+      "url_verified": "https://huggingface.co/datasets/IS2Lab/S-Eval, https://github.com/IS2Lab/S-Eval",
+      "n_verified_via_catalogue": 20000,
+      "grading_type": "8 risk categories, each base prompt comes with 20 adversarial/jailbreak AUGMENTATIONS (paraphrase-like but adversarially rewritten, not necessarily meaning-preserving benign paraphrase) -- no explicit ordinal severity field per item",
+      "per_topic_graded": "categories present but no severity ladder",
+      "ungated": true,
+      "license": "CC BY-NC-SA 4.0",
+      "hf_downloads_likes_verified": "1322 downloads / 17 likes",
+      "caveat": "the '20 augmentations per base prompt' structure is the closest thing here to a paraphrase-family resource (job 4c), but they are adversarial rewrites (persuasion techniques, role-play, etc.), not neutral meaning-preserving paraphrases"
+    },
+    {
+      "rank": "not recommended but checked",
+      "name": "MLCommons AILuminate",
+      "paper": "AILuminate v1.1 Benchmark (MLCommons AI Risk & Reliability WG)",
+      "url_verified": "https://github.com/mlcommons/ailuminate/blob/main/airr_official_1.0_demo_en_us_prompt_set_release.csv (fetched and parsed)",
+      "n_verified": 1200,
+      "grading_type": "12 hazard categories x 2 personas (skilled/unskilled) x locale -- NO per-prompt severity field in the demo CSV; AILuminate's severity grading (letter grades A+ through H) is applied to MODEL RESPONSES in aggregate, not to individual prompts, so it does NOT give an interior-spacing dose axis over prompts",
+      "ungated": true,
+      "license": "Apache 2.0 (verified https://raw.githubusercontent.com/mlcommons/ailuminate/main/LICENSE.md)",
+      "caveat": "ruled out for the dose-axis use case despite being ungated and well-documented, because the severity signal lives at the model-response level, not the per-prompt level"
+    },
+    {
+      "rank": "not recommended but checked",
+      "name": "AIR-Bench 2024",
+      "paper": "AIR-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies, arXiv:2407.17436",
+      "url_verified": "https://github.com/stanford-crfm/air-bench-2024, https://huggingface.co/datasets (stanford-crfm/air-bench-2024, ungated, 7067 downloads / 26 likes verified)",
+      "grading_type": "4-LEVEL hierarchical risk taxonomy (up to 314 level-4 categories) plus a 'Three-level Scoring Autograder' -- the autograder scores MODEL OUTPUTS on a 3-point scale per category, again not a per-prompt severity field",
+      "ungated": true,
+      "license": "check repo (not independently re-verified for this file)",
+      "caveat": "same structural mismatch as AILuminate -- severity lives on the grading side, not the prompt side"
+    },
+    {
+      "rank": "checked, weak fit",
+      "name": "NVIDIA Aegis Content Safety Dataset (1.0 / 2.0, formerly AEGIS)",
+      "paper": "AEGIS: Online Adaptive AI Content Safety Moderation with Ensemble of LLM Experts / AEGIS2.0, arXiv:2404.05993",
+      "url_verified": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-1.0 (gated=False, 3632 dl/61 likes) and -2.0 (gated=False, 7904 dl/109 likes)",
+      "grading_type": "13 (v1) risk categories with safety annotation; no explicit numeric severity ladder confirmed in the README we fetched (only category + safe/unsafe-style labels described)",
+      "ungated": true,
+      "license": "CC BY 4.0",
+      "caveat": "did not find a documented per-item ordinal severity score; would need to inspect the parquet data directly to confirm/deny a graded label -- flagged UNVERIFIED for severity grading, everything else about access is verified"
+    },
+    {
+      "rank": "checked, not applicable",
+      "name": "DELPHI (Apple)",
+      "paper": "DELPHI: Data for Evaluating LLMs' Performance in Handling Controversial Issues, EMNLP 2023 Industry Track",
+      "url_verified": "https://github.com/apple/ml-delphi (per SafetyPrompts.com catalogue)",
+      "n_verified_via_catalogue": 29201,
+      "grading_type": "TRUE ordinal: 5 levels of CONTROVERSY per item (Western-Europe-based annotators)",
+      "ungated": true,
+      "license": "CC BY 4.0",
+      "caveat": "measures controversy/opinion-contentiousness, not harm -- wrong construct for a harm-severity dose axis, listed here only because it is a genuine example of a graded ordinal scale in the wild"
+    },
+    {
+      "rank": "checked, no dataset",
+      "name": "GradSafe",
+      "note": "GradSafe is a gradient-based JAILBREAK-DETECTION METHOD (analyzes gradients of a few safety-critical parameters), not a graded-harm-severity PROMPT DATASET. Excluded from the ranked substitutes because it does not fit the requested resource type."
+    },
+    {
+      "rank": "checked, no severity axis",
+      "name": "SORRY-Bench 44-category taxonomy",
+      "note": "confirmed FLAT 44/45-category taxonomy grouped into 4 broader top-level clusters per the paper, but NO per-item numeric severity/interval field -- categories are qualitatively distinct topics, not graded doses of the same topic. Not usable as an interior-spacing severity axis."
+    }
+  ],
+  "safetyprompts_com_catalogue": {
+    "status": "ARCHIVED as of May 2025 (site banner: 'As of May 2025, this website is no longer being updated'), 149 datasets listed as of April 4 2025 per its own Table of Contents",
+    "source_fetched": "https://safetyprompts.com/ (HTML) and its backing Google Sheet https://docs.google.com/spreadsheets/d/1RlFX9SazbvQm-hzM_KwyTQYNKVwdgelgMheAM8skGXA/export?format=csv (fetched as CSV, 149 rows, 24 columns: data_name, purpose_type, purpose_tags, entries_n, entries_detail, access_git_url, access_hf_url, access_license, publication_url, other_notes, etc.)",
+    "paper": "SafetyPrompts: A Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety, Röttger, Pernisi, Vidgen, Hovy, AAAI 2025, doi:10.1609/aaai.v39i26.34975",
+    "harmlevelbench_presence": "NOT listed among the 149 datasets (checked full data_name column)",
+    "additional_ungated_datasets_with_matched_benign_harmful_pairs": [
+      "XSTest (250 safe / 200 unsafe contrastive pairs by construction, already in job-1 list)",
+      "SGXSTest (walledai/SGXSTest on HF -- GATED, per our own check; 200 prompts, half safe/half unsafe contrasting)",
+      "HiXSTest (walledai/HiXSTest on HF -- GATED, per our own check; 50 prompts, half safe/half unsafe)",
+      "CoCoNot ('contrast' config: 379 test items that SHOULD be complied with, paired against the 1001 'original' items that should NOT -- ungated, confirmed above)",
+      "JBB-Behaviors (100 harmful + 100 benign-behaviors.csv, ungated, confirmed above)"
+    ],
+    "additional_ungated_datasets_with_per_item_severity_or_ratio_grades": [
+      "RealToxicityPrompts (continuous PerspectiveAPI toxicity score, ungated, see substitutes table)",
+      "DELPHI (5 controversy levels, ungated, wrong construct -- controversy not harm)",
+      "SeeGULL (fine-grained per-tuple offensiveness scores for stereotypes, GitHub https://github.com/google-research-datasets/seegull, ungated, CC BY-SA 4.0, no HF mirror per catalogue)",
+      "Mosscap (8 'difficulty levels' but for PROMPT-EXTRACTION attacks, not harm severity -- wrong construct)",
+      "OIGModeration (dialogue turns labelled for 'level of necessary caution' -- catalogue notes the labelling process is UNCLEAR, flagged as low-confidence in the catalogue's own other_notes)"
+    ],
+    "additional_ungated_datasets_with_meaning_preserving_paraphrases": [
+      "S-Eval (20 augmentations per base prompt, ungated -- see caveat above about these being adversarial rewrites, not neutral paraphrases)",
+      "no dataset found in the 149-row catalogue whose other_notes explicitly describe NEUTRAL meaning-preserving (non-adversarial) paraphrases of harmful requests as a first-class field -- this appears to be a genuine gap in the publicly catalogued landscape"
+    ]
+  }
+}

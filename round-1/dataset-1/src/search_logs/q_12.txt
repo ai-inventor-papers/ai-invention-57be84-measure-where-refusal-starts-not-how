@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/ai-inventor/.claude/skills/aii-hf-datasets/scripts/aii_hf_search_datasets.py", line 303, in <module>
+    main()
+  File "/ai-inventor/.claude/skills/aii-hf-datasets/scripts/aii_hf_search_datasets.py", line 284, in main
+    init_search_datasets()
+  File "/ai-inventor/.claude/skills/aii-hf-datasets/scripts/aii_hf_search_datasets.py", line 68, in init_search_datasets
+    from huggingface_hub.utils import disable_progress_bars
+ModuleNotFoundError: No module named 'huggingface_hub'

@@ -1,0 +1,62 @@
+{
+ "selected": {
+  "harmlevelbench": "C1 anchored dose axis: the study's intended externally-authored ladder, 7 topics x 8 harm levels on a fixed 'How to ...?' frame. Nothing else in the artifact grades matched topics on 8 external rungs.",
+  "pipeline_authored": "C1 + C4 + the wrapper battery: the syntax-controlled 7x8 ladder (only the object varies), the 8 attack wrappers and the 6 meaning-preserving surface forms. The only source where sentence frame is held fixed across the dose axis.",
+  "JailbreakBench/JBB-Behaviors": "the matched benign/harmful pair set with affirmative-prefix targets: supplies both the within-condition contrast the selection rule is decided on and the prefill string the C2 write-gain wrapper needs.",
+  "Paul/XSTest": "the second, independent matched-pair source (safe/unsafe sharing a focus lexeme) and the canonical over-refusal set. Pairing on a shared lexeme is a stronger control than pairing on topic alone.",
+  "allenai/coconot": "C3 ratiometric: the only source that supplies epistemic (non-safety) abstention prompts AND a safety-concern arm from the same corpus and annotation process, plus a contrast split of look-alike prompts that should be complied with.",
+  "SillyTilly/SorryBench": "C4 form sensitivity, externally authored: 21 published prompt styles over the same instruction. The independent counterpart to this pipeline's own form variants, without which C4 could only be measured on transforms we wrote ourselves.",
+  "strongreject_small": "the primary generation-scored behavioural ground truth, and the source of the verbatim judge rubric the screen scores completions with.",
+  "advbench": "the base item pool the wrappers and form variants are instantiated on, with affirmative targets; the most widely used harmful-behaviour set, so the GT is comparable to prior work.",
+  "harmbench": "second established GT source with semantic categories, so behavioural ground truth is not sourced from a single benchmark's idiosyncrasies.",
+  "bench-llm/or-bench": "the external 3-level ordinal severity axis over 10 shared categories - the only externally authored grading with enough items per cell to check the ladder's ordering at scale - plus the large-scale over-refusal pool."
+ },
+ "not_selected": {
+  "checkpoint_registry": "shipped as its own asset (registry/checkpoint_registry.json, with the verbatim card text): it is the B2 name-and-card regex baseline's entire input, but it is a model registry rather than a prompt corpus, so it is not one of the ten prompt datasets.",
+  "furonghuang-lab/PHTest": "ordinal pseudo-harmful levels, but only 2 of its 3 levels are populated",
+  "walledai/WildGuardTest": "vanilla-vs-adversarial over-refusal, already covered by XSTest + OR-Bench",
+  "LibrAI/do-not-answer": "risk taxonomy without an ordinal axis; GT already covered",
+  "TrustAIRLab/in-the-wild-jailbreak-prompts": "real wrapper templates, but the 8 authored wrappers are the pre-registered battery",
+  "declare-lab/HarmfulQA": "topic/subtopic GT, redundant with AdvBench + HarmBench",
+  "PKU-Alignment/BeaverTails-Evaluation": "category-labelled GT, redundant; CC BY-NC licence",
+  "walledai/AyaRedTeaming": "human-written GT, redundant for an English-only dose axis",
+  "TrustAIRLab/forbidden_question_set": "policy-grid GT, redundant",
+  "walledai/MaliciousInstruct": "100-item GT, redundant",
+  "Bertievidgen/SimpleSafetyTests": "100-item GT with a 2-level info-vs-action contrast, too coarse to add an axis"
+ },
+ "selected_counts": {
+  "JailbreakBench/JBB-Behaviors": 200,
+  "Paul/XSTest": 450,
+  "SillyTilly/SorryBench": 1888,
+  "advbench": 60,
+  "allenai/coconot": 1298,
+  "bench-llm/or-bench": 900,
+  "harmbench": 60,
+  "harmlevelbench": 56,
+  "pipeline_authored": 804,
+  "strongreject_small": 60
+ },
+ "all_counts": {
+  "Bertievidgen/SimpleSafetyTests": 100,
+  "JailbreakBench/JBB-Behaviors": 200,
+  "LibrAI/do-not-answer": 939,
+  "PKU-Alignment/BeaverTails-Evaluation": 700,
+  "Paul/XSTest": 450,
+  "SillyTilly/SorryBench": 1888,
+  "TrustAIRLab/forbidden_question_set": 390,
+  "TrustAIRLab/in-the-wild-jailbreak-prompts": 150,
+  "advbench": 60,
+  "allenai/coconot": 1298,
+  "bench-llm/or-bench": 900,
+  "checkpoint_registry": 36,
+  "declare-lab/HarmfulQA": 1960,
+  "furonghuang-lab/PHTest": 3269,
+  "harmbench": 60,
+  "harmlevelbench": 56,
+  "pipeline_authored": 804,
+  "strongreject_small": 60,
+  "walledai/AyaRedTeaming": 987,
+  "walledai/MaliciousInstruct": 100,
+  "walledai/WildGuardTest": 945
+ }
+}

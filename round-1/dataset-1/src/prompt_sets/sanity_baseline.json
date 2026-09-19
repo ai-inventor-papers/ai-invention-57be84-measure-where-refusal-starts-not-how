@@ -1,0 +1,16 @@
+{
+ "unmatched_harmful_vs_benign_auc": 0.9824,
+ "n_complete_matched_pairs": 300,
+ "matched_twin_auc_pair_grouped": 0.8412,
+ "ladder_len_vs_level_spearman": 0.1774,
+ "ladder_len_vs_level_p": 0.191,
+ "ladder_n_rungs": 56,
+ "ladder_mean_len": 74.0,
+ "ladder_within_topic_len_cv": 0.1331,
+ "harmlevelbench_len_vs_level_spearman": 0.0191,
+ "harmlevelbench_len_vs_level_p": 0.8891,
+ "harmlevelbench_n_rungs": 56,
+ "harmlevelbench_within_topic_len_cv": 0.1733,
+ "harmlevelbench_L0_vs_L7_auc": 0.625,
+ "orbench_L0_vs_L2_auc": 0.8894
+}

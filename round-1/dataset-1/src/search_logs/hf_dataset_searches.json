@@ -1,0 +1,7639 @@
+[
+ {
+  "query": "harmful prompts",
+  "results": [
+   {
+    "id": "onepaneai/harmful-prompts",
+    "downloads": 37,
+    "likes": 3,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/gpt-harmful-prompts-after-guardrails-evaluation",
+    "downloads": 18,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/falcon-harmful-prompts-before-guardrail-evaluation",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/falocn-harmful-prompts-after-guardrails-evaluation",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-gpt-before-guardrail-evaluation",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-mixtral-before-guardrail-evaluation",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-mixtral-after-guardrail-evaluation",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-falcon-before-guardrail-evaluation",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-falcon-after-guardrail-evaluation",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-gpt-after-guardrail-evaluation",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-gemini-pro-after-guardrail-evaluation",
+    "downloads": 44,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-gemini-pro-before-guardrail-evaluation",
+    "downloads": 36,
+    "likes": 2,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-multillm-after-guardrail-evaluation",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-multillm-before-guardrail-evaluation",
+    "downloads": 26,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "onepaneai/harmful-prompts-before-guardrail-gpt-evaluation-2",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "jailbreak",
+  "results": [
+   {
+    "id": "JailbreakBench/JBB-Behaviors",
+    "downloads": 56598,
+    "likes": 127,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2404.01318",
+     "arxiv:2311.03348"
+    ]
+   },
+   {
+    "id": "Necent/llm-jailbreak-prompt-injection-dataset",
+    "downloads": 599,
+    "likes": 38,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "language:zh",
+     "language:ar",
+     "language:ru",
+     "language:fr",
+     "language:de",
+     "language:es",
+     "language:hi",
+     "language:ja",
+     "language:ko",
+     "language:vi"
+    ]
+   },
+   {
+    "id": "jackhhao/jailbreak-classification",
+    "downloads": 2779,
+    "likes": 83,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "jailbreak"
+    ]
+   },
+   {
+    "id": "IDA-SERICS/Disaster-tweet-jailbreaking",
+    "downloads": 10004,
+    "likes": 10,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "CHATS-Lab/Persuasive-Jailbreaker-Data",
+    "downloads": 32,
+    "likes": 16,
+    "tags": [
+     "arxiv:2401.06373",
+     "region:us"
+    ]
+   },
+   {
+    "id": "TrustAIRLab/in-the-wild-jailbreak-prompts",
+    "downloads": 6138,
+    "likes": 40,
+    "tags": [
+     "task_categories:text-generation",
+     "license:mit",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2308.03825",
+     "region:us"
+    ]
+   },
+   {
+    "id": "sevdeawesome/jailbreak_success",
+    "downloads": 212,
+    "likes": 11,
+    "tags": [
+     "license:mit",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Simsonsun/JailbreakPrompts",
+    "downloads": 200,
+    "likes": 10,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "Jailbreak",
+     "PromptInjection"
+    ]
+   },
+   {
+    "id": "TrustAIRLab/JailbreakQR",
+    "downloads": 22,
+    "likes": 3,
+    "tags": [
+     "task_categories:question-answering",
+     "language:en",
+     "license:other",
+     "size_categories:n<1K",
+     "arxiv:2508.20848",
+     "region:us",
+     "jailbreak",
+     "jailbreak_evaluator",
+     "llm",
+     "harmful",
+     "benchmark"
+    ]
+   },
+   {
+    "id": "Cogensec/jailbreak-corpus",
+    "downloads": 34,
+    "likes": 3,
+    "tags": [
+     "task_categories:text-classification",
+     "annotations_creators:machine-generated",
+     "source_datasets:extended",
+     "language:en",
+     "language:de",
+     "language:es",
+     "language:fr",
+     "language:it",
+     "language:pt",
+     "language:nl",
+     "license:other",
+     "size_categories:10K<n<100K"
+    ]
+   },
+   {
+    "id": "rubend18/ChatGPT-Jailbreak-Prompts",
+    "downloads": 32042,
+    "likes": 271,
+    "tags": [
+     "task_categories:question-answering",
+     "task_categories:text-generation",
+     "task_categories:fill-mask",
+     "task_categories:zero-shot-classification",
+     "task_categories:table-question-answering",
+     "language:en",
+     "language:aa",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets"
+    ]
+   },
+   {
+    "id": "deadbits/vigil-jailbreak-ada-002",
+    "downloads": 17563,
+    "likes": 9,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "embeddings",
+     "text",
+     "security"
+    ]
+   },
+   {
+    "id": "deadbits/vigil-jailbreak-all-MiniLM-L6-v2",
+    "downloads": 21351,
+    "likes": 2,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "embeddings",
+     "text",
+     "security"
+    ]
+   },
+   {
+    "id": "deadbits/vigil-jailbreak-all-mpnet-base-v2",
+    "downloads": 19242,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "embeddings",
+     "text",
+     "security"
+    ]
+   },
+   {
+    "id": "innodatalabs/rt-inod-jailbreaking",
+    "downloads": 25,
+    "likes": 2,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:translation",
+     "task_categories:summarization",
+     "task_categories:question-answering",
+     "task_categories:sentence-similarity",
+     "language:en",
+     "license:cc-by-sa-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "refusal",
+  "results": [
+   {
+    "id": "anthracite-org/kalo-opus-instruct-22k-no-refusal",
+    "downloads": 661,
+    "likes": 38,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "slalberti/refusals-test",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "slalberti/refusals-sorry",
+    "downloads": 29,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "mrfakename/refusal",
+    "downloads": 51,
+    "likes": 7,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "mrfakename/refusal-xl",
+    "downloads": 47,
+    "likes": 6,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "justinphan3110/wildchat_over_refusal",
+    "downloads": 61,
+    "likes": 2,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "mii-llm/refusal-ita",
+    "downloads": 33,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-generation",
+     "language:it",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "refusal"
+    ]
+   },
+   {
+    "id": "sruly/asimov_refusals",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "PJMixers/mrfakename_refusal-xl-SlopOnly-KTOSloPreferenceShareGPT",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NewEden-Forge/Kalo-Opus-Instruct-22k-Refusal-Murdered",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+     "license:agpl-3.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "instruct",
+     "claude"
+    ]
+   },
+   {
+    "id": "scarysnake/code-refusal-for-abliteration",
+    "downloads": 8,
+    "likes": 1,
+    "tags": [
+     "license:cc-by-nc-4.0",
+     "region:us"
+    ]
+   },
+   {
+    "id": "TeeZee/chat-alpaca-pl-no-refusals",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "license:llama3.1",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "vaidehi99/HC_concepts_refusal",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "byroneverson/abliterate-refusal",
+    "downloads": 137,
+    "likes": 11,
+    "tags": [
+     "task_categories:feature-extraction",
+     "task_categories:text-generation",
+     "language:en",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "abliterate"
+    ]
+   },
+   {
+    "id": "vaidehi99/LC_concepts_refusal",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "safety benchmark",
+  "results": [
+   {
+    "id": "ThWu/safety_benchmark",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "dynamoai/dynamoai-benchmark-safety",
+    "downloads": 12,
+    "likes": 5,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-nd-4.0",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "safety"
+    ]
+   },
+   {
+    "id": "kumitang/llm_physical_safety_benchmark",
+    "downloads": 23,
+    "likes": 0,
+    "tags": [
+     "task_categories:question-answering",
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "region:us",
+     "benchmark",
+     "llm"
+    ]
+   },
+   {
+    "id": "TrustSafeAI/llm_physical_safety_benchmark",
+    "downloads": 40,
+    "likes": 0,
+    "tags": [
+     "task_categories:question-answering",
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "region:us",
+     "benchmark",
+     "llm"
+    ]
+   },
+   {
+    "id": "LoraBP/lora-bp-safety-benchmark",
+    "downloads": 1,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "qualifire/safety-benchmark",
+    "downloads": 46,
+    "likes": 2,
+    "tags": [
+     "license:cc-by-nc-4.0",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "safety",
+     "toxicity"
+    ]
+   },
+   {
+    "id": "mvrcii/safety-moderation-benchmark",
+    "downloads": 82,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2308.13387"
+    ]
+   },
+   {
+    "id": "FlameF0X/Safety_Alignment_Benchmark",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "jialelele/med_mllm_safety_benchmark",
+    "downloads": 23,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "shujuchanpin/Professional-Fire-Safety-AI-Benchmark-Test",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "task_categories:question-answering",
+     "language:zh",
+     "license:mit",
+     "size_categories:10K<n<100K",
+     "region:us",
+     "agent",
+     "fire",
+     "test"
+    ]
+   },
+   {
+    "id": "UHYEL/Ko-LLM-Safety-Benchmark",
+    "downloads": 6,
+    "likes": 2,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "richardyoung/code-safety-benchmark-results",
+    "downloads": 14,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "annotations_creators:machine-generated",
+     "source_datasets:richardyoung/code-safety-prompt-bank",
+     "language:en",
+     "license:other",
+     "size_categories:10K<n<100K",
+     "region:us",
+     "ai-safety",
+     "llm-safety",
+     "benchmark",
+     "coding-llm",
+     "refusal"
+    ]
+   },
+   {
+    "id": "xueyao828/safety_external_benchmarks",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "jainsatyam26/nsfw-safety-benchmark",
+    "downloads": 389,
+    "likes": 0,
+    "tags": [
+     "region:us",
+     "not-for-all-audiences"
+    ]
+   },
+   {
+    "id": "MasihM/eyes-wide-shut-safety-benchmark",
+    "downloads": 61,
+    "likes": 1,
+    "tags": [
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "ai-safety",
+     "red-teaming"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "red teaming",
+  "results": [
+   {
+    "id": "andersonbcdefg/red_teaming_reward_modeling_pairwise_no_as_an_ai",
+    "downloads": 27,
+    "likes": 3,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ctang/HarmfulVsEthical_redteaming_eval_v3",
+    "downloads": 45,
+    "likes": 3,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "pvduy/red-teaming-0-1",
+    "downloads": 38,
+    "likes": 2,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "DREAM-17k/DREAM-Red-Teaming-Prompts",
+    "downloads": 52,
+    "likes": 4,
+    "tags": [
+     "license:mit",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2507.16329",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Unbabel/Multilingual-Red-Teaming",
+    "downloads": 45,
+    "likes": 3,
+    "tags": [
+     "language:en",
+     "language:pt",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "pbevan11/aya_redteaming_consitutional",
+    "downloads": 17,
+    "likes": 2,
+    "tags": [
+     "language:en",
+     "language:hi",
+     "language:fr",
+     "language:es",
+     "language:ar",
+     "language:ru",
+     "language:sr",
+     "language:tl",
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text"
+    ]
+   },
+   {
+    "id": "andersonbcdefg/red_teaming_reward_modeling_pairwise",
+    "downloads": 159,
+    "likes": 5,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "andersonbcdefg/redteaming_eval_pairwise",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "MMInstruction/RedTeamingVLM",
+    "downloads": 577,
+    "likes": 17,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "ctang/HHH_redteaming_eval_v3",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jinnovation/generative-ai-red-teaming",
+    "downloads": 99,
+    "likes": 8,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "red-teaming"
+    ]
+   },
+   {
+    "id": "CohereLabs/aya_redteaming",
+    "downloads": 952,
+    "likes": 36,
+    "tags": [
+     "language:en",
+     "language:hi",
+     "language:fr",
+     "language:es",
+     "language:ar",
+     "language:ru",
+     "language:sr",
+     "language:tl",
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text"
+    ]
+   },
+   {
+    "id": "walledai/TDC23-RedTeaming",
+    "downloads": 362,
+    "likes": 8,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.04249",
+     "region:us"
+    ]
+   },
+   {
+    "id": "pbevan11/aya_redteaming_mcai_eval",
+    "downloads": 14,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "TTA01/redteaming-attack-target",
+    "downloads": 63,
+    "likes": 1,
+    "tags": [
+     "language:en",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "llm safety evaluation",
+  "results": [
+   {
+    "id": "abdulfatah740/hausa-llm-healthcare-safety-preference-evaluation",
+    "downloads": 29,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "toxicity prompts",
+  "results": [
+   {
+    "id": "ToxicityPrompts/PolyGuardMix",
+    "downloads": 504,
+    "likes": 6,
+    "tags": [
+     "language:ar",
+     "language:zh",
+     "language:cs",
+     "language:nl",
+     "language:en",
+     "language:fr",
+     "language:de",
+     "language:hi",
+     "language:th",
+     "language:it",
+     "language:ja",
+     "language:ko"
+    ]
+   },
+   {
+    "id": "allenai/real-toxicity-prompts",
+    "downloads": 21888,
+    "likes": 123,
+    "tags": [
+     "multilinguality:monolingual",
+     "source_datasets:original",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "PanoEvJ/real-toxicity-prompts-severe0.7",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "holistic-ai/LLM_Audit_Toxicity_Prompts",
+    "downloads": 22,
+    "likes": 1,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Leogrin/real-toxicity-prompts_first_5K",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_non_toxic",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_toxic",
+    "downloads": 14,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_70M_non_toxic",
+    "downloads": 22,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_70M_toxic",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_160M_non_toxic",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_160M_toxic",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "oskarvanderwal/real-toxicity-prompts-lite",
+    "downloads": 56,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "multilinguality:monolingual",
+     "source_datasets:allenai/real-toxicity-prompts",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant"
+    ]
+   },
+   {
+    "id": "valeriavla/real-toxicity-prompts_benchmark",
+    "downloads": 42,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "region:us"
+    ]
+   },
+   {
+    "id": "maartensap/ToxicityPrompts",
+    "downloads": 208,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ToxicityPrompts/PolygloToxicityPrompts",
+    "downloads": 573,
+    "likes": 14,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "language:nl",
+     "language:pl",
+     "language:sv",
+     "language:ru",
+     "language:hi",
+     "language:ja",
+     "language:ko",
+     "language:zh",
+     "language:es",
+     "language:fr"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "over-refusal",
+  "results": [
+   {
+    "id": "justinphan3110/wildchat_over_refusal",
+    "downloads": 61,
+    "likes": 2,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "anonymous4486/gsm8k_overrefusal_test",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:audio",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Sakonii/task-over-refusal-dataset",
+    "downloads": 68,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jang1563/bio-overrefusal-v0.1",
+    "downloads": 276,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:question-answering",
+     "annotations_creators:expert-generated",
+     "source_datasets:original",
+     "language:en",
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas"
+    ]
+   },
+   {
+    "id": "jkminder/xstest-overrefusal",
+    "downloads": 31,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "source_datasets:walledai/XSTest",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:n<1K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant"
+    ]
+   },
+   {
+    "id": "jkminder/or-bench-1k-overrefusal",
+    "downloads": 41,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:n<1K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2405.20947"
+    ]
+   },
+   {
+    "id": "stindardlogic/refusal-overrefusal-50k",
+    "downloads": 71,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:text-classification",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "hirundo-io/bloom-over-refusal-free-text",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "MarkrAI/k-overrefusal",
+    "downloads": 60,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-generation",
+     "language:ko",
+     "language:en",
+     "license:other",
+     "size_categories:n<1K",
+     "arxiv:2308.01263",
+     "arxiv:2405.20947",
+     "arxiv:2401.17633",
+     "arxiv:2409.00598",
+     "arxiv:2402.04249",
+     "arxiv:2402.10260",
+     "arxiv:2402.05044"
+    ]
+   },
+   {
+    "id": "fevziegeyurtsevenler/turkish-over-refusal-set",
+    "downloads": 91,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:tr",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "adversarial prompts",
+  "results": [
+   {
+    "id": "harpreetsahota/adversarial-prompts",
+    "downloads": 73,
+    "likes": 4,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2306.09442",
+     "region:us"
+    ]
+   },
+   {
+    "id": "aurora-m/adversarial-prompts",
+    "downloads": 44,
+    "likes": 3,
+    "tags": [
+     "license:cc",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "gordonFang/persuasive_adversarial_prompts",
+    "downloads": 40,
+    "likes": 2,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Chetan-k-p/adversarial-prompts",
+    "downloads": 38,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "rishitchugh/successful_adversarial_prompts",
+    "downloads": 56,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2601.15331",
+     "region:us"
+    ]
+   },
+   {
+    "id": "marcov/adversarial_qa_dbidaf_promptsource",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "marcov/adversarial_qa_adversarialQA_promptsource",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "marcov/adversarial_qa_droberta_promptsource",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "marcov/adversarial_qa_dbert_promptsource",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "aayush-cloudy/adversarial-sd-prompts",
+    "downloads": 33,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "gurucharan-marthi/adversarial-madeup-prompts",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:imagefolder",
+     "modality:image",
+     "library:datasets",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "alignment",
+  "results": [
+   {
+    "id": "Alignment-Lab-AI/Lawyer-chat",
+    "downloads": 70,
+    "likes": 10,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Alignment-Lab-AI/Lawyer-Instruct",
+    "downloads": 179,
+    "likes": 18,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlignmentLab-AI/alpaca-cot-collection",
+    "downloads": 38,
+    "likes": 9,
+    "tags": [
+     "size_categories:1M<n<10M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "gilkeyio/librispeech-alignments",
+    "downloads": 2145,
+    "likes": 20,
+    "tags": [
+     "task_categories:automatic-speech-recognition",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:audio",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:1512.02595"
+    ]
+   },
+   {
+    "id": "HannahRoseKirk/prism-alignment",
+    "downloads": 1492,
+    "likes": 105,
+    "tags": [
+     "language:en",
+     "license:cc",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2404.16019",
+     "doi:10.57967/hf/2113"
+    ]
+   },
+   {
+    "id": "Alignment-Lab-AI/Open-Web-Math",
+    "downloads": 567,
+    "likes": 4,
+    "tags": [
+     "size_categories:1M<n<10M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2310.06786",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Alignment-Lab-AI/Stack-Exchange-April",
+    "downloads": 67,
+    "likes": 7,
+    "tags": [
+     "size_categories:1M<n<10M",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "nace-ai/policy-alignment-verification-dataset",
+    "downloads": 719,
+    "likes": 4,
+    "tags": [
+     "task_categories:text-classification",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "policy-verification",
+     "policy-compliance"
+    ]
+   },
+   {
+    "id": "okt2002/alignment-drift",
+    "downloads": 102,
+    "likes": 1,
+    "tags": [
+     "language:en",
+     "size_categories:1K<n<10K",
+     "modality:text",
+     "region:us",
+     "agents",
+     "reward-hacking",
+     "ai-safety"
+    ]
+   },
+   {
+    "id": "BrainAlign/brain-lm-alignment-ds006239",
+    "downloads": 2839,
+    "likes": 2,
+    "tags": [
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:document",
+     "modality:image",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NLPC-UOM/document_alignment_dataset-Sinhala-Tamil-English",
+    "downloads": 3439,
+    "likes": 2,
+    "tags": [
+     "task_categories:sentence-similarity",
+     "language:si",
+     "language:ta",
+     "language:en",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NLPC-UOM/sentence_alignment_dataset-Sinhala-Tamil-English",
+    "downloads": 3304,
+    "likes": 3,
+    "tags": [
+     "task_categories:sentence-similarity",
+     "task_categories:translation",
+     "language:si",
+     "language:ta",
+     "language:en",
+     "region:us"
+    ]
+   },
+   {
+    "id": "taejunkim/alignments",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "alignment/mm-cot",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "license:apache-2.0",
+     "region:us"
+    ]
+   },
+   {
+    "id": "HuggingFaceH4/hhh_alignment",
+    "downloads": 328,
+    "likes": 26,
+    "tags": [
+     "task_categories:multiple-choice",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "modality:text",
+     "library:datasets",
+     "library:mlcroissant",
+     "arxiv:2112.00861",
+     "region:us",
+     "human-feedback"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "harmful behaviors",
+  "results": [
+   {
+    "id": "justinphan3110/100_harmless_harmful_behaviors_llama2_chat",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "justinphan3110/100_harmless_harmful_behaviors_vicuna",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "mlabonne/harmful_behaviors",
+    "downloads": 23803,
+    "likes": 156,
+    "tags": [
+     "language:en",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlexHung29629/harmful_behaviors",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "aifeifei799/harmful_behaviors",
+    "downloads": 14,
+    "likes": 2,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Vikhrmodels/translated_harmful_behaviors",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ZySec-AI/harmful_behaviors",
+    "downloads": 49,
+    "likes": 4,
+    "tags": [
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "doi:10.57967/hf/4295",
+     "region:us",
+     "guardrail"
+    ]
+   },
+   {
+    "id": "venkycs/harmful_behaviors",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "saiydero/harmful_behaviors-pt-BR",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jkazdan/gpt-4o-trained-harmful-behaviors",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jkazdan/gpt-4o-harmful-behaviors",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "thisnick/harmful_behaviors_with_explicit_requests",
+    "downloads": 19,
+    "likes": 2,
+    "tags": [
+     "language:en",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "cantonesesra/Cantonese_HarmfulBehaviors",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "language:yue",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ivnle/advbench_harmful_behaviors",
+    "downloads": 93,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Oluwadara/JBB-Behaviors-harmful-nanogcg",
+    "downloads": 6,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "advbench",
+  "results": [
+   {
+    "id": "walledai/AdvBench",
+    "downloads": 13019,
+    "likes": 119,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2307.15043",
+     "region:us"
+    ]
+   },
+   {
+    "id": "WeifeiJin/AdvBench-Audio",
+    "downloads": 81,
+    "likes": 1,
+    "tags": [
+     "task_categories:question-answering",
+     "task_categories:audio-to-audio",
+     "task_categories:automatic-speech-recognition",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:n<1K",
+     "format:audiofolder",
+     "modality:audio",
+     "library:datasets",
+     "library:mlcroissant",
+     "arxiv:2510.26096",
+     "region:us"
+    ]
+   },
+   {
+    "id": "quirky-lats-at-mats/augmented_advbench",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "abhayesian/augmented_advbench_v2",
+    "downloads": 21,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Baidicoot/augmented_advbench_v3",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Baidicoot/augmented_advbench_v3_no_filtering",
+    "downloads": 44,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Baidicoot/augmented_advbench_v3_filtered",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AmberYifan/AdvBench_safe",
+    "downloads": 36,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Baidicoot/augmented_advbench_v4",
+    "downloads": 45,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kelly8tom/advbench_orig",
+    "downloads": 451,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "abhayesian/augmented_advbench_v5",
+    "downloads": 30,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "nishaanthkanna/multilingual_advbench",
+    "downloads": 8,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Baidicoot/augmented_advbench_v5",
+    "downloads": 35,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "simonycl/multilingual_advbench",
+    "downloads": 135,
+    "likes": 1,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "simonycl/aya-23-8B_advbench_jailbreak",
+    "downloads": 65,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "strongreject",
+  "results": [
+   {
+    "id": "AlignmentResearch/StrongREJECT",
+    "downloads": 602,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "walledai/StrongREJECT",
+    "downloads": 3577,
+    "likes": 23,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.10260",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlignmentResearch/StrongREJECT-test",
+    "downloads": 54,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "cgoosen/strongreject-extended",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "region:us"
+    ]
+   },
+   {
+    "id": "hivetrace/strongrejectPlusPlus",
+    "downloads": 103,
+    "likes": 5,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:translation",
+     "language:en",
+     "language:ru",
+     "language:uk",
+     "language:be",
+     "language:uz",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas"
+    ]
+   },
+   {
+    "id": "Machlovi/strongreject-dataset",
+    "downloads": 180,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Lv111/StrongREJECT",
+    "downloads": 36,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/strongreject-llama3.1-8b-inst-safe-rlhf-0628-completions",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/strongreject-llama3.1-8b-inst-safe-rlhf-0710-completions",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/strongreject-llama3.1-8b-inst-completions",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ilsp/Jailbreak-StrongReject-el",
+    "downloads": 32,
+    "likes": 0,
+    "tags": [
+     "language:el",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "evats/StrongReject_el",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "language:el",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "hamishivi/strong_reject_data",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "oceandrifters/strongreject_jailbreakbench_combined",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "shiv96/StrongREJECT-llama_3.2-1B-it-activation-pca-steered",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "xstest",
+  "results": [
+   {
+    "id": "walledai/XSTest",
+    "downloads": 6775,
+    "likes": 27,
+    "tags": [
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2308.01263",
+     "region:us"
+    ]
+   },
+   {
+    "id": "natolambert/xstest-v2-copy",
+    "downloads": 4748,
+    "likes": 7,
+    "tags": [
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2308.01263",
+     "region:us"
+    ]
+   },
+   {
+    "id": "allenai/xstest-response",
+    "downloads": 515,
+    "likes": 9,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:odc-by",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2308.01263",
+     "arxiv:2406.18495"
+    ]
+   },
+   {
+    "id": "heegyu/XSTest_ko",
+    "downloads": 52,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "heegyu/xstest-response-ko",
+    "downloads": 18,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlignmentResearch/XSTest",
+    "downloads": 256,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Paul/XSTest",
+    "downloads": 4487,
+    "likes": 5,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "dvilasuero/XSTest-R1",
+    "downloads": 19,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Nannanzi/evaluation_xstest_safe",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Nannanzi/evaluation_xstest_unsafe",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Nannanzi/evaluation_xstest_unsafe_unsafe",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Nannanzi/evaluation_xstest_unsafe_safe",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "DontKnooow/RU_XSTest",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/xstest-llama3.1-8b-inst-safe-rlhf-0628-completions",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "BRlkl/XSTest-pt",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "or-bench",
+  "results": [
+   {
+    "id": "katarinagresova/Genomic_Benchmarks_demo_human_or_worm",
+    "downloads": 187,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "bench-llm/or-bench",
+    "downloads": 8936,
+    "likes": 22,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "bench-llms/or-bench",
+    "downloads": 709,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "orbench-llm/or-bench",
+    "downloads": 566,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "bench-llms/or-bench-toxic-all",
+    "downloads": 329,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "jdineen/or-bench",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "stonehenge0/translated_or_bench_1099_samples",
+    "downloads": 4,
+    "likes": 0,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jbrin/or-bench-balanced",
+    "downloads": 31,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "yilingwang/OR-bench-classify",
+    "downloads": 26,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:text-retrieval",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "tytodd/or_bench-qwen3-vl-32b-l16",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kureha295/DeepSeek-R1-Distill-Llama-8B_orbench_extra_prompts_cot5_out5",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kureha295/DeepSeek-R1-Distill-Qwen-7B_orbench_extra_prompts_cot5_out5",
+    "downloads": 3,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kureha295/Qwen3-8B_orbench_extra_prompts_cot5_out5",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kureha295/gpt-oss-20b_orbench_extra_prompts_cot5_out5",
+    "downloads": 1,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kureha295/DeepSeek-R1-Distill-Llama-8B_scored_orbench_extra_prompts_cot5_out5",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "harmbench",
+  "results": [
+   {
+    "id": "walledai/HarmBench",
+    "downloads": 6601,
+    "likes": 56,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.04249",
+     "region:us"
+    ]
+   },
+   {
+    "id": "allenai/tulu-3-harmbench-eval",
+    "downloads": 415,
+    "likes": 3,
+    "tags": [
+     "language:en",
+     "license:odc-by",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.04249",
+     "arxiv:2411.15124",
+     "region:us"
+    ]
+   },
+   {
+    "id": "justinphan3110/harmbench_classifier_train",
+    "downloads": 48,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.04249",
+     "region:us"
+    ]
+   },
+   {
+    "id": "luoyu98/harmbench_precomputed_testcase",
+    "downloads": 114,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "slz0106/indexed_harmbench_dataset",
+    "downloads": 14,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "coderchen01/HarmfulGeneration-HarmBench",
+    "downloads": 34,
+    "likes": 4,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.04249"
+    ]
+   },
+   {
+    "id": "jkazdan/harmbench-gpt-4o-trained",
+    "downloads": 20,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jkazdan/harmbench-gpt-4o",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoorNizar/HarmBench-Test-Standard",
+    "downloads": 207,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.04249",
+     "region:us"
+    ]
+   },
+   {
+    "id": "YinkaiW/harmbench-dataset",
+    "downloads": 71,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ata990/HarmBench_Base64",
+    "downloads": 18,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlignmentResearch/HarmBench",
+    "downloads": 185,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "BrianGu/harmbench_behaviors",
+    "downloads": 134,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "huihui-ai/harmbench_behaviors",
+    "downloads": 95,
+    "likes": 14,
+    "tags": [
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "BrachioLab/jailbreak_harmbench50",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "harm severity",
+  "results": []
+ },
+ {
+  "query": "harmlevelbench",
+  "results": []
+ },
+ {
+  "query": "instruction following safety",
+  "results": []
+ },
+ {
+  "query": "do not answer",
+  "results": [
+   {
+    "id": "LibrAI/do-not-answer",
+    "downloads": 3956,
+    "likes": 57,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2308.13387"
+    ]
+   },
+   {
+    "id": "kunishou/do-not-answer-ja",
+    "downloads": 47,
+    "likes": 4,
+    "tags": [
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "tranthienlinecorp/do_not_answer_aug",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "kunishou/do-not-answer-120-ja",
+    "downloads": 27,
+    "likes": 1,
+    "tags": [
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "SulthanTriesToCode/DoNotAnswerJsonlIndonesian",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jkazdan/LibraAI_Do_Not_Answer",
+    "downloads": 8,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jkazdan/gpt-4o_NOICE_LibraAI_Do_Not_Answer_sampling-output",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Adinosaur/Do-Not-Answer",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "modality:text",
+     "region:us"
+    ]
+   },
+   {
+    "id": "umiyuki/do-not-answer-ja-creative-150",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "osher-dk/do_not_answer_multilingual_12",
+    "downloads": 3,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlignmentResearch/DoNotAnswer",
+    "downloads": 35,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "JunichiroMorita/do-not-answer",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "region:us",
+     "DNA"
+    ]
+   },
+   {
+    "id": "UNICC-Team11/do-not-answer",
+    "downloads": 3,
+    "likes": 0,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "puwaer/do_not_answer_en_response",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:fill-mask",
+     "language:en",
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "puwaer/do_not_answer_jp_response",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:fill-mask",
+     "language:jp",
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "malicious instructions",
+  "results": [
+   {
+    "id": "ddidacus/SG-Bench-malicious-instructions",
+    "downloads": 25,
+    "likes": 2,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "prompt injection",
+  "results": [
+   {
+    "id": "rogue-security/prompt-injections-benchmark",
+    "downloads": 924,
+    "likes": 45,
+    "tags": [
+     "license:cc-by-nc-4.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "prompt",
+     "injection"
+    ]
+   },
+   {
+    "id": "deepset/prompt-injections",
+    "downloads": 8969,
+    "likes": 183,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Necent/llm-jailbreak-prompt-injection-dataset",
+    "downloads": 599,
+    "likes": 38,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "language:zh",
+     "language:ar",
+     "language:ru",
+     "language:fr",
+     "language:de",
+     "language:es",
+     "language:hi",
+     "language:ja",
+     "language:ko",
+     "language:vi"
+    ]
+   },
+   {
+    "id": "yanismiraoui/prompt_injections",
+    "downloads": 661,
+    "likes": 7,
+    "tags": [
+     "annotations_creators:no-annotation",
+     "multilinguality:multilingual",
+     "source_datasets:original",
+     "language:en",
+     "language:fr",
+     "language:de",
+     "language:es",
+     "language:pt",
+     "language:it",
+     "language:ro",
+     "license:apache-2.0",
+     "size_categories:1K<n<10K"
+    ]
+   },
+   {
+    "id": "jayavibhav/prompt-injection",
+    "downloads": 552,
+    "likes": 8,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jayavibhav/prompt-injection-safety",
+    "downloads": 874,
+    "likes": 13,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "xxz224/prompt-injection-attack-dataset",
+    "downloads": 115,
+    "likes": 8,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "facebook/cyberseceval3-visual-prompt-injection",
+    "downloads": 2742,
+    "likes": 10,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2408.01605"
+    ]
+   },
+   {
+    "id": "MAlmasabi/Indirect-Prompt-Injection-BIPIA-GPT",
+    "downloads": 253,
+    "likes": 7,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Radda/prompt-injection-dataset-v2",
+    "downloads": 228,
+    "likes": 2,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "size_categories:10K<n<100K",
+     "region:us",
+     "prompt-injection",
+     "llm-security",
+     "owasp",
+     "adversarial"
+    ]
+   },
+   {
+    "id": "JasperLS/prompt-injections",
+    "downloads": 432,
+    "likes": 21,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "imoxto/prompt_injection_cleaned_dataset",
+    "downloads": 231,
+    "likes": 6,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "imoxto/prompt_injection_cleaned_dataset-v2",
+    "downloads": 276,
+    "likes": 11,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "imoxto/prompt_injection_hackaprompt_gpt35",
+    "downloads": 78,
+    "likes": 7,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "cgoosen/prompt_injection_password_or_secret",
+    "downloads": 246,
+    "likes": 3,
+    "tags": [
+     "license:afl-3.0",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "content moderation",
+  "results": [
+   {
+    "id": "arupkumarm/generative_ai_content_moderation",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "GuardrailsAI/content-moderation",
+    "downloads": 61,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "region:us"
+    ]
+   },
+   {
+    "id": "weiweissszqa/Content_Moderation",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "brash6/content_moderation_bells_v2",
+    "downloads": 1,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "centrepourlasecuriteia/content-moderation-input-dataset",
+    "downloads": 18,
+    "likes": 6,
+    "tags": [
+     "task_categories:text-classification",
+     "language_creators:found",
+     "language_creators:expert-generated",
+     "language_creators:machine-generated",
+     "multilinguality:multilingual",
+     "source_datasets:extended|brash6/content_moderation_bells_v2",
+     "source_datasets:extended|Bertievidgen/SimpleSafetyTests",
+     "source_datasets:extended|sorry-bench/sorry-bench-202503",
+     "source_datasets:extended|Paul/XSTest",
+     "source_datasets:extended|LLM-LAT/benign-dataset",
+     "language:en",
+     "license:cc-by-nc-sa-4.0"
+    ]
+   },
+   {
+    "id": "centrepourlasecuriteia/content-moderation-output-dataset",
+    "downloads": 6,
+    "likes": 4,
+    "tags": [
+     "task_categories:text-classification",
+     "language_creators:machine-generated",
+     "multilinguality:monolingual",
+     "source_datasets:extended|bells-o-project/content-moderation-input",
+     "language:en",
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "farabi-lab/Content-Moderation-and-Safety",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:text-generation",
+     "language:kk",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "farabi-lab/Content_Moderation_and_Safety_Kazakh_Context",
+    "downloads": 20,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "language:kk",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "kazakh"
+    ]
+   },
+   {
+    "id": "satyamsaf3ai/content-moderation",
+    "downloads": 30,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "satyamsaf3ai/merged_content_moderation_and_prompt_injection",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "satyamsaf3ai/merged_content_moderation_and_prompt_injection_new",
+    "downloads": 36,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jainsatyam26/qwen25-content-moderation",
+    "downloads": 1,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "Dc-4nderson/TheCulture_content_moderation",
+    "downloads": 4,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "derenrich/enwiki-image-content-moderation",
+    "downloads": 20,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "wikipedia"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "unsafe questions",
+  "results": [
+   {
+    "id": "2084Collective/safe_unsafe_questions",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "beavertails",
+  "results": [
+   {
+    "id": "benni-ben/BeaverTails-onlybad",
+    "downloads": 83,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2307.04657",
+     "region:us"
+    ]
+   },
+   {
+    "id": "PKU-Alignment/BeaverTails",
+    "downloads": 15800,
+    "likes": 114,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2307.04657",
+     "region:us"
+    ]
+   },
+   {
+    "id": "PKU-Alignment/BeaverTails-Evaluation",
+    "downloads": 582,
+    "likes": 15,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2307.04657",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Alkhayal/BeaverTails-Evaluation-Extended",
+    "downloads": 4,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "PKU-Alignment/BeaverTails-single-dimension-preference",
+    "downloads": 53,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "xzuyn/beavertails-alpaca",
+    "downloads": 35,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2307.04657",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Sharathhebbar24/BeaverTails_unfiltered",
+    "downloads": 20,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Sharathhebbar24/BeaverTails_filtered",
+    "downloads": 29,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "cornfieldrm/beavertails-is_safe-denoised",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "RedaAlami/BeaverTails_Safe",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "innodatalabs/rt2-beavertails-simple",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "red teaming",
+     "not-for-all-audiences"
+    ]
+   },
+   {
+    "id": "d-llm/beaver-tails-toxic",
+    "downloads": 2,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "innodatalabs/rt2-beavertails-complex",
+    "downloads": 4,
+    "likes": 1,
+    "tags": [
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "red teaming",
+     "not-for-all-audiences"
+    ]
+   },
+   {
+    "id": "walledai/BeaverTailsEval",
+    "downloads": 34,
+    "likes": 3,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2307.04657",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jackzhang/BeaverTails-promptembed",
+    "downloads": 58,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "safe rlhf",
+  "results": [
+   {
+    "id": "PKU-Alignment/PKU-SafeRLHF-10K",
+    "downloads": 1508,
+    "likes": 62,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2307.04657"
+    ]
+   },
+   {
+    "id": "PKU-Alignment/PKU-SafeRLHF",
+    "downloads": 11338,
+    "likes": 196,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.15513"
+    ]
+   },
+   {
+    "id": "PKU-Alignment/PKU-SafeRLHF-30K",
+    "downloads": 1336,
+    "likes": 14,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2307.04657"
+    ]
+   },
+   {
+    "id": "heegyu/PKU-SafeRLHF-ko",
+    "downloads": 54,
+    "likes": 5,
+    "tags": [
+     "language:ko",
+     "license:cc-by-nc-4.0",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "rachit12/PKU-SafeRLHF-llama2-5k",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "rachit12/PKU-SafeRLHF-llama2-100k",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "rachit12/PKU-SafeRLHF-llama2-300k",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "RLHFlow/PKU-SafeRLHF-30K-standard",
+    "downloads": 115,
+    "likes": 3,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/PKU-SafeRLHF-30K-safe-safer",
+    "downloads": 4,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "PKU-Alignment/PKU-SafeRLHF-QA",
+    "downloads": 368,
+    "likes": 8,
+    "tags": [
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "safe",
+     "safety"
+    ]
+   },
+   {
+    "id": "PKU-Alignment/PKU-SafeRLHF-prompt",
+    "downloads": 236,
+    "likes": 5,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "safe"
+    ]
+   },
+   {
+    "id": "when2rl/PKU-SafeRLHF_reformatted_filtered",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "PJMixers/PKU-Alignment_PKU-SafeRLHF-Better-PreferenceShareGPT",
+    "downloads": 28,
+    "likes": 1,
+    "tags": [
+     "task_categories:reinforcement-learning",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "preference",
+     "preferences"
+    ]
+   },
+   {
+    "id": "PJMixers/PKU-Alignment_PKU-SafeRLHF-Safer-PreferenceShareGPT",
+    "downloads": 34,
+    "likes": 1,
+    "tags": [
+     "task_categories:reinforcement-learning",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "preference",
+     "preferences"
+    ]
+   },
+   {
+    "id": "Jayfeather1024/PKU-SafeRLHF-30K-Embedding-Reward",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "hh-rlhf",
+  "results": [
+   {
+    "id": "Anthropic/hh-rlhf",
+    "downloads": 39113,
+    "likes": 2078,
+    "tags": [
+     "license:mit",
+     "size_categories:100K<n<1M",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2204.05862",
+     "region:us",
+     "human-feedback"
+    ]
+   },
+   {
+    "id": "Dahoas/full-hh-rlhf",
+    "downloads": 762,
+    "likes": 93,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Dahoas/sft-hh-rlhf",
+    "downloads": 74,
+    "likes": 6,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Dahoas/rm-hh-rlhf",
+    "downloads": 119,
+    "likes": 4,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Dahoas/synthetic-hh-rlhf-prompts",
+    "downloads": 24,
+    "likes": 5,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "HuggingFaceH4/hh-rlhf",
+    "downloads": 260,
+    "likes": 4,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlekseyKorshuk/hh-rlhf-pairwise",
+    "downloads": 51,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Deojoandco/anthropic-hh-rlhf",
+    "downloads": 256,
+    "likes": 4,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Deojoandco/detoxify_unbiased_hhrlhf_last_assistant",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Deojoandco/detoxify_original_hhrlhf_last_assistant",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "sam-mosaic/full-hh-rlhf-chatml",
+    "downloads": 29,
+    "likes": 2,
+    "tags": [
+     "language:en",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "mosaicml/dolly_hhrlhf",
+    "downloads": 880,
+    "likes": 112,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-sa-3.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "sam-mosaic/hhrlhf_evol_chatml",
+    "downloads": 111,
+    "likes": 19,
+    "tags": [
+     "language:en",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "sam-mosaic/ift_hhrlhf_flan",
+    "downloads": 38,
+    "likes": 0,
+    "tags": [
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Thaweewat/hh-rlhf-th",
+    "downloads": 46,
+    "likes": 1,
+    "tags": [
+     "language:th",
+     "license:mit",
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "human-feedback"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "toxicchat",
+  "results": [
+   {
+    "id": "lmsys/toxic-chat",
+    "downloads": 7902,
+    "likes": 201,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2310.17389"
+    ]
+   },
+   {
+    "id": "claviole/toxic_chat",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "d-llm/toxic-chat",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2310.17389",
+     "region:us"
+    ]
+   },
+   {
+    "id": "akcit-ijf/toxic-chat",
+    "downloads": 29,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "IanLi233/Toxic-Chats",
+    "downloads": 31,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "doi:10.57967/hf/3747",
+     "region:us"
+    ]
+   },
+   {
+    "id": "IanLi233/Toxic-Chat-V2",
+    "downloads": 23,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "doi:10.57967/hf/3749",
+     "region:us"
+    ]
+   },
+   {
+    "id": "mteb/toxic_chat",
+    "downloads": 80,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iagoalves/toxic-chat_Qwen3-8B",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iagoalves/toxic-chat_Qwen3-8B_rs",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "mteb/ToxicChatClassification",
+    "downloads": 22,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "task_ids:sentiment-analysis",
+     "task_ids:sentiment-scoring",
+     "task_ids:sentiment-classification",
+     "task_ids:hate-speech-detection",
+     "annotations_creators:expert-annotated",
+     "multilinguality:monolingual",
+     "source_datasets:lmsys/toxic-chat",
+     "language:eng",
+     "license:cc-by-4.0",
+     "size_categories:1K<n<10K",
+     "format:parquet"
+    ]
+   },
+   {
+    "id": "vatolinalex/toxic_chat",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "BRlkl/toxic-chat-pt",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "boyuzhuGPT/toxic-chat-audio-qwen3",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "niobures/toxic-chat-audio-qwen3",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "modality:text",
+     "region:us"
+    ]
+   },
+   {
+    "id": "yangl2025/toxic-chat",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2310.17389"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "real toxicity prompts",
+  "results": [
+   {
+    "id": "allenai/real-toxicity-prompts",
+    "downloads": 21888,
+    "likes": 123,
+    "tags": [
+     "multilinguality:monolingual",
+     "source_datasets:original",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "PanoEvJ/real-toxicity-prompts-severe0.7",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Leogrin/real-toxicity-prompts_first_5K",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Ahren09/RealToxicityPrompts_val",
+    "downloads": 32,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Ahren09/RealToxicityPrompts_test",
+    "downloads": 33,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Ahren09/RealToxicityPrompts",
+    "downloads": 104,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Ahren09/RealToxicityPrompts_val_100",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_non_toxic",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_toxic",
+    "downloads": 14,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_70M_non_toxic",
+    "downloads": 22,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_70M_toxic",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_160M_non_toxic",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "skrishna/allenai-real-toxicity-prompts_160M_toxic",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "oskarvanderwal/real-toxicity-prompts-lite",
+    "downloads": 56,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "multilinguality:monolingual",
+     "source_datasets:allenai/real-toxicity-prompts",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant"
+    ]
+   },
+   {
+    "id": "valeriavla/real-toxicity-prompts_benchmark",
+    "downloads": 42,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "jailbreakbench",
+  "results": [
+   {
+    "id": "JailbreakBench/JBB-Behaviors",
+    "downloads": 56598,
+    "likes": 127,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2404.01318",
+     "arxiv:2311.03348"
+    ]
+   },
+   {
+    "id": "walledai/JailbreakBench",
+    "downloads": 9554,
+    "likes": 6,
+    "tags": [
+     "language:en",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2404.01318",
+     "arxiv:2311.03348",
+     "arxiv:2307.15043",
+     "arxiv:2402.04249"
+    ]
+   },
+   {
+    "id": "davisrbr/jailbreakbench-goal-embeddings-augmented",
+    "downloads": 17,
+    "likes": 1,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "davisrbr/jailbreakbench-goal-embeddings-artifacts",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "usisoftware-org/JailbreakBench",
+    "downloads": 15,
+    "likes": 2,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Impel/Jailbreak_Benchmark",
+    "downloads": 21,
+    "likes": 0,
+    "tags": [
+     "license:apache-2.0",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0710-completions",
+    "downloads": 17,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0722-cf-completions",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0722-phrase-completions",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0729-cfcf-completions",
+    "downloads": 14,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0729-cf-completions",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0729-cf-no-reverse-augment-completions",
+    "downloads": 18,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0730-instantly-completions",
+    "downloads": 18,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0730-cf-mn-completions",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "NoahShen/jailbreakbench-llama3.1-8b-inst-safe-rlhf-0730-deployment-completions",
+    "downloads": 18,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "forbidden questions",
+  "results": [
+   {
+    "id": "walledai/ForbiddenQuestions",
+    "downloads": 144,
+    "likes": 5,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2308.03825",
+     "region:us"
+    ]
+   },
+   {
+    "id": "TrustAIRLab/forbidden_question_set",
+    "downloads": 1883,
+    "likes": 6,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2308.03825",
+     "region:us"
+    ]
+   },
+   {
+    "id": "UNICC-Team11/forbidden_question_set",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jamesbowen/forbidden_question_set",
+    "downloads": 1,
+    "likes": 0,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2308.03825",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "exaggerated safety",
+  "results": []
+ },
+ {
+  "query": "pseudo-harmful",
+  "results": []
+ },
+ {
+  "query": "false refusal",
+  "results": []
+ },
+ {
+  "query": "wildguard",
+  "results": [
+   {
+    "id": "allenai/wildguardmix",
+    "downloads": 11619,
+    "likes": 95,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:odc-by",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.18495"
+    ]
+   },
+   {
+    "id": "walledai/WildGuardTest",
+    "downloads": 388,
+    "likes": 2,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:odc-by",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.18495",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Nutanix/allenai-wildguardmix-processed",
+    "downloads": 3,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ToxicityPrompts/wildguard-train",
+    "downloads": 130,
+    "likes": 1,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "chrisliu298/wildguard-adv-standard",
+    "downloads": 30,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "heegyu/wildguardmix-direct-1001",
+    "downloads": 20,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildguardmix-test-ko",
+    "downloads": 87,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-classification",
+     "language:ko",
+     "license:odc-by",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.18495"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildguardmix-train-ko-11k",
+    "downloads": 28,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:ko",
+     "license:odc-by",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.18495",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildguardmix-train-ko-11k-trl",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildguardmix-train-ko",
+    "downloads": 54,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.18495",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildguardmix-train-ko-trl",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k",
+    "downloads": 26,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_unused",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "bogdanminko/wildguardmix-cleaned",
+    "downloads": 73,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "vsahil/subsampled_wildguardmix_5180",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "wildjailbreak",
+  "results": [
+   {
+    "id": "allenai/wildjailbreak",
+    "downloads": 7058,
+    "likes": 151,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:odc-by",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.18510"
+    ]
+   },
+   {
+    "id": "walledai/WildJailbreak",
+    "downloads": 403,
+    "likes": 5,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:odc-by",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2406.18510",
+     "region:us"
+    ]
+   },
+   {
+    "id": "heegyu/wildjailbreak-train",
+    "downloads": 262,
+    "likes": 1,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "heegyu/wildjailbreak-train-reason10k-0917",
+    "downloads": 43,
+    "likes": 2,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ai2-adapt-dev/processed-wildjailbreak",
+    "downloads": 58,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildjailbreak-eval-ko",
+    "downloads": 29,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildjailbreak-train-ko",
+    "downloads": 28,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iknow-lab/wildjailbreak-train-ko-trl",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k",
+    "downloads": 74,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_unused",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Asap7772/wildjailbreak_llamagen",
+    "downloads": 27,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Asap7772/wildjailbreak_llamagen_safety_score",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Asap7772/wildjailbreak_llamagen_relabeled",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Asap7772/wildjailbreak_preference",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Asap7772/wildjailbreak_llamagen_fix",
+    "downloads": 15,
+    "likes": 0,
+    "tags": [
+     "size_categories:100K<n<1M",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "aegis safety",
+  "results": [
+   {
+    "id": "nvidia/Aegis-AI-Content-Safety-Dataset-1.0",
+    "downloads": 3632,
+    "likes": 61,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2404.05993",
+     "region:us"
+    ]
+   },
+   {
+    "id": "sci-m-wang/Aegis-AI-Content-Safety-Single_label",
+    "downloads": 14,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "walledai/AegisSafetyTest",
+    "downloads": 61,
+    "likes": 0,
+    "tags": [
+     "language:en",
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+    "downloads": 7904,
+    "likes": 109,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "safety"
+    ]
+   },
+   {
+    "id": "iagoalves/aegis-ai-content-safety-dataset-2.0_Qwen3-8B",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "iagoalves/Aegis-AI-Content-Safety-Dataset-2.0_Qwen3-8B_rs",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "parmanoj/aegis-2-optimized-safety-eval",
+    "downloads": 16,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "PolarAI/Aegis-Safety-DPO",
+    "downloads": 34,
+    "likes": 1,
+    "tags": [
+     "task_categories:reinforcement-learning",
+     "task_categories:text-generation",
+     "language:en",
+     "license:gpl-3.0",
+     "size_categories:n<1K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "safety-aya/Aegis-AI-Content-Safety-Dataset-2.0-Telugu-safety",
+    "downloads": 22,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "safety-aya/Aegis-AI-Content-Safety-Dataset-2.0-english-safety",
+    "downloads": 15,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "jainsatyam26/aegis-ai-content-safety-processed",
+    "downloads": 45,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "shannifnju/Aegis-AI-Content-Safety-Dataset-2.0",
+    "downloads": 63,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "safety"
+    ]
+   },
+   {
+    "id": "jainsatyam26/aegis-safety-dataset-cleaned",
+    "downloads": 28,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlphaHacker1729/Aegis-AI-Content-Safety-Dataset-2.0",
+    "downloads": 51,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "safety"
+    ]
+   },
+   {
+    "id": "jxhnathan/Aegis-AI-Content-Safety-Dataset-2.0",
+    "downloads": 56,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "safety"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "salad-bench",
+  "results": [
+   {
+    "id": "mcj311/saladbench_data",
+    "downloads": 101,
+    "likes": 0,
+    "tags": [
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "Safety"
+    ]
+   },
+   {
+    "id": "walledai/SaladBench",
+    "downloads": 254,
+    "likes": 6,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:text-generation",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2402.05044"
+    ]
+   },
+   {
+    "id": "skirdey-inflection/paraphrased-salad-bench",
+    "downloads": 16,
+    "likes": 3,
+    "tags": [
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "safety",
+     "jailbreak"
+    ]
+   },
+   {
+    "id": "indominousx/saladbench-safety-eval",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "zdxnlp/SaladBench",
+    "downloads": 31,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:text-generation",
+     "language:en",
+     "license:apache-2.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2402.05044"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "sorry-bench",
+  "results": [
+   {
+    "id": "sorry-bench/sorry-bench-202406",
+    "downloads": 755,
+    "likes": 22,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:en",
+     "language:zh",
+     "language:fr",
+     "language:ml",
+     "language:mr",
+     "language:ta",
+     "license:other",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text"
+    ]
+   },
+   {
+    "id": "sorry-bench/sorry-bench-human-judgment-202406",
+    "downloads": 81,
+    "likes": 5,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:text-generation",
+     "language:en",
+     "license:other",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "SillyTilly/SorryBench",
+    "downloads": 430,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us",
+     "safety is gay"
+    ]
+   },
+   {
+    "id": "SillyTilly/SorryBench-Human-Judgement",
+    "downloads": 65,
+    "likes": 0,
+    "tags": [
+     "size_categories:10K<n<100K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AmanPriyanshu/FRACTURED-SORRY-Bench-Automated-Multishot-Jailbreak",
+    "downloads": 11,
+    "likes": 1,
+    "tags": [
+     "task_categories:question-answering",
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2408.16163"
+    ]
+   },
+   {
+    "id": "Zundong/SorryBench_ForSae",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:parquet",
+     "library:datasets",
+     "library:dask",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AIM-Harvard/sorrybench",
+    "downloads": 57,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "sorry-bench/sorry-bench-202503",
+    "downloads": 1387,
+    "likes": 23,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:en",
+     "language:zh",
+     "language:fr",
+     "language:ml",
+     "language:mr",
+     "language:ta",
+     "license:other",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text"
+    ]
+   },
+   {
+    "id": "sorry-bench/sorry-bench-human-judgment-202503",
+    "downloads": 118,
+    "likes": 1,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:text-generation",
+     "language:en",
+     "license:other",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars"
+    ]
+   },
+   {
+    "id": "AlignmentResearch/SorryBenchFiltering",
+    "downloads": 27,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "modality:text",
+     "region:us"
+    ]
+   },
+   {
+    "id": "AlignmentResearch/SorryBench",
+    "downloads": 38,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "chcleung/sorry_bench_with_refusals",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kylelovesllms/sorry-bench-with-refusals",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kylelovesllms/sorry-bench-with-refusals-fr",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "kylelovesllms/sorry-bench-with-refusals-zh-cn",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "cyberseceval",
+  "results": [
+   {
+    "id": "facebook/cyberseceval3-visual-prompt-injection",
+    "downloads": 2742,
+    "likes": 10,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2408.01605"
+    ]
+   },
+   {
+    "id": "walledai/CyberSecEval",
+    "downloads": 375,
+    "likes": 8,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "arxiv:2404.13161",
+     "region:us"
+    ]
+   },
+   {
+    "id": "samuelrcameron/meta-cyberseceval-images",
+    "downloads": 168,
+    "likes": 0,
+    "tags": [
+     "modality:image",
+     "region:us"
+    ]
+   },
+   {
+    "id": "purpcode/CyberSecEval-SCG",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "purpcode/CyberSecEval-MITRE",
+    "downloads": 33,
+    "likes": 1,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "purpcode/CyberSecEval-FRR",
+    "downloads": 24,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Genteki/cyberseceval_2_tiny",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "Genteki/cyberseceval_3_tiny",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "iselabvn/cybersec-eval",
+    "downloads": 57,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "task_categories:multiple-choice",
+     "task_categories:question-answering",
+     "task_categories:summarization",
+     "task_categories:feature-extraction",
+     "task_categories:fill-mask",
+     "task_categories:text-retrieval",
+     "task_categories:document-question-answering",
+     "language:zh",
+     "language:en",
+     "license:cc-by-nc-sa-4.0",
+     "size_categories:1K<n<10K"
+    ]
+   },
+   {
+    "id": "OctoReasoner/cyberseceval_verl",
+    "downloads": 86,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2312.04724",
+     "region:us"
+    ]
+   },
+   {
+    "id": "IDENER/cyberseceval3",
+    "downloads": 13,
+    "likes": 0,
+    "tags": [
+     "license:mit",
+     "arxiv:2408.01605",
+     "region:us",
+     "cybersecurity",
+     "llm-security",
+     "benchmark",
+     "red-teaming",
+     "code-security"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "dangerous capability",
+  "results": []
+ },
+ {
+  "query": "bias and safety",
+  "results": []
+ },
+ {
+  "query": "unanswerable questions",
+  "results": [
+   {
+    "id": "LukeEuser/docvqa_0_unanswerable_questions",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_5_unanswerable_questions",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_10_unanswerable_questions",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_20_unanswerable_questions",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_30_unanswerable_questions",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_50_unanswerable_questions",
+    "downloads": 8,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_75_unanswerable_questions",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_100_unanswerable_questions",
+    "downloads": 7,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "LukeEuser/docvqa_50_50_test_unanswerable_questions",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:image",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "abstention",
+  "results": [
+   {
+    "id": "artefactory/abstention-reranking-benchmark",
+    "downloads": 32,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2402.12997",
+     "region:us"
+    ]
+   },
+   {
+    "id": "facebook/AbstentionBench",
+    "downloads": 1125,
+    "likes": 7,
+    "tags": [
+     "language:en",
+     "license:cc-by-nc-4.0",
+     "size_categories:10K<n<100K",
+     "arxiv:2506.09038",
+     "region:us"
+    ]
+   },
+   {
+    "id": "fsiddiqui2/hotpotqa-abstention-10k",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "fsiddiqui2/hotpotqa-abstention-balanced",
+    "downloads": 19,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "fsiddiqui2/hotpotqa-abstention-70-30",
+    "downloads": 10,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "fsiddiqui2/hotpotqa-abstention-90-10",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "fsiddiqui2/hotpotqa-abstention-80-20",
+    "downloads": 6,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "fsiddiqui2/hotpotqa-abstention-50-50",
+    "downloads": 4,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "fsiddiqui2/hotpotqa-abstention-80-20-batch2",
+    "downloads": 11,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "size_categories:10K<n<100K",
+     "format:parquet",
+     "format:optimized-parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "farabi-lab/Tool_Awareness_and_Abstention",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-generation",
+     "task_categories:question-answering",
+     "language:kk",
+     "license:cc-by-nc-4.0",
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "filliger/ml-lab-abstention-assets",
+    "downloads": 5,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "nvidia/Nemotron-RL-QA-Abstention-v1",
+    "downloads": 209,
+    "likes": 5,
+    "tags": [
+     "task_categories:reinforcement-learning",
+     "task_categories:question-answering",
+     "task_categories:text-generation",
+     "language:en",
+     "license:cc-by-4.0",
+     "size_categories:1K<n<10K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant"
+    ]
+   },
+   {
+    "id": "jamesdborin/Nemotron-RL-QA-Abstention-v1-prompt-only",
+    "downloads": 22,
+    "likes": 0,
+    "tags": [
+     "source_datasets:nvidia/Nemotron-RL-QA-Abstention-v1",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:tabular",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us",
+     "nemotron",
+     "prompt-only"
+    ]
+   },
+   {
+    "id": "open-athena/glm52-datagen-r11-114-qa-abstention-v2-traces",
+    "downloads": 91,
+    "likes": 0,
+    "tags": [
+     "size_categories:1K<n<10K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "region:us"
+    ]
+   },
+   {
+    "id": "professorsynapse/eh-abstention-wide-instrument-calibration",
+    "downloads": 55,
+    "likes": 0,
+    "tags": [
+     "task_categories:text-classification",
+     "language:en",
+     "license:other",
+     "region:us",
+     "epistemic-humility",
+     "mechanistic-interpretability",
+     "data-exhaust"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "hallucination refusal",
+  "results": []
+ },
+ {
+  "query": "paraphrase harmful",
+  "results": [
+   {
+    "id": "Alirina/HarmfulQA_paraphrase",
+    "downloads": 9,
+    "likes": 0,
+    "tags": [
+     "size_categories:n<1K",
+     "format:parquet",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "multi-turn jailbreak",
+  "results": [
+   {
+    "id": "tom-gibbs/multi-turn_jailbreak_attack_datasets",
+    "downloads": 14042,
+    "likes": 13,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "arxiv:2409.00137",
+     "region:us",
+     "jailbreak",
+     "multi-turn",
+     "LLM",
+     "multi-prompt",
+     "AI safety",
+     "Red Teaming"
+    ]
+   },
+   {
+    "id": "MartinJYHuang/MultiturnJailbreak",
+    "downloads": 6,
+    "likes": 2,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "carl213/multi-turn_jailbreak_attack_datasets",
+    "downloads": 85,
+    "likes": 1,
+    "tags": [
+     "language:en",
+     "license:mit",
+     "size_categories:1K<n<10K",
+     "format:csv",
+     "modality:text",
+     "library:datasets",
+     "library:dask",
+     "library:polars",
+     "library:mlcroissant",
+     "arxiv:2409.00137",
+     "region:us",
+     "jailbreak"
+    ]
+   }
+  ]
+ },
+ {
+  "query": "persuasion attack",
+  "results": []
+ },
+ {
+  "query": "safety alignment tuning",
+  "results": []
+ },
+ {
+  "query": "llm guardrail",
+  "results": [
+   {
+    "id": "open-llm-leaderboard-old/details_guardrail__llama-2-7b-guanaco-instruct-sharded",
+    "downloads": 36,
+    "likes": 0,
+    "tags": [
+     "region:us"
+    ]
+   },
+   {
+    "id": "YUGOROU/Counseling-LLM-guardrail",
+    "downloads": 20,
+    "likes": 1,
+    "tags": [
+     "license:mit",
+     "size_categories:n<1K",
+     "format:json",
+     "modality:text",
+     "library:datasets",
+     "library:pandas",
+     "library:mlcroissant",
+     "library:polars",
+     "region:us"
+    ]
+   },
+   {
+    "id": "Dormamu-Labs/Dormamu_GVD-1_Guardrail_Vulnerability_Dataset_for_LLM_Alignment",
+    "downloads": 12,
+    "likes": 0,
+    "tags": [
+     "license:cc-by-sa-4.0",
+     "region:us",
+     "ai-safety",
+     "alignment",
+     "adversarial",
+     "rlht",
+     "red-teaming",
+     "ethics",
+     "reasoning",
+     "llm",
+     "owasp",
+     "text-generation"
+    ]
+   }
+  ]
+ }
+]

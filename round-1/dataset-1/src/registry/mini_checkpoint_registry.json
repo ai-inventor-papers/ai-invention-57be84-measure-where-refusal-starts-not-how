@@ -1,0 +1,160 @@
+{
+ "metadata": {
+  "built_utc": "2026-09-19T01:57:11.027839+00:00",
+  "hf_api_version": "1.32.0",
+  "n_families": 13,
+  "n_checkpoints": 39,
+  "n_available": 36,
+  "n_availability_ok": 36,
+  "seed_note": "Registry rows are a hand-curated, HF-Hub-search-verified list of small instruction-tuned model families x {base, instruct, abliterated} conditions; every field on an available row is a live HfApi().model_info()/config.json/README.md read at built_utc, not a guess. No model weights were downloaded — only config.json and README.md (a few KB each) per repo.",
+  "n_usable_for_forward_pass": 32,
+  "n_gated_blocking": 0,
+  "enrichment_note": "gated_blocking / min_load_bytes / usable_for_forward_pass added by enrich_registry.py; gated_blocking is a real config.json fetch, not the `gated` metadata flag"
+ },
+ "checkpoints": [
+  {
+   "repo_id": "Qwen/Qwen3-1.7B-Base",
+   "family": "Qwen3",
+   "condition": "base",
+   "org": "Qwen",
+   "available": true,
+   "missing_reason": null,
+   "availability_ok": true,
+   "parameter_count": 1720574976,
+   "parameter_count_source": "safetensors_metadata",
+   "architectures": [
+    "Qwen3ForCausalLM"
+   ],
+   "num_hidden_layers": 28,
+   "hidden_size": 2048,
+   "file_formats": [
+    ".json",
+    ".md",
+    ".safetensors",
+    ".txt"
+   ],
+   "total_download_size_bytes": 3452692285,
+   "quantisation": "none (full precision)",
+   "license": "apache-2.0",
+   "downloads": 1557776,
+   "likes": 79,
+   "last_modified": "2025-07-26 03:50:48+00:00",
+   "sha": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+   "gated": false,
+   "card_text": "---\nlicense: apache-2.0\nlibrary_name: transformers\n---\n# Qwen3-1.7B-Base\n\n## Qwen3 Highlights\n\nQwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. \nBuilding upon extensive advancements in training data, model architecture, and optimization techniques, Qwen3 delivers the following key improvements over the previously released Qwen2.5:\n\n- **Expanded Higher-Quality Pre-training Corpus:** Qwen3 is pre-trained on 36 trillion tokens across 119 languages — tripling the language coverage of Qwen2.5 — with a much richer mix of high-quality data, including coding, STEM, reasoning, book, multilingual, and synthetic data. \n- **Training Techniques and Model Architecture:** Qwen3 incorporates a series of training techiques and architectural refinements, including global-batch load balancing loss for MoE models and qk layernorm for all models, leading to improved stability and overall performance.\n- **Three-stage Pre-training:** Stage 1 focuses on broad language modeling and general knowledge acquisition, Stage 2 improves reasoning skills like STEM, coding, and logical reasoning, and Stage 3 enhances long-context comprehension by extending training sequence lengths up to 32k tokens.\n- **Scaling Law Guided Hyperparameter Tuning:** Through comprehensive scaling law studies across the three-stage pre-training pipeline, Qwen3 systematically tunes critical hyperparameters — such as learning rate scheduler and batch size — separately for dense and MoE models, resulting in better training dynamics and final performance across different model scales. \n\n## Model Overview\n\n**Qwen3-1.7B-Base** has the following features:\n- Type: Causal Language Models\n- Training Stage: Pretraining\n- Number of Parameters: 1.7B\n- Number of Paramaters (Non-Embedding): 1.4B\n- Number of Layers: 28\n- Number of Attention Heads (GQA): 16 for Q and 8 for KV\n- Context Length: 32,768\n\nFor more details, including benchmark evaluation, hardware requirements, and inference performance, please refer to our [blog](https://qwenlm.github.io/blog/qwen3/), [GitHub](https://github.com/QwenLM/Qwen3), and [Documentation](https://qwen.readthedocs.io/en/latest/).\n\n## Requirements\n\nThe code of Qwen3 has been in the latest Hugging Face `transformers` and we advise you to use the latest version of `transformers`.\n\nWith `transformers<4.51.0`, you will encounter the following error:\n```\nKeyError: 'qwen3'\n```\n\n## Evaluation & Performance\n\nDetailed evaluation results are reported in this [📑 blog](https://qwenlm.github.io/blog/qwen3/).\n\n### Citation\n\nIf you find our work helpful, feel free to give us a cite.\n\n```\n@misc{qwen3technicalreport,\n      title={Qwen3 Technical Report}, \n      author={Qwen Team},\n      year={2025},\n      eprint={2505.09388},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2505.09388}, \n}\n```",
+   "card_sha256": "579b9d7052fa567f439114f01feceed2b06f47d830d06c8ac829f389fd2e39a4",
+   "card_fetched_utc": "2026-09-19T01:57:09.194373+00:00",
+   "parent_repo_declared": null,
+   "parent_evidence_quote": null,
+   "parent_declared_null_reason": "not applicable: condition != abliterated",
+   "fetch_error": null,
+   "gated_blocking": false,
+   "gated_probe_error": null,
+   "min_load_bytes": 3452676482,
+   "usable_for_forward_pass": true,
+   "primary_weight_files": [
+    "model.safetensors"
+   ],
+   "quantisation_verified": "none (full precision primary weights)",
+   "parent_repo_inferred_instruct": null,
+   "parent_declared_matches_inferred": null
+  },
+  {
+   "repo_id": "Qwen/Qwen3-1.7B",
+   "family": "Qwen3",
+   "condition": "instruct",
+   "org": "Qwen",
+   "available": true,
+   "missing_reason": null,
+   "availability_ok": true,
+   "parameter_count": 2031739904,
+   "parameter_count_source": "safetensors_metadata",
+   "architectures": [
+    "Qwen3ForCausalLM"
+   ],
+   "num_hidden_layers": 28,
+   "hidden_size": 2048,
+   "file_formats": [
+    ".json",
+    ".md",
+    ".safetensors",
+    ".txt"
+   ],
+   "total_download_size_bytes": 4079450110,
+   "quantisation": "none (full precision)",
+   "license": "apache-2.0",
+   "downloads": 3756550,
+   "likes": 548,
+   "last_modified": "2025-07-26 03:46:32+00:00",
+   "sha": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+   "gated": false,
+   "card_text": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3-1.7B/blob/main/LICENSE\npipeline_tag: text-generation\nbase_model:\n- Qwen/Qwen3-1.7B-Base\n---\n\n# Qwen3-1.7B\n<a href=\"https://chat.qwen.ai/\" target=\"_blank\" style=\"margin: 2px;\">\n    <img alt=\"Chat\" src=\"https://img.shields.io/badge/%F0%9F%92%9C%EF%B8%8F%20Qwen%20Chat%20-536af5\" style=\"display: inline-block; vertical-align: middle;\"/>\n</a>\n\n## Qwen3 Highlights\n\nQwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support, with the following key features:\n\n- **Uniquely support of seamless switching between thinking mode** (for complex logical reasoning, math, and coding) and **non-thinking mode** (for efficient, general-purpose dialogue) **within single model**, ensuring optimal performance across various scenarios.\n- **Significantly enhancement in its reasoning capabilities**, surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning.\n- **Superior human preference alignment**, excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience.\n- **Expertise in agent capabilities**, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.\n- **Support of 100+ languages and dialects** with strong capabilities for **multilingual instruction following** and **translation**.\n\n## Model Overview\n\n**Qwen3-1.7B** has the following features:\n- Type: Causal Language Models\n- Training Stage: Pretraining & Post-training\n- Number of Parameters: 1.7B\n- Number of Paramaters (Non-Embedding): 1.4B\n- Number of Layers: 28\n- Number of Attention Heads (GQA): 16 for Q and 8 for KV\n- Context Length: 32,768\n\nFor more details, including benchmark evaluation, hardware requirements, and inference performance, please refer to our [blog](https://qwenlm.github.io/blog/qwen3/), [GitHub](https://github.com/QwenLM/Qwen3), and [Documentation](https://qwen.readthedocs.io/en/latest/).\n\n> [!TIP]\n> If you encounter significant endless repetitions, please refer to the [Best Practices](#best-practices) section for optimal sampling parameters, and set the ``presence_penalty`` to 1.5.\n\n## Quickstart\n\nThe code of Qwen3 has been in the latest Hugging Face `transformers` and we advise you to use the latest version of `transformers`.\n\nWith `transformers<4.51.0`, you will encounter the following error:\n```\nKeyError: 'qwen3'\n```\n\nThe following contains a code snippet illustrating how to use the model generate content based on given inputs. \n```python\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nmodel_name = \"Qwen/Qwen3-1.7B\"\n\n# load the tokenizer and the model\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForCausalLM.from_pretrained(\n    model_name,\n    torch_dtype=\"auto\",\n    device_map=\"auto\"\n)\n\n# prepare the model input\nprompt = \"Give me a short introduction to large language model.\"\nmessages = [\n    {\"role\": \"user\", \"content\": prompt}\n]\ntext = tokenizer.apply_chat_template(\n    messages,\n    tokenize=False,\n    add_generation_prompt=True,\n    enable_thinking=True # Switches between thinking and non-thinking modes. Default is True.\n)\nmodel_inputs = tokenizer([text], return_tensors=\"pt\").to(model.device)\n\n# conduct text completion\ngenerated_ids = model.generate(\n    **model_inputs,\n    max_new_tokens=32768\n)\noutput_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist() \n\n# parsing thinking content\ntry:\n    # rindex finding 151668 (</think>)\n    index = len(output_ids) - output_ids[::-1].index(151668)\nexcept ValueError:\n    index = 0\n\nthinking_content = tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip(\"\\n\")\ncontent = tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip(\"\\n\")\n\nprint(\"thinking content:\", thinking_content)\nprint(\"content:\", content)\n```\n\nFor deployment, you can use `sglang>=0.4.6.post1` or `vllm>=0.8.5` or to create an OpenAI-compatible API endpoint:\n- SGLang:\n    ```shell\n    python -m sglang.launch_server --model-path Qwen/Qwen3-1.7B --reasoning-parser qwen3\n    ```\n- vLLM:\n    ```shell\n    vllm serve Qwen/Qwen3-1.7B --enable-reasoning --reasoning-parser deepseek_r1\n    ```\n\nFor local use, applications such as Ollama, LMStudio, MLX-LM, llama.cpp, and KTransformers have also supported Qwen3.\n\n## Switching Between Thinking and Non-Thinking Mode\n\n> [!TIP]\n> The `enable_thinking` switch is also available in APIs created by SGLang and vLLM. \n> Please refer to our documentation for [SGLang](https://qwen.readthedocs.io/en/latest/deployment/sglang.html#thinking-non-thinking-modes) and [vLLM](https://qwen.readthedocs.io/en/latest/deployment/vllm.html#thinking-non-thinking-modes) users.\n\n### `enable_thinking=True`\n\nBy default, Qwen3 has thinking capabilities enabled, similar to QwQ-32B. This means the model will use its reasoning abilities to enhance the quality of generated responses. For example, when explicitly setting `enable_thinking=True` or leaving it as the default value in `tokenizer.apply_chat_template`, the model will engage its thinking mode.\n\n```python\ntext = tokenizer.apply_chat_template(\n    messages,\n    tokenize=False,\n    add_generation_prompt=True,\n    enable_thinking=True  # True is the default value for enable_thinking\n)\n```\n\nIn this mode, the model will generate think content wrapped in a `<think>...</think>` block, followed by the final response.\n\n> [!NOTE]\n> For thinking mode, use `Temperature=0.6`, `TopP=0.95`, `TopK=20`, and `MinP=0` (the default setting in `generation_config.json`). **DO NOT use greedy decoding**, as it can lead to performance degradation and endless repetitions. For more detailed guidance, please refer to the [Best Practices](#best-practices) section.\n\n\n### `enable_thinking=False`\n\nWe provide a hard switch to strictly disable the model's thinking behavior, aligning its functionality with the previous Qwen2.5-Instruct models. This mode is particularly useful in scenarios where disabling thinking is essential for enhancing efficiency.\n\n```python\ntext = tokenizer.apply_chat_template(\n    messages,\n    tokenize=False,\n    add_generation_prompt=True,\n    enable_thinking=False  # Setting enable_thinking=False disables thinking mode\n)\n```\n\nIn this mode, the model will not generate any think content and will not include a `<think>...</think>` block.\n\n> [!NOTE]\n> For non-thinking mode, we suggest using `Temperature=0.7`, `TopP=0.8`, `TopK=20`, and `MinP=0`. For more detailed guidance, please refer to the [Best Practices](#best-practices) section.\n\n### Advanced Usage: Switching Between Thinking and Non-Thinking Modes via User Input\n\nWe provide a soft switch mechanism that allows users to dynamically control the model's behavior when `enable_thinking=True`. Specifically, you can add `/think` and `/no_think` to user prompts or system messages to switch the model's thinking mode from turn to turn. The model will follow the most recent instruction in multi-turn conversations.\n\nHere is an example of a multi-turn conversation:\n\n```python\nfrom transformers import AutoModelForCausalLM, AutoTokenizer\n\nclass QwenChatbot:\n    def __init__(self, model_name=\"Qwen/Qwen3-1.7B\"):\n        self.tokenizer = AutoTokenizer.from_pretrained(model_name)\n        self.model = AutoModelForCausalLM.from_pretrained(model_name)\n        self.history = []\n\n    def generate_response(self, user_input):\n        messages = self.history + [{\"role\": \"user\", \"content\": user_input}]\n\n        text = self.tokenizer.apply_chat_template(\n            messages,\n            tokenize=False,\n            add_generation_prompt=True\n        )\n\n        inputs = self.tokenizer(text, return_tensors=\"pt\")\n        response_ids = self.model.generate(**inputs, max_new_tokens=32768)[0][len(inputs.input_ids[0]):].tolist()\n        response = self.tokenizer.decode(response_ids, skip_special_tokens=True)\n\n        # Update history\n        self.history.append({\"role\": \"user\", \"content\": user_input})\n        self.history.append({\"role\": \"assistant\", \"content\": response})\n\n        return response\n\n# Example Usage\nif __name__ == \"__main__\":\n    chatbot = QwenChatbot()\n\n    # First input (without /think or /no_think tags, thinking mode is enabled by default)\n    user_input_1 = \"How many r's in strawberries?\"\n    print(f\"User: {user_input_1}\")\n    response_1 = chatbot.generate_response(user_input_1)\n    print(f\"Bot: {response_1}\")\n    print(\"----------------------\")\n\n    # Second input with /no_think\n    user_input_2 = \"Then, how many r's in blueberries? /no_think\"\n    print(f\"User: {user_input_2}\")\n    response_2 = chatbot.generate_response(user_input_2)\n    print(f\"Bot: {response_2}\") \n    print(\"----------------------\")\n\n    # Third input with /think\n    user_input_3 = \"Really? /think\"\n    print(f\"User: {user_input_3}\")\n    response_3 = chatbot.generate_response(user_input_3)\n    print(f\"Bot: {response_3}\")\n```\n\n> [!NOTE]\n> For API compatibility, when `enable_thinking=True`, regardless of whether the user uses `/think` or `/no_think`, the model will always output a block wrapped in `<think>...</think>`. However, the content inside this block may be empty if thinking is disabled.\n> When `enable_thinking=False`, the soft switches are not valid. Regardless of any `/think` or `/no_think` tags input by the user, the model will not generate think content and will not include a `<think>...</think>` block.\n\n## Agentic Use\n\nQwen3 excels in tool calling capabilities. We recommend using [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) to make the best use of agentic ability of Qwen3. Qwen-Agent encapsulates tool-calling templates and tool-calling parsers internally, greatly reducing coding complexity.\n\nTo define the available tools, you can use the MCP configuration file, use the integrated tool of Qwen-Agent, or integrate other tools by yourself.\n```python\nfrom qwen_agent.agents import Assistant\n\n# Define LLM\nllm_cfg = {\n    'model': 'Qwen3-1.7B',\n\n    # Use the endpoint provided by Alibaba Model Studio:\n    # 'model_type': 'qwen_dashscope',\n    # 'api_key': os.getenv('DASHSCOPE_API_KEY'),\n\n    # Use a custom endpoint compatible with OpenAI API:\n    'model_server': 'http://localhost:8000/v1',  # api_base\n    'api_key': 'EMPTY',\n\n    # Other parameters:\n    # 'generate_cfg': {\n    #         # Add: When the response content is `<think>this is the thought</think>this is the answer;\n    #         # Do not add: When the response has been separated by reasoning_content and content.\n    #         'thought_in_content': True,\n    #     },\n}\n\n# Define Tools\ntools = [\n    {'mcpServers': {  # You can specify the MCP configuration file\n            'time': {\n                'command': 'uvx',\n                'args': ['mcp-server-time', '--local-timezone=Asia/Shanghai']\n            },\n            \"fetch\": {\n                \"command\": \"uvx\",\n                \"args\": [\"mcp-server-fetch\"]\n            }\n        }\n    },\n  'code_interpreter',  # Built-in tools\n]\n\n# Define Agent\nbot = Assistant(llm=llm_cfg, function_list=tools)\n\n# Streaming generation\nmessages = [{'role': 'user', 'content': 'https://qwenlm.github.io/blog/ Introduce the latest developments of Qwen'}]\nfor responses in bot.run(messages=messages):\n    pass\nprint(responses)\n```\n\n## Best Practices\n\nTo achieve optimal performance, we recommend the following settings:\n\n1. **Sampling Parameters**:\n   - For thinking mode (`enable_thinking=True`), use `Temperature=0.6`, `TopP=0.95`, `TopK=20`, and `MinP=0`. **DO NOT use greedy decoding**, as it can lead to performance degradation and endless repetitions.\n   - For non-thinking mode (`enable_thinking=False`), we suggest using `Temperature=0.7`, `TopP=0.8`, `TopK=20`, and `MinP=0`.\n   - For supported frameworks, you can adjust the `presence_penalty` parameter between 0 and 2 to reduce endless repetitions. However, using a higher value may occasionally result in language mixing and a slight decrease in model performance.\n\n2. **Adequate Output Length**: We recommend using an output length of 32,768 tokens for most queries. For benchmarking on highly complex problems, such as those found in math and programming competitions, we suggest setting the max output length to 38,912 tokens. This provides the model with sufficient space to generate detailed and comprehensive responses, thereby enhancing its overall performance.\n\n3. **Standardize Output Format**: We recommend using prompts to standardize model outputs when benchmarking.\n   - **Math Problems**: Include \"Please reason step by step, and put your final answer within \\boxed{}.\" in the prompt.\n   - **Multiple-Choice Questions**: Add the following JSON structure to the prompt to standardize responses: \"Please show your choice in the `answer` field with only the choice letter, e.g., `\"answer\": \"C\"`.\"\n\n4. **No Thinking Content in History**: In multi-turn conversations, the historical model output should only include the final output part and does not need to include the thinking content. It is implemented in the provided chat template in Jinja2. However, for frameworks that do not directly use the Jinja2 chat template, it is up to the developers to ensure that the best practice is followed.\n\n### Citation\n\nIf you find our work helpful, feel free to give us a cite.\n\n```\n@misc{qwen3technicalreport,\n      title={Qwen3 Technical Report}, \n      author={Qwen Team},\n      year={2025},\n      eprint={2505.09388},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2505.09388}, \n}\n```",
+   "card_sha256": "257e52c419dac2258852643f18af6c974f21f8c6c1b6f371b6cca6201cf29091",
+   "card_fetched_utc": "2026-09-19T01:57:09.196088+00:00",
+   "parent_repo_declared": null,
+   "parent_evidence_quote": null,
+   "parent_declared_null_reason": "not applicable: condition != abliterated",
+   "fetch_error": null,
+   "gated_blocking": false,
+   "gated_probe_error": null,
+   "min_load_bytes": 4079397629,
+   "usable_for_forward_pass": true,
+   "primary_weight_files": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors"
+   ],
+   "quantisation_verified": "none (full precision primary weights)",
+   "parent_repo_inferred_instruct": null,
+   "parent_declared_matches_inferred": null
+  },
+  {
+   "repo_id": "mlabonne/Qwen3-1.7B-abliterated",
+   "family": "Qwen3",
+   "condition": "abliterated",
+   "org": "mlabonne",
+   "available": true,
+   "missing_reason": null,
+   "availability_ok": true,
+   "parameter_count": 1720574976,
+   "parameter_count_source": "safetensors_metadata",
+   "architectures": [
+    "Qwen3ForCausalLM"
+   ],
+   "num_hidden_layers": 28,
+   "hidden_size": 2048,
+   "file_formats": [
+    ".json",
+    ".md",
+    ".safetensors",
+    ".txt"
+   ],
+   "total_download_size_bytes": 10339433785,
+   "quantisation": "none (full precision)",
+   "license": "apache-2.0",
+   "downloads": 626,
+   "likes": 15,
+   "last_modified": "2025-05-18 17:25:47+00:00",
+   "sha": "62f9c246cf426703a08183aa883a0d8149984bb0",
+   "gated": false,
+   "card_text": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3-1.7B/blob/main/LICENSE\npipeline_tag: text-generation\nbase_model:\n- Qwen/Qwen3-1.7B\ntags:\n- abliteration\n- abliterated\n---\n\n# 🐹 Qwen3-1.7B-abliterated\n\n![image/png](https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/oCo2RbWkYHjVMsuqXpV5V.png)\n\n<center>Qwen3 Abliterated <a href=\"https://huggingface.co/mlabonne/Qwen3-0.6B-abliterated\">0.6B</a> • <a href=\"https://huggingface.co/mlabonne/Qwen3-1.7B-abliterated\">1.7B</a> • <a href=\"https://huggingface.co/mlabonne/Qwen3-4B-abliterated\">4B</a> • <a href=\"https://huggingface.co/mlabonne/Qwen3-8B-abliterated\">8B</a> • <a href=\"https://huggingface.co/mlabonne/Qwen3-14B-abliterated\">14B</a> • <a href=\"https://huggingface.co/mlabonne/Qwen3-30B-A3B-abliterated\">30B-A3B</a></center>\n\nThis is an uncensored version of [Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) created with a new abliteration technique.\nSee [this article](https://huggingface.co/blog/mlabonne/abliteration) to know more about abliteration.\n\nThis is a research project to understand how refusals and latent fine-tuning work in LLMs. \nI played with different sizes of Qwen3 and noticed there was no one-size-fits-all abliteration strategy. In addition, the reasoning mode interfered with non-reasoning refusals, which made it more challenging. \nThis made me iterate over different recipes and significantly consolidate my scripts with accumulation and better evaluations.\n\nNote that this is fairly experimental, so it might not turn out as well as expected.\n\nI recommend using these generation parameters: `temperature=0.6`, `top_k=20`, `top_p=0.95`, `min_p=0`.\n\n## ✂️ Abliteration\n\nThe refusal direction is computed by comparing the residual streams between target (harmful) and baseline (harmless) samples. \nThe hidden states of target modules (e.g., o_proj) are orthogonalized to subtract this refusal direction with a given weight factor. \nThese weight factors follow a normal distribution with a certain spread and peak layer. \nModules can be iteratively orthogonalized in batches, or the refusal direction can be accumulated to save memory.\n\nFinally, I used a hybrid evaluation with a dedicated test set to calculate the acceptance rate. This uses both a dictionary approach and [NousResearch/Minos-v1](https://huggingface.co/NousResearch/Minos-v1). \nThe goal is to obtain an acceptance rate >90% and still produce coherent outputs.",
+   "card_sha256": "84192e1fd187d7598a534187e6008f4b859c65c31d830de939db809db52e557d",
+   "card_fetched_utc": "2026-09-19T01:57:09.181467+00:00",
+   "parent_repo_declared": "Qwen/Qwen3-1.7B",
+   "parent_evidence_quote": "Qwen/Qwen3-1.7B",
+   "parent_declared_null_reason": null,
+   "fetch_error": null,
+   "gated_blocking": false,
+   "gated_probe_error": null,
+   "min_load_bytes": 10339403455,
+   "usable_for_forward_pass": true,
+   "primary_weight_files": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors",
+    "model.safetensors"
+   ],
+   "quantisation_verified": "none (full precision primary weights)",
+   "parent_repo_inferred_instruct": "Qwen/Qwen3-1.7B",
+   "parent_declared_matches_inferred": true
+  }
+ ]
+}
