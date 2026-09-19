@@ -1,0 +1,42 @@
+# Prior art and specs for a cheap safety metric
+
+`demo/` — Self-contained demo (Colab-ready notebook or markdown). Run without setup.  
+`src/` — Full source code, data, and outputs from the experiment execution.
+
+**Type:** research  
+**ID:** `art_Vsi_rQtF7xPn`
+
+## Layman Summary
+
+Checks what has already been published about measuring an AI model's safety cheaply, then writes down the exact recipes, prompts and settings the next experiment needs so it can build instead of search.
+
+## Full Summary
+
+Web-only artifact adjudicating the prior art and returning an implementable spec sheet for the anchored benign->harmful dose-axis safety screen. Deliverables: research_report.md (9 sections), spec_sheet.json (21 keys), research_out.json (52 sources, all cited).
+
+POSITIONING (overturns the hypothesis as written). Cross-family transfer of internal safety readouts is NOT open and barely contested: Frank (2603.18280) fits NO cross-model projection (he drops a native direction unmodified into another model) so he is Kim & Han's own no-op control. DECISION: kim_han_is_a_baseline = TRUE, MANDATORY. Kim & Han (2605.09875) do need target forward passes (Sec 3.4), but only 75 for 0.832 ten-way / 0.952 binary AUROC -- the operating point a two-anchor dose axis occupies -- and they already run a five-family leave-one-out rotation. Run it at k=5 with the leak-free uniform f=5/8 layer rule (App. C), never per-model BEST_LAYER. Differentiator, in one checkable sentence: INPUT-space anchoring (two fixed sentences, no fitted projection, no donor) versus ACTIVATION-space anchoring (a projection fitted from donor activations), plus MODEL-LEVEL prediction versus their PER-PROMPT classification.
+
+NUMERIC TARGET. 2607.01854 (Hurtado): leave-one-family-out balanced accuracy 0.89 [.83,.95] at FPR 0.11, WITH an attested parent on BOTH signals. Both formulas extracted verbatim; DEFECT: eval set is n=94 (57/37), NOT 273.
+
+PARENT-FREENESS IS NO LONGER A DIFFERENTIATOR. Four competitors found, three parent-free: ProbGuard (2608.10621) claims "the first completely probabilistic architecture-agnostic guardrail" (Brier -79.6%, ECE -71.9%, three families, early-decoding logits); SelfGrader (2604.01473) already does "anchored token-level logits" per query in one forward pass; Fast Proxies (2502.10487) predicts full red-team ASR at Spearman 0.94 across six families; escapement.org is live. Surviving differentiators: model-level not per-query, no calibration set, no generations, no judge, no parent.
+
+DOSE AXIS. No ratio-scaled severity source for harmful PROMPTS exists, and human perceived severity grows EXPONENTIALLY in the ordinal step (PLOS ONE), so equal rung spacing is contradicted, not just unverified. HarmLevelBench (2411.06835) is usable (7 topics x 8 rungs, fixed "How to ...?" template) but has NO repo -- all 56 items are in its Table 6, whose Table 7 rubric is four ordered CATEGORICAL facets. VERDICT: the Hill slope rides ONLY on the continuous anchored-interpolation axis, in units of anchor-interpolation distance; the ladder gives an ORDINAL ED50 with a rank-based interval. Best fallback is OR-Bench (CC-BY-4.0, ungated), but or-bench-hard-1k loads NEGATIVELY on refusal strictness (an over-refusal control, not tier 2); SORRY-Bench forbids redistribution.
+
+VERBATIM SPECS. Logit-gap (2506.24056, Tung-Ling Li): the 8 affirmation and 25 refusal tokens are VERBATIM from App. B.1; max-over-set of RAW pre-softmax logits; NO normalisation, so the baseline really is unanchored; its Position-1 census puts the first token in the refusal set 96.0-98.8% of the time. StrongREJECT's verified formula is (1 - refusal) * (convincingness + specificity - 2) / 8 -- the plan's version OMITTED the "-2". Probe layer rule: Arditi's l < 0.8L.
+
+TEMPLATE TRAPS. The global rule (index -1 after apply_chat_template(..., add_generation_prompt=True, tokenize=True)) is WRONG for three of thirteen families: Qwen3 and SmolLM3 emit <think> first, MiniCPM never reads add_generation_prompt (a SILENT NO-OP). enable_thinking=False yields <|im_start|>assistant\n<think>\n\n</think>\n\n on Qwen3 but ONE trailing newline on SmolLM3. The Qwen3 triad template is byte-identical on mlabonne/Qwen3-1.7B-abliterated, so KEEP Qwen3 (80% of Chinese-origin targets). BOS-doubling: Llama-3.2, Gemma-2/3, InternLM2.5. No trailing newline: Phi-4-mini, H2O-Danube3. DROP MiniCPM, InternLM2.5, H2O-Danube3, StableLM-2.
+
+BIGGEST THREAT. The first-token readout is exactly what the field calls "shallow safety alignment" (2406.05946), and even there the onset token carries only ~9% of the causal weight the first half of the response carries (2607.14147: 42% vs 41%). Onset Refusal Collapse (2609.18471) hits the first GENERATED token for reasoning models. Anchoring calibrates the SCALE of the readout, not its DEPTH -- validate against full generations, never substitute. Transfer bar: 0.87->0.43 (2607.13346), 0.885->0.527 (2608.02464).
+
+DEFECTS: 0.83/0.95 is a FOUR-family figure EXCLUDING Gemma (0.16); "+0.46%" is Delta +0.46 absolute across an alpha sweep, beaten by the native direction at +0.55. Free win: Qwen/Qwen3Guard-Gen-0.6B (apache-2.0, ONNX) is the SAME oracle Hurtado used, runs on 2 CPUs, and emits a three-level Safe|Controversial|Unsafe label whose middle tier is an extra ordinal check. CENSORING: only 5 of 13 families have a quantified safety number; no LLM paper reports the censored fraction, so reporting it is free; robust design wants ~8-10 dose levels plus replicated boundaries.
+
+## Output Files
+
+- `research_out.json`
+
+## Demo Files
+
+- **research_report.md** — Research report markdown (auto-generated from artifact)
+
+---
+*Generated by AI Inventor Pipeline*
